@@ -10,13 +10,13 @@ Scripts and ElevenLabs takes are ready in `episodes/<id>/podcast/` (script.py, r
 
 ## Backlog (top = next; re-rank with demand/board.md before each pick)
 - [ ] Why your phone battery dies faster in the cold (lithium-ion ions slow down; Lane B calendar moment "first cold snaps", fills Sat Nov 7 or the first Nov 9 to 14 slot; counts as the week's growth-hack episode; title shape "Why does X ...?") [added by weekly review 2026-11-02]
-- [ ] Why an escalator handrail never runs out (hidden loop) (RESERVED 005 explainer, Tue Nov 3 08:00 ET, run in progress)
 - [ ] How a toaster knows when to pop (bimetal strip or timer and latch)
 - [ ] Why a flashlight turns on when you click it (spring contact and circuit loop)
 - [ ] How a door latch clicks shut by itself (angled bolt and spring)
 - [ ] How a tape measure snaps back (coiled spring and curved blade)
 
 ## Done
+- [x] 005 Where does the escalator handrail go (one rubber loop, end rollers, hidden return run, friction drive wheel) | format: explainer
 - [x] 004 Does your fridge light really turn off (door switch: plunger, spring, contacts) | format: explainer
 - [x] 003 How a zipper holds together (Y-channel slider, bump and dent)
 - [x] 002 Why a clicky pen stays out after one click (rotating cam)
@@ -31,3 +31,4 @@ Scripts and ElevenLabs takes are ready in `episodes/<id>/podcast/` (script.py, r
 - 2026-11-02 | 002-clicky-pen | How Does a Clicky Pen Work? #Shorts | planned Fri 2026-11-06 19:00 ET / Sat 2026-11-07 07:00 WIB; approved by owner and published early: Sun 2026-11-01 22:30 ET / Mon 2026-11-02 10:30 WIB | https://www.youtube.com/shorts/atiyXKk_yjc | https://app.metricool.com/planner/calendar?blogId=7810819&openWithPostUuid=2342873106227284754 | QC pass (loop_ok, seam 0.68, no VO over; 2 fix rounds: presenter hand covered the cam, cam view angle hid the twist)
 - 2026-11-02 | 003-zipper | How Does a Zipper Work? #Shorts | Fri 2026-11-06 19:00 ET / Sat 2026-11-07 07:00 WIB | Metricool draft (approval mode) | https://app.metricool.com/planner/calendar?blogId=7810819&openWithPostUuid=7637930559611028711 | QC pass (loop_ok, seam 0.16, no VO over; 2 fix rounds: tooth rotation flipped closed teeth, magnifier cut at frame edge and waiting teeth visible)
 - 2026-11-02 | 004-fridge-light | Does Your Fridge Light Really Turn Off? #Shorts | Mon 2026-11-02 20:00 ET / Tue 2026-11-03 08:00 WIB | Metricool draft (approval mode) | https://app.metricool.com/planner/calendar?blogId=7810819&openWithPostUuid=-2347582882583721814 | QC pass (loop_ok, seam 0.13, no VO over, -16.2 LUFS; 2 fix rounds: host head hid the switch, glow leaked above the fridge, pop words on the head, badge text overflow, takeaway push cropped the host) | format: explainer | demand: fridge light NO DATA (supply 40), backlog pick (battery-in-the-cold kept for its Sat Nov 7 / Nov 9 to 14 window) | related: 002-clicky-pen
+- 2026-11-02 | 005-escalator-handrail | Where Does the Escalator Handrail Go? #Shorts | Tue 2026-11-03 08:00 ET / Tue 2026-11-03 20:00 WIB | Metricool draft (approval mode) | https://app.metricool.com/planner/calendar?blogId=7810819&openWithPostUuid=656069702683414487 | QC pass (loop_ok, seam 1.20, no VO over, 60.0 s, -16.1 LUFS; fixes: host head cropped in WIDE, host in the drive and pit shots, duck too small (chase cam), TOP RUN and CHAIN callouts at the frame edge, IT'S BACK pop without the duck) | format: explainer | demand: escalator handrail NO DATA (supply 35), backlog pick (battery-in-the-cold kept for its Sat Nov 7 / Nov 9 to 14 window) | related: 004-fridge-light
