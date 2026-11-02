@@ -4,7 +4,7 @@
 
 ## Remakes in the podcast format (keep their slots; owner decision 2026-11-02)
 Scripts and ElevenLabs takes are ready in `episodes/<id>/podcast/` (script.py, raw/, words/). Still to do: cues.py, render, QC, owner approval.
-- [ ] 001-toilet podcast: takes the next free PODCAST sprint slot. Do not touch the old 001 explainer post on Thu Nov 5 19:00 ET: it stays as its matched A/B pair
+- [ ] 001-toilet podcast: IN PROGRESS (scheduled run), slot Tue Nov 3 12:00 ET. Takes the next free PODCAST sprint slot. Do not touch the old 001 explainer post on Thu Nov 5 19:00 ET: it stays as its matched A/B pair
 - [x] 003-zipper podcast: Metricool draft Mon Nov 2 17:00 ET (the old zipper explainer stays on Fri Nov 6 as its matched A/B pair)
 - [ ] 002-clicky-pen podcast: takes a free PODCAST sprint slot as a new upload (the old explainer stays live as its A/B pair)
 
