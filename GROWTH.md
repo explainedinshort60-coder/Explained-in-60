@@ -68,6 +68,7 @@ Source: research report "Explained in 60 growth plan" (Nov 2026). All targets ar
 | Date | Item | Cost | Note |
 |---|---|---|---|
 | 2026-11-02 | Episodes 001 and 002 | $0 | Kokoro voice, ffmpeg, Chromium, GitHub, Metricool free. Claude usage is inside the subscription. |
+| 2026-11-02 | Episode 003 (zipper) | $0 | Kokoro voice, ffmpeg, Chromium, procedural SFX (engine/sfx_synth.py) plus 3 sounds from the already-paid ElevenLabs library (no new generation). No Higgsfield, no paid calls. |
 
 ## Weekly reviews (newest first)
 - (none yet; first review Mon 2026-11-09 WIB)
