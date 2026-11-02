@@ -94,8 +94,8 @@ SAY={0:"Try ripping a zipper apart... nope.",15:"Pinch it a hair tighter, with p
 SPD={18:0.85}
 GROUPS={}
 VO_DELAY={0:0.02}
-SFX=[(0,'tug'),(24,'tug'),(40,'tug'),(98,'zip_fast'),(302,'zip_slow'),(585,'click'),(605,'click'),(625,'click'),(702,'tug'),(722,'tug'),(742,'tug'),(768,'snap'),
-     (792,'zip_med'),(873,'zip_fast'),(917,'zip_fast'),(986,'zip_med'),(1124,'click'),(1151,'zip_fast'),(1173,'zip_fast')]
+SFX=[(0,'tug'),(24,'tug'),(40,'tug'),(98,'lib_zipper'),(302,'zip_slow'),(585,'click'),(605,'click'),(625,'click'),(612,'lib_ding'),(702,'tug'),(722,'tug'),(742,'tug'),(768,'snap'),(770,'lib_boing'),
+     (792,'zip_med'),(873,'lib_zipper'),(917,'lib_zipper'),(986,'zip_med'),(1124,'click'),(1151,'lib_zipper'),(1173,'lib_zipper')]
 def frame(f):
     return {'T':T(f),'cam':dict(zip(('cx','cy','w'),kv(CAM,f))),
             'hl':[{'part':h[2],'label':h[3],'dx':h[4],'dy':h[5]} for h in HL if h[0]<=f<h[1]],
