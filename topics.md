@@ -2,7 +2,13 @@
 
 ## RUSH (trend and calendar episodes, produced first)
 
-## Backlog (top = next)
+## Remakes in the podcast format (keep their slots; owner decision 2026-11-02)
+Scripts and ElevenLabs takes are ready in `episodes/<id>/podcast/` (script.py, raw/, words/). Still to do: cues.py, render, QC, owner approval.
+- [ ] 001-toilet podcast: replaces the Metricool post scheduled Thu Nov 5 19:00 ET
+- [ ] 003-zipper podcast: replaces the Metricool draft for Fri Nov 6 19:00 ET
+- [ ] 002-clicky-pen podcast: the old version is live; owner decides whether the remake is a new upload or replaces it
+
+## Backlog (top = next; re-rank with demand/board.md before each pick)
 - [ ] Why your phone battery dies faster in the cold (lithium-ion ions slow down; Lane B calendar moment "first cold snaps", fills Sat Nov 7 or the first Nov 9 to 14 slot; counts as the week's growth-hack episode; title shape "Why does X ...?") [added by weekly review 2026-11-02]
 - [ ] How the fridge knows to turn its light off (door plunger switch)
 - [ ] Why an escalator handrail never runs out (hidden loop)

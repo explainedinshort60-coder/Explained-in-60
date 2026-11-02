@@ -1,0 +1,21 @@
+"""Podcast script, episode 002 (Blue asks and roasts, Orange explains deadpan). ElevenLabs v4 audio tags inline."""
+LINES = [
+ ('B', '[confused] Why does a clicky pen STAY out after one click?'),
+ ('O', '[deadpan] Because you clicked it.'),
+ ('B', '[sarcastic] Wow. Thanks. Genius.'),
+ ('O', "[sighs] Fine. Inside, there's a spring on the ink tube, always pushing it back up."),
+ ('O', 'Click, and the button shoves a little part called the cam down past some stops.'),
+ ('B', '[impressed] A cam. Sounds fancy.'),
+ ('O', "[flatly] It's plastic with angled teeth. Every press, the teeth twist it a little."),
+ ('B', '[curious] And when I let go?'),
+ ('O', 'The spring pushes back, it twists again... and catches on a short step. Tip stays out.'),
+ ('B', '[excited] Click two!'),
+ ('O', 'Next press, it twists into a long slot instead. The spring wins. Tip goes in.'),
+ ('B', "[amazed] So it's not remembering anything. It's just turning."),
+ ('O', '[dry] Round and round. Out, in, out, in.'),
+ ('B', "[laughs] That's why I can't stop clicking it in meetings."),
+ ('O', "[deadpan] That's why everyone in the meeting hates you."),
+ ('B', '[offended] Wow. [laughs] Fair.'),
+ ('O', '[satisfied] Two clicks. One going down, one as it locks. And now you know.'),
+ ('B', '[curious] Cool. But real question...'),
+]

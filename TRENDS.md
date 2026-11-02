@@ -1,10 +1,12 @@
 # Growth hacks: riding virality
 
+Demand comes first: every topic is checked on the demand desk (DEMAND.md, `demand/board.md`). This file holds the trend lanes and the calendar; DEMAND.md holds the scoring of size, momentum, seasonality and supply.
+
 Quota: at least ONE growth-hack episode every week, on top of the regular backlog. Two lanes, plus non-trend hacks.
 
 ## Lane A: reactive trend-jack (live within 24 hours)
 The daily trend scout (scheduled task, 10:47 WIB) scans what the US is talking about and looks for an everyday object or mechanism hiding inside it.
-- Sources to check (use several, note which worked): Google Trends US daily feed `https://trends.google.com/trending/rss?geo=US`, Google Trends "Trending now" US, top US news of the last 24 h (AP, Reuters, NBC, The Verge for tech), YouTube and TikTok trend roundups (vidIQ, Later, Tokboard), Reddit r/popular, product launches, weather events.
+- First run `python3 engine/demand.py scan` (Google Trends "Trending now" US, saved to `demand/tape/`). Then check other sources (use several, note which worked): Google Trends "Trending now" US, top US news of the last 24 h (AP, Reuters, NBC, The Verge for tech), YouTube and TikTok trend roundups (vidIQ, Later, Tokboard), Reddit r/popular, product launches, weather events.
 - Angle: "the thing everyone is talking about, and the hidden mechanism inside it". Examples: a viral product launch, how its hinge or button works; a winter storm, why salt melts ice; a big game, how the yellow first-down line appears on TV; a viral gadget, what is inside it.
 
 ### Score each candidate (0 to 2 each, total 10)
@@ -28,7 +30,7 @@ Deaths, disasters with victims, crimes, wars, elections and politics, health sca
 4. The owner gets a push notification and should approve the draft fast; a trend draft not approved before its deadline is moved back to the normal backlog with a reworded evergreen title.
 
 ## Lane B: planned moments (calendar)
-Publish 2 to 5 days before the moment so the Short is already ranking when search interest spikes. Production picks these as RUSH when the publish window opens.
+Publish before the moment so the Short is already ranking when search interest spikes. The exact entry window comes from the keyword's season peak on `demand/board.md` (live 5 to 14 days before it); the dates below are the fallback when a chart is missing. Every calendar topic is in `demand/watchlist.csv`. Production picks these as RUSH when the publish window opens.
 
 | Publish window | Moment | Episode idea (mechanism) |
 |---|---|---|

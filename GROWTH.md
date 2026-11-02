@@ -61,6 +61,7 @@ Source: research report "Explained in 60 growth plan" (Nov 2026). All targets ar
 - Any Short under 60% viewed: rewrite that hook template in RUNBOOK.md.
 - Raise cadence only if viewed vs swiped stays within 5 points of its prior 3-week average.
 - Any spam or inauthentic-content warning: freeze cadence, increase template variation.
+- Topic choice follows the demand desk (DEMAND.md): BUY signals first, portfolio about 60% evergreen, 30% seasonal, 10% trend. The weekly review adds the P&L by lane (7-day views divided by the trailing median).
 - Growth hack quota: at least 1 trend or calendar episode per week (TRENDS.md). Review its 7-day views vs the trailing median; if trend episodes beat the median 2 weeks running, allow 2 per week.
 - Week 13: re-baseline this whole table with the channel's own numbers.
 
@@ -71,6 +72,7 @@ Source: research report "Explained in 60 growth plan" (Nov 2026). All targets ar
 | 2026-11-02 | Episode 003 (zipper) | $0 | Kokoro voice, ffmpeg, Chromium, procedural SFX (engine/sfx_synth.py) plus 3 sounds from the already-paid ElevenLabs library (no new generation). No Higgsfield, no paid calls. |
 | 2026-11-02 | Flush podcast v3 (side project, not a Short) | $0 new spend | ElevenLabs eleven_v4 VO and Scribe alignment used credits from the existing Creator plan. The Creator plan itself is a recurring subscription that is not yet in this ledger; owner to confirm the monthly amount so it can be logged. Shorts stay on Kokoro (free). |
 | 2026-11-02 | Weekly review, week 1 | $0 | Metricool free analytics, GitHub, Claude inside the subscription. |
+| 2026-11-02 | Format change to podcast v1 | ElevenLabs credits per episode | Each Short now uses 2 eleven_v4 speech takes and 2 Scribe transcriptions from the existing ElevenLabs Creator plan, instead of free Kokoro. Owner to confirm the monthly plan cost so the per-episode share can be logged. No Higgsfield. |
 
 ## Weekly reviews (newest first)
 ### 2026-11-02 (Mon) | Week 1, day 1 (launch-day baseline)

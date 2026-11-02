@@ -8,7 +8,19 @@
     "Sat 19:00"
   ],
   "approval_mode": true,
-  "voice": "af_heart",
+  "voice": {
+    "engine": "elevenlabs",
+    "model": "eleven_v4",
+    "blue": {
+      "name": "Hale v3",
+      "id": "wWWn96OtTHu1sn8SRGEr"
+    },
+    "orange": {
+      "name": "Lyan",
+      "id": "tnVKC6NjwhdRxoQIfKue"
+    },
+    "legacy_kokoro": "af_heart"
+  },
   "github_owner": "explainedinshort60-coder",
   "slots_from": [
     {
@@ -30,10 +42,35 @@
       ]
     }
   ],
-  "kokoro_speed": 1.05,
   "rush_extra_slots": [
     "19:00",
     "12:00"
   ],
-  "crosspost": []
+  "crosspost": [],
+  "format": "podcast_v1",
+  "benchmark": "episodes/flush-podcast-v3",
+  "safe_zone": {
+    "x": [
+      35,
+      1045
+    ],
+    "y": [
+      220,
+      1500
+    ],
+    "rail": {
+      "x_from": 945,
+      "y_from": 870
+    }
+  },
+  "demand": {
+    "board": "demand/board.md",
+    "anchor": "microwave",
+    "chart_refresh_days": 14,
+    "portfolio": {
+      "evergreen": 0.6,
+      "seasonal": 0.3,
+      "trend": 0.1
+    }
+  }
 }

@@ -1,0 +1,23 @@
+"""Podcast script, episode 003 (Blue asks and roasts, Orange explains deadpan). ElevenLabs v4 audio tags inline."""
+LINES = [
+ ('B', "[frustrated] Why can't I rip a zipper apart... but this tiny thing opens it in one second?"),
+ ('O', "[deadpan] Because you're pulling wrong."),
+ ('B', '[offended] I pull GREAT.'),
+ ('O', '[flatly] Look closer. Two rows of teeth, staggered, like fingers lacing together.'),
+ ('O', 'Each tooth has a bump on top and a dent underneath.'),
+ ('O', 'And the slider has a Y-shaped tunnel inside.'),
+ ('O', 'Zip up, and the Y squeezes both rows together, one tooth from each side...'),
+ ('O', 'and every bump drops into the next dent. Locked.'),
+ ('B', '[curious] So pulling it sideways...'),
+ ('O', '[dry] Does nothing. The teeth are hooked into each other.'),
+ ('B', '[gasps] And zipping down?'),
+ ('O', 'The Y splits them apart. One tooth at a time.'),
+ ('B', '[suspicious] Then why does my jacket zipper keep splitting open?'),
+ ('O', "Worn slider. It's not squeezing hard enough anymore."),
+ ('O', 'Grab pliers and pinch it a hair tighter. Gently.'),
+ ('B', '[whispering] Gently. Got it.'),
+ ('O', "[deadpan] You're gonna crush it, aren't you."),
+ ('B', '[laughs] Absolutely.'),
+ ('O', '[sighs] And now you know.'),
+ ('B', '[curious] Cool. But real question...'),
+]

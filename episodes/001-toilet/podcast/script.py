@@ -1,0 +1,23 @@
+"""Podcast script, episode 001 (Blue asks and roasts, Orange explains deadpan). ElevenLabs v4 audio tags inline."""
+LINES = [
+ ('B', '[suspicious] How does my toilet know when to STOP filling?'),
+ ('O', "[deadpan] It doesn't know anything. It's a toilet."),
+ ('B', "[whispering] Then who's watching it?"),
+ ('O', '[flatly] A floating ball.'),
+ ('B', '[laughs] A ball? Like a pool toy?'),
+ ('O', '[matter of fact] Basically. It floats on the water, on the end of an arm.'),
+ ('O', 'You flush, the water drops, and the ball drops with it.'),
+ ('O', 'The arm tips down and opens a little valve. Water rushes in.'),
+ ('B', '[excited] And the ball rides the water back up!'),
+ ('O', 'Yep. Higher water, higher ball. The arm lifts... and pushes the valve shut.'),
+ ('O', 'Water stops at the exact same line. Every single time.'),
+ ('B', '[amazed] No sensor? No chip?'),
+ ('O', '[dry] No sensor. No chip. No wifi.'),
+ ('B', '[gasps] So my toilet is smarter than my smart fridge.'),
+ ('O', '[chuckles] Your fridge has an app. Your toilet has a ball.'),
+ ('B', '[suspicious] Then why does mine keep running at night?'),
+ ('O', 'Ball set too high, or a worn valve. The extra water sneaks down the overflow pipe.'),
+ ('B', "[delighted] So my toilet's just... thirsty. [giggles]"),
+ ('O', '[sighs] Sure. And now you know.'),
+ ('B', '[curious] Cool. But for real...'),
+]
