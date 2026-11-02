@@ -10,7 +10,7 @@ Scripts and ElevenLabs takes are ready in `episodes/<id>/podcast/` (script.py, r
 
 ## Backlog (top = next; re-rank with demand/board.md before each pick)
 - [ ] Why your phone battery dies faster in the cold (lithium-ion ions slow down; Lane B calendar moment "first cold snaps", fills Sat Nov 7 or the first Nov 9 to 14 slot; counts as the week's growth-hack episode; title shape "Why does X ...?") [added by weekly review 2026-11-02]
-- [ ] How a toaster knows when to pop (bimetal strip or timer and latch)
+- [ ] How a toaster knows when to pop (bimetal strip or timer and latch) (RESERVED 006 explainer, Tue Nov 3 17:00 ET, run in progress)
 - [ ] Why a flashlight turns on when you click it (spring contact and circuit loop)
 - [ ] How a door latch clicks shut by itself (angled bolt and spring)
 - [ ] How a tape measure snaps back (coiled spring and curved blade)
