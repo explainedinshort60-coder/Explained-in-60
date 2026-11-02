@@ -5,7 +5,7 @@
 ## Remakes in the podcast format (keep their slots; owner decision 2026-11-02)
 Scripts and ElevenLabs takes are ready in `episodes/<id>/podcast/` (script.py, raw/, words/). Still to do: cues.py, render, QC, owner approval.
 - [ ] 001-toilet podcast: replaces the Metricool post scheduled Thu Nov 5 19:00 ET
-- [ ] 003-zipper podcast: replaces the Metricool draft for Fri Nov 6 19:00 ET
+- [ ] 003-zipper podcast: IN PROGRESS in the owner session, slot Mon Nov 2 17:00 ET (the old zipper explainer stays on Fri Nov 6 as its matched A/B pair)
 - [ ] 002-clicky-pen podcast: the old version is live; owner decides whether the remake is a new upload or replaces it
 
 ## Backlog (top = next; re-rank with demand/board.md before each pick)
