@@ -1,5 +1,7 @@
 # Topics
 
+## RUSH (trend and calendar episodes, produced first)
+
 ## Backlog (top = next)
 - [ ] How a zipper holds together (slider wedges teeth into hooks)
 - [ ] How the fridge knows to turn its light off (door plunger switch)

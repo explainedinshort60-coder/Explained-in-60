@@ -61,6 +61,7 @@ Source: research report "Explained in 60 growth plan" (Nov 2026). All targets ar
 - Any Short under 60% viewed: rewrite that hook template in RUNBOOK.md.
 - Raise cadence only if viewed vs swiped stays within 5 points of its prior 3-week average.
 - Any spam or inauthentic-content warning: freeze cadence, increase template variation.
+- Growth hack quota: at least 1 trend or calendar episode per week (TRENDS.md). Review its 7-day views vs the trailing median; if trend episodes beat the median 2 weeks running, allow 2 per week.
 - Week 13: re-baseline this whole table with the channel's own numbers.
 
 ## Cost ledger (target: $0 per episode)

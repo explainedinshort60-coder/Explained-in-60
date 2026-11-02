@@ -28,7 +28,7 @@ Read this whole file before starting. Episode 001 (`episodes/001-toilet/`) is th
 ## Run steps
 
 ### 0. Setup (every run, fresh container)
-This task runs daily. First check Metricool `getScheduledPosts` for the next 7 days against the slots in `config.json` (`slots` and `slots_from`). If every slot in the next 7 days already has a post, stop here with a one-line message. Otherwise fill the earliest free slot.
+This task runs daily. If topics.md has a RUSH item, skip the slot check and produce it now. Otherwise first check Metricool `getScheduledPosts` for the next 7 days against the slots in `config.json` (`slots` and `slots_from`). If every slot in the next 7 days already has a post, stop here with a one-line message. Otherwise fill the earliest free slot.
 
 ```
 bash engine/setup.sh
@@ -37,7 +37,8 @@ Then read `topics.md`, `episodes/001-toilet/episode.py` and `episodes/001-toilet
 
 ### 1. Pick the topic
 - Read `GROWTH.md` first (targets, latest weekly review, current rules). The latest review can override topic order.
-- Take the first unchecked item in `topics.md` under Backlog. If the backlog has fewer than 5 items, add new ones first.
+- If `topics.md` has an item under `## RUSH`, take it first (see TRENDS.md speed protocol: it may use one extra slot per day, next 19:00 ET or 12:00 ET). Otherwise take the first unchecked item under Backlog.
+- Take the first unchecked item in `topics.md` under Backlog only when RUSH is empty. If the backlog has fewer than 5 items, add new ones first.
 - Topic rules (from data, see GROWTH.md): an everyday object US adults touch daily, with a hidden mechanism that can be shown in a cutaway, plus a surprise or stakes twist. Proven title shapes: "How does X work?", "What's inside X?", a contradiction ("Why doesn't X ...?"), a money or stakes twist. Avoid anything that reads as kids content, plain science demos, medical, political or brand-specific topics.
 - Group topics by room or category (Kitchen, Bathroom, Bedroom, Street, Car, Office) so episodes chain into each other.
 - The mechanism must loop visually (returns to its start state). If it cannot, skip it and note why.

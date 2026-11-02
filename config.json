@@ -30,5 +30,10 @@
       ]
     }
   ],
-  "kokoro_speed": 1.05
+  "kokoro_speed": 1.05,
+  "rush_extra_slots": [
+    "19:00",
+    "12:00"
+  ],
+  "crosspost": []
 }
