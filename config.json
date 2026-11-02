@@ -2,8 +2,33 @@
   "metricool_blog_id": "7810819",
   "brand_timezone": "Asia/Jakarta",
   "audience_timezone": "America/New_York",
-  "slots": ["Thu 19:00", "Fri 19:00", "Sat 19:00"],
+  "slots": [
+    "Thu 19:00",
+    "Fri 19:00",
+    "Sat 19:00"
+  ],
   "approval_mode": true,
   "voice": "af_heart",
-  "github_owner": "explainedinshort60-coder"
+  "github_owner": "explainedinshort60-coder",
+  "slots_from": [
+    {
+      "from": "2026-11-02",
+      "slots": [
+        "Thu 19:00",
+        "Fri 19:00",
+        "Sat 19:00"
+      ]
+    },
+    {
+      "from": "2026-11-30",
+      "slots": [
+        "Tue 19:00",
+        "Wed 19:00",
+        "Thu 19:00",
+        "Fri 19:00",
+        "Sat 19:00"
+      ]
+    }
+  ],
+  "kokoro_speed": 1.05
 }
