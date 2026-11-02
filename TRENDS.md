@@ -62,3 +62,6 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-02 | A (weather) + B | Why your phone battery dies in the cold (RUSH, deadline Nov 14) | 9 | | | |
+| 2026-11-02 | A (weather) | Why frost forms on your windshield overnight (RUSH, deadline Nov 9) | 8 | | | |
+| 2026-11-02 | A (tape: sam altman ram 1000+) | What RAM actually does (RUSH, deadline Nov 5) | 7 | | | |
