@@ -77,6 +77,7 @@ Source: research report "Explained in 60 growth plan" (Nov 2026). All targets ar
 | 2026-11-02 | Episode 004 fridge light (explainer) | $0 | Kokoro voice, ffmpeg, Chromium, GitHub, Metricool free; SFX reused from the existing library (no new generation). No Higgsfield, no ElevenLabs calls, no paid service. |
 | 2026-11-02 | 001 toilet podcast remake | 0 new ElevenLabs credits this run | Remake: reused the 2 eleven_v4 takes and 2 Scribe transcriptions already made earlier (logged with the format change). Rendered with ffmpeg and Chromium. No Higgsfield. |
 | 2026-11-02 | Episode 005 escalator handrail (explainer) | $0 | Kokoro voice, ffmpeg, Chromium, 6 sounds converted from the already-paid ElevenLabs library (no new generation). No Higgsfield, no paid calls. |
+| 2026-11-02 | Episode 006 toaster (explainer) | $0 | Kokoro voice, ffmpeg, Chromium, 4 sounds converted from the already-paid ElevenLabs library (no new generation). No Higgsfield, no paid calls. |
 
 ## Weekly reviews (newest first)
 ### 2026-11-02 (Mon) | Week 1, day 1 (launch-day baseline)
