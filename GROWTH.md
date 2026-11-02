@@ -74,6 +74,7 @@ Source: research report "Explained in 60 growth plan" (Nov 2026). All targets ar
 | 2026-11-02 | Flush podcast v3 (side project, not a Short) | $0 new spend | ElevenLabs eleven_v4 VO and Scribe alignment used credits from the existing Creator plan. The Creator plan itself is a recurring subscription that is not yet in this ledger; owner to confirm the monthly amount so it can be logged. Shorts stay on Kokoro (free). |
 | 2026-11-02 | Weekly review, week 1 | $0 | Metricool free analytics, GitHub, Claude inside the subscription. |
 | 2026-11-02 | Format change to podcast v1 | ElevenLabs credits per episode | Each Short now uses 2 eleven_v4 speech takes and 2 Scribe transcriptions from the existing ElevenLabs Creator plan, instead of free Kokoro. Owner to confirm the monthly plan cost so the per-episode share can be logged. No Higgsfield. |
+| 2026-11-02 | Episode 004 fridge light (explainer) | $0 | Kokoro voice, ffmpeg, Chromium, GitHub, Metricool free; SFX reused from the existing library (no new generation). No Higgsfield, no ElevenLabs calls, no paid service. |
 | 2026-11-02 | 001 toilet podcast remake | 0 new ElevenLabs credits this run | Remake: reused the 2 eleven_v4 takes and 2 Scribe transcriptions already made earlier (logged with the format change). Rendered with ffmpeg and Chromium. No Higgsfield. |
 
 ## Weekly reviews (newest first)
