@@ -3,6 +3,8 @@
 This is the brief for the scheduled agent. Each run makes ONE new episode, end to end, and queues it in Metricool.
 Read this whole file before starting. **The benchmark is the approved flush podcast** (`episodes/flush-podcast-v3/`, final cut approved 2026-11-02). Copy its timing, acting density, layout and mix.
 
+**Launch sprint (Nov 2 to 9, 2026):** 4 Shorts per day, 2 in this podcast format and 2 in the explainer format (`RUNBOOK_EXPLAINER.md`). Use the sprint slots and assignment in `config.json` (`sprint`) instead of `slots`. Log every episode in topics.md with `format: podcast` or `format: explainer`; the Nov 9 weekly review compares them.
+
 ## The show
 - 55 to 60 second vertical (1080x1920, 24 fps) **two-host podcast** loop. Audience: United States, general (not made for kids).
 - Each episode answers ONE everyday question about an object people use daily, by showing its hidden mechanism.

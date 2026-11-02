@@ -72,5 +72,24 @@
       "seasonal": 0.3,
       "trend": 0.1
     }
+  },
+  "sprint": {
+    "name": "launch sprint: format A/B test",
+    "from": "2026-11-02",
+    "to": "2026-11-09",
+    "per_day": 4,
+    "slots_et": [
+      "08:00",
+      "12:00",
+      "17:00",
+      "20:00"
+    ],
+    "formats": {
+      "podcast": "RUNBOOK.md (two-host podcast, ElevenLabs)",
+      "explainer": "RUNBOOK_EXPLAINER.md (single host, Kokoro voice, like 002 clicky pen)"
+    },
+    "assignment": "Days with an even ET date: podcast at 08:00 and 17:00, explainer at 12:00 and 20:00. Odd ET date: swapped. Posts already scheduled count toward their format quota of 2 per day (001 Thu Nov 5 19:00 and 003 Fri Nov 6 19:00 are explainers).",
+    "today_2026_11_02": "podcast 17:00 ET (003 zipper podcast remake), explainer 20:00 ET (new topic)",
+    "after": "weekly review on Mon Nov 9 compares formats and sets the cadence and mix from then on; until then slots_from applies after Nov 9"
   }
 }

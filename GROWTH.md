@@ -10,6 +10,7 @@ Source: research report "Explained in 60 growth plan" (Nov 2026). All targets ar
 - Viewed vs swiped: under 60% performs poorly, 70 to 90% performs well.
 
 ## Cadence
+- **Launch sprint, Nov 2 to 9, 2026 (owner decision):** 4 Shorts per day, an A/B test of the format. 2 per day two-host podcast (ElevenLabs), 2 per day single-host explainer (Kokoro, like 002). Slots 08:00, 12:00, 17:00, 20:00 ET, with formats swapped between even and odd days so time of day does not bias the result. The Nov 9 review compares the formats on views per Short, viewed vs swiped, average percentage viewed and subs per 1,000 views, then sets the cadence and format mix from Nov 10. The weekly target rows below are from the original 3 per week plan and get re-baselined on Nov 9.
 - Weeks 1 to 4: 3 Shorts per week (Thu, Fri, Sat 7 PM ET). From week 5 (Nov 30): 5 per week (Tue to Sat 7 PM ET). 7 per week only when the rules below allow it.
 - Long-form test: one 5 to 8 minute original deep dive every two weeks from weeks 9 to 13 (owner approval needed; adds production work).
 
