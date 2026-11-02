@@ -1,0 +1,9 @@
+{
+  "metricool_blog_id": "7810819",
+  "brand_timezone": "Asia/Jakarta",
+  "audience_timezone": "America/New_York",
+  "slots": ["Thu 19:00", "Fri 19:00", "Sat 19:00"],
+  "approval_mode": true,
+  "voice": "af_heart",
+  "github_owner": "explainedinshort60-coder"
+}

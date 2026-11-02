@@ -1,0 +1,133 @@
+{
+ "present": {
+  "lhand": "relaxed",
+  "ra": -62,
+  "re": -22,
+  "rhand": "open",
+  "lt": 1,
+  "lk": 0,
+  "rt": -4,
+  "rk": 12,
+  "head": -3,
+  "expression": "neutral",
+  "la": 27.1,
+  "le": -117.2,
+  "front_layer_arms": [
+   "l"
+  ],
+  "root_lean_deg_about_hips": 2
+ },
+ "tada": {
+  "la": 135,
+  "le": -25,
+  "ra": -135,
+  "re": 25,
+  "lhand": "open",
+  "rhand": "open",
+  "lt": 14,
+  "rt": -14,
+  "head": 0,
+  "expression": "amazed",
+  "front_layer_arms": [],
+  "root_lean_deg_about_hips": 0
+ },
+ "facepalm": {
+  "lhand": "open",
+  "ra": -10,
+  "re": 8,
+  "lt": 4,
+  "rt": -2,
+  "rk": 6,
+  "head": 10,
+  "expression": "frustrated",
+  "la": 138.1,
+  "le": -275.9,
+  "front_layer_arms": [
+   "l"
+  ],
+  "root_lean_deg_about_hips": -3
+ },
+ "think": {
+  "rhand": "fist",
+  "lhand": "fist",
+  "lt": 2,
+  "rt": -6,
+  "rk": 10,
+  "head": 8,
+  "expression": "thinking",
+  "la": 49.6,
+  "le": -95.0,
+  "ra": 33.3,
+  "re": -201.5,
+  "front_layer_arms": [
+   "r"
+  ],
+  "root_lean_deg_about_hips": -2
+ },
+ "fun-fact": {
+  "ra": -128,
+  "re": 38,
+  "rhand": "point",
+  "lhand": "fist",
+  "lt": 5,
+  "lk": 0,
+  "rt": -2,
+  "head": -6,
+  "expression": "explaining",
+  "la": 49.6,
+  "le": -95.0,
+  "front_layer_arms": [],
+  "root_lean_deg_about_hips": -3
+ },
+ "recoil": {
+  "la": 100,
+  "le": 35,
+  "lhand": "open",
+  "ra": -115,
+  "re": -35,
+  "rhand": "open",
+  "lt": 8,
+  "lk": 0,
+  "rt": -35,
+  "rk": 50,
+  "head": -12,
+  "expression": "surprised",
+  "front_layer_arms": [
+   "r"
+  ],
+  "root_lean_deg_about_hips": -12
+ },
+ "proud": {
+  "lhand": "fist",
+  "rhand": "fist",
+  "lt": 9,
+  "rt": -9,
+  "head": -6,
+  "expression": "realization",
+  "la": 50.5,
+  "le": -94.9,
+  "ra": -50.5,
+  "re": 94.9,
+  "front_layer_arms": [],
+  "root_lean_deg_about_hips": 0
+ },
+ "dash": {
+  "la": 70,
+  "le": -95,
+  "ra": -75,
+  "re": -85,
+  "lhand": "fist",
+  "rhand": "fist",
+  "lt": 40,
+  "lk": 70,
+  "rt": -70,
+  "rk": 40,
+  "head": 6,
+  "air": -30,
+  "expression": "worried",
+  "front_layer_arms": [
+   "r"
+  ],
+  "root_lean_deg_about_hips": 14
+ }
+}
