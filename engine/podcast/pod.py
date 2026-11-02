@@ -160,7 +160,7 @@ JS_POD = '''(P)=>{
  else if(P.shot==='cuB') hosts=ch(P.B,520,800,2.0); else hosts=ch(P.O,520,800,2.0);
  document.querySelector('#stage').innerHTML=`<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920"><g transform="translate(520 800) scale(${P.k}) translate(-520 -800)">${P.bg}${hosts}${P.fg}</g>${P.ov}</svg>`;}'''
 JS_INS = '''(S)=>{drawFrame(S);
- const st=document.querySelector('#stage'); st.innerHTML=`<div style="position:absolute;left:0;top:0;width:1080px;height:1920px;transform-origin:0 0;transform:translate(504px,768px) scale(0.72) translate(-540px,-780px)">${st.innerHTML}</div>`;
+ const st=document.querySelector('#stage'); st.innerHTML=`<div style="position:absolute;left:0;top:0;width:1080px;height:1920px;clip-path:inset(200px 35px 560px 35px round 28px)"><div style="position:absolute;left:0;top:0;width:1080px;height:1920px;transform-origin:0 0;transform:translate(504px,768px) scale(0.72) translate(-540px,-780px)">${st.innerHTML}</div></div>`;
  const pip=`<defs><clipPath id="pc"><circle cx="790" cy="390" r="92"/></clipPath></defs><circle cx="790" cy="390" r="92" fill="#fffdf4"/><g clip-path="url(#pc)"><g transform="translate(790 398) scale(0.6)">${Act4.frame(RIG,S.pipo)}</g></g><circle cx="790" cy="390" r="92" fill="none" stroke="${S.pipc}" stroke-width="10"/>`;
  document.querySelector('#stage').insertAdjacentHTML('beforeend',`<svg width="1080" height="1920" style="position:absolute;left:0;top:0">${pip}${S.extra}</svg>`)}'''
 DESK = ('<defs><linearGradient id="dk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9b386"/><stop offset="1" stop-color="#c99d6e"/></linearGradient>'
@@ -240,7 +240,7 @@ if __name__ == '__main__':
         a, b = Image.open(f'{fd}/f0000.png').convert('RGB'), Image.open(f'{fd}/f{NF - 1:04d}.png').convert('RGB')
         seam = sum(ImageStat.Stat(ImageChops.difference(a, b)).mean) / 3
         x, sr = sf_.read(f'{HERE}/mix.wav'); lufs = pyln.Meter(sr).integrated_loudness(x); tp = 20 * np.log10(np.abs(x).max())
-        q = {'frames': NF, 'dur': DUR, 'seam_mean_diff': round(seam, 2), 'seam_ok': seam < 6, 'lufs': round(lufs, 1), 'peak_dbfs': round(tp, 2),
-             'audio_ok': abs(lufs + 14) < 1 and tp <= -1.0, 'dur_ok': DUR <= 60.5, 'missing_frames': [f for f in range(NF) if not os.path.exists(f'{fd}/f{f:04d}.png')][:10]}
+        q = {'frames': NF, 'dur': DUR, 'seam_mean_diff': round(float(seam), 2), 'seam_ok': bool(seam < 6), 'lufs': round(float(lufs), 1), 'peak_dbfs': round(float(tp), 2),
+             'audio_ok': bool(abs(lufs + 14) < 1 and tp <= -1.0), 'dur_ok': bool(DUR <= 60.5), 'missing_frames': [f for f in range(NF) if not os.path.exists(f'{fd}/f{f:04d}.png')][:10]}
         json.dump(q, open(f'{HERE}/qc.json', 'w'), indent=1); print(q)
     print('NF', NF, 'DUR', DUR)
