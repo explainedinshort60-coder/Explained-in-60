@@ -6,7 +6,7 @@
 Scripts and ElevenLabs takes are ready in `episodes/<id>/podcast/` (script.py, raw/, words/). Still to do: cues.py, render, QC, owner approval.
 - [x] 001-toilet podcast: Metricool draft Tue Nov 3 12:00 ET (the old 001 explainer stays on Thu Nov 5 19:00 ET as its matched A/B pair)
 - [x] 003-zipper podcast: Metricool draft Mon Nov 2 17:00 ET (the old zipper explainer stays on Fri Nov 6 as its matched A/B pair)
-- [ ] 002-clicky-pen podcast: IN PROGRESS in the owner session, slot Mon Nov 2 12:00 ET (new upload; the old explainer stays live as its A/B pair)
+- [x] 002-clicky-pen podcast: Metricool draft Mon Nov 2 12:00 ET (new upload; the old explainer stays live as its A/B pair)
 
 ## Backlog (top = next; re-rank with demand/board.md before each pick)
 - [ ] Why your phone battery dies faster in the cold (lithium-ion ions slow down; Lane B calendar moment "first cold snaps", fills Sat Nov 7 or the first Nov 9 to 14 slot; counts as the week's growth-hack episode; title shape "Why does X ...?") [added by weekly review 2026-11-02]
@@ -23,6 +23,7 @@ Scripts and ElevenLabs takes are ready in `episodes/<id>/podcast/` (script.py, r
 - [x] 001 Why your toilet always stops at the same line (ballcock fill valve)
 
 ## Log
+- 2026-11-02 | 002-clicky-pen podcast | Why Does a Clicky Pen Stay Out? #Shorts | Mon 2026-11-02 12:00 ET / Tue 2026-11-03 00:00 WIB | Metricool draft | https://app.metricool.com/planner/calendar?blogId=7810819&openWithPostUuid=-8558645665994881887 | QC pass (seam 1.66, -14.1 LUFS, 57.2 s) | format: podcast | demand: clicky pen remake
 - 2026-11-02 | 001-toilet podcast | Why Does Your Toilet Keep Running? #Shorts | Tue 2026-11-03 12:00 ET / Wed 2026-11-04 00:00 WIB | Metricool draft | https://app.metricool.com/planner/calendar?blogId=7810819&openWithPostUuid=3038735978219785850 | QC pass round 1 (seam 4.83, -14.1 LUFS, peak -1.5, 55.3 s; edit: cut Orange's negation-triplet line) | format: podcast | demand: toilet running NO DATA (supply 60), remake
 - 2026-11-02 | 003-zipper podcast | Why Can't You Rip a Zipper Apart? #Shorts | Mon 2026-11-02 17:00 ET / Tue 2026-11-03 05:00 WIB | Metricool draft | https://app.metricool.com/planner/calendar?blogId=7810819&openWithPostUuid=-1287317238583374323 | QC pass (seam 1.66, -14.1 LUFS, 53.3 s; fix: cutaways clipped to the safe area) | format: podcast | demand: zipper PASS (spread -9), remake
 - 2026-11-02 | flush-podcast-v3 | toilet flush podcast (benchmark) | uploaded by the owner as a format test | format: podcast
