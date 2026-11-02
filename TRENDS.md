@@ -1,5 +1,7 @@
 # Growth hacks: riding virality
 
+**Owner rule (2026-11-03): the channel is trend-led.** Every new episode must come from a live trend signal: a Google Trends "Trending now" US term (`demand.py scan`), a keyword with rising chart momentum or YouTube momentum on `demand/board.md`, or a seasonal moment whose searches are already rising. Topics with no trend signal are not produced. The scout keeps the Trend queue in topics.md stocked for 4 Shorts per day.
+
 Demand comes first: every topic is checked on the demand desk (DEMAND.md, `demand/board.md`). This file holds the trend lanes and the calendar; DEMAND.md holds the scoring of size, momentum, seasonality and supply.
 
 Quota: at least ONE growth-hack episode every week, on top of the regular backlog. Two lanes, plus non-trend hacks.
@@ -18,7 +20,7 @@ The daily trend scout (scheduled task, 10:47 WIB) scans what the US is talking a
 | Shelf life | Keeps search traffic after the spike | Some | Dead in a day |
 | Safety | Fully safe | Needs care | Fail (see blocklist) |
 
-**Act on 7 or more.** Safety 0 is an automatic reject whatever the total.
+**Act on 6 or more** (7+ goes to RUSH with a deadline; 6 goes to the Trend queue). Safety 0 is an automatic reject whatever the total.
 
 ### Blocklist (never trend-jack)
 Deaths, disasters with victims, crimes, wars, elections and politics, health scares and medical claims, minors, religion, anything mocking a real person, trademarked characters or logos, unverified viral claims. Product names may appear in the title only as plain description ("the new phone's hinge"), never logos.
@@ -28,6 +30,11 @@ Deaths, disasters with victims, crimes, wars, elections and politics, health sca
 2. Production (14:17 WIB daily) always takes RUSH first and may use one extra slot per day beyond the cadence: the next 19:00 ET, or 12:00 ET if 19:00 is taken. It still runs the full QC gate; quality is never skipped for speed.
 3. RUSH builds reuse an existing prop or a simpler prop when possible and keep the 60-second structure. Target: live within 24 h of the scout run.
 4. The owner gets a push notification and should approve the draft fast; a trend draft not approved before its deadline is moved back to the normal backlog with a reworded evergreen title.
+
+## Producer self-scout (when the Trend queue is empty)
+1. `python3 engine/demand.py scan` and read the tape (last 24 to 48 h). Also check one other source from Lane A.
+2. Find the everyday object or mechanism inside a trending term (weather: snow, frost, wind; sports: the gear, the scoreboard, the ball; launches: the hinge, the button, the battery; holidays: the gadget everyone is about to use). Score it with the table above; take the best one with 6 or more that is not already made.
+3. Add it to the Trend queue with its evidence, mark it in progress, push, then produce it.
 
 ## Lane B: planned moments (calendar)
 Publish before the moment so the Short is already ranking when search interest spikes. The exact entry window comes from the keyword's season peak on `demand/board.md` (live 5 to 14 days before it); the dates below are the fallback when a chart is missing. Every calendar topic is in `demand/watchlist.csv`. Production picks these as RUSH when the publish window opens.

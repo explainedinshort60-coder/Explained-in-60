@@ -1,7 +1,7 @@
 # Explained in 60: production runbook, EXPLAINER format (single host, Kokoro voice)
 
 Used for the explainer half of the launch sprint A/B test (config.json `sprint`). The podcast format is in RUNBOOK.md. Slots: during the sprint use `config.json` sprint slots and the explainer assignment there (2 explainers per ET day), not `slots`.
-Topic choice follows the demand desk (DEMAND.md, demand/board.md) exactly as in RUNBOOK.md step 1. Log every episode in topics.md with `format: explainer`.
+Topic choice is trend-led exactly as in RUNBOOK.md step 1: RUSH, then the Trend queue, else self-scout (TRENDS.md). No evergreen backlog topics. Log every episode in topics.md with `format: explainer`.
 
 This is the brief for the scheduled agent. Each run makes ONE new episode, end to end, and queues it in Metricool.
 Read this whole file before starting. Episode 001 (`episodes/001-toilet/`) is the gold standard: copy its structure, timing and quality.
@@ -40,8 +40,8 @@ Then read `topics.md`, `episodes/001-toilet/episode.py` and `episodes/001-toilet
 
 ### 1. Pick the topic
 - Read `GROWTH.md` first (targets, latest weekly review, current rules). The latest review can override topic order.
-- If `topics.md` has an item under `## RUSH`, take it first (see TRENDS.md speed protocol: it may use one extra slot per day, next 19:00 ET or 12:00 ET). Otherwise take the first unchecked item under Backlog.
-- Take the first unchecked item in `topics.md` under Backlog only when RUSH is empty. If the backlog has fewer than 5 items, add new ones first.
+- If `topics.md` has an item under `## RUSH`, take it first. Otherwise take the top of the Trend queue.
+- There is no evergreen backlog anymore (owner rule 2026-11-03). After RUSH, take the top of the Trend queue; if empty, self-scout one trend topic (TRENDS.md).
 - Topic rules (from data, see GROWTH.md): an everyday object US adults touch daily, with a hidden mechanism that can be shown in a cutaway, plus a surprise or stakes twist. Proven title shapes: "How does X work?", "What's inside X?", a contradiction ("Why doesn't X ...?"), a money or stakes twist. Avoid anything that reads as kids content, plain science demos, medical, political or brand-specific topics.
 - Group topics by room or category (Kitchen, Bathroom, Bedroom, Street, Car, Office) so episodes chain into each other.
 - The mechanism must loop visually (returns to its start state). If it cannot, skip it and note why.

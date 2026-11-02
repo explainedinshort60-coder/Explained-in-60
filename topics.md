@@ -1,6 +1,6 @@
 # Topics
 
-## RUSH (trend and calendar episodes, produced first)
+## RUSH (trend spikes with a deadline, produced first)
 
 ## Remakes in the podcast format (keep their slots; owner decision 2026-11-02)
 Scripts and ElevenLabs takes are ready in `episodes/<id>/podcast/` (script.py, raw/, words/). Still to do: cues.py, render, QC, owner approval.
@@ -9,10 +9,15 @@ Scripts and ElevenLabs takes are ready in `episodes/<id>/podcast/` (script.py, r
 - [x] 002-clicky-pen podcast: Metricool draft Mon Nov 2 12:00 ET (new upload; the old explainer stays live as its A/B pair)
 - [x] 007-flashlight podcast: Metricool draft Tue Nov 3 20:00 ET (new topic, resumed after the owner allowed elevenlabsusercontent.com)
 
-## Backlog (top = next; re-rank with demand/board.md before each pick)
-- [ ] Why your phone battery dies faster in the cold (lithium-ion ions slow down; Lane B calendar moment "first cold snaps", fills Sat Nov 7 or the first Nov 9 to 14 slot; counts as the week's growth-hack episode; title shape "Why does X ...?") [added by weekly review 2026-11-02]
-- [ ] How a door latch clicks shut by itself (angled bolt and spring)
-- [ ] How a tape measure snaps back (coiled spring and curved blade)
+## Trend queue (top = next; every item must carry its trend evidence)
+Owner rule from 2026-11-03: every new episode comes from a live trend signal. No evergreen backlog topics.
+Each item: topic | trend source (Trending now term + traffic, or chart momentum / YouTube momentum, or a rising seasonal search) | date seen | score (TRENDS.md table) | deadline | US-search title.
+Producers take the top item for their format; if this queue is empty they scout one themselves (TRENDS.md "Producer self-scout").
+
+## Retired backlog (cleared by the owner 2026-11-03, do not produce unless it starts trending)
+- Why your phone battery dies faster in the cold
+- How a door latch clicks shut by itself
+- How a tape measure snaps back
 
 ## Done
 - [x] 007 Why a flashlight turns on when you click it (full loop, cells nose to tail, tail spring, metal strip, switch gap, clicky-pen latch, rust and eraser fix) | format: podcast

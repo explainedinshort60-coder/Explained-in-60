@@ -45,7 +45,7 @@ bash engine/setup.sh
 Then read `DEMAND.md`, `demand/board.md`, `topics.md`, and the benchmark `episodes/flush-podcast-v3/README.md`.
 
 ### 1. Pick the topic (demand first)
-- Read `GROWTH.md` (targets, latest weekly review) and `demand/board.md`. Pick order: RUSH, then a **BUY** inside its entry window (seasonal: live 5 to 14 days before the season peak), then the backlog top. Never pick a PASS unless the angle was re-scored.
+- Read `GROWTH.md` (targets, latest weekly review) and `demand/board.md`. Pick order: RUSH, then the top of the Trend queue in topics.md. If both are empty, self-scout one trend topic (TRENDS.md "Producer self-scout"). Every topic needs a live trend signal (owner rule 2026-11-03); there is no evergreen backlog.
 - If the chosen keyword has no chart or it is older than 14 days, run `python3 engine/demand.py chart "<keyword>"` once (if BLOCKED, go on and note it).
 - Topic rules: an everyday object US adults touch daily, a hidden mechanism we can show in a cutaway, a surprise or stakes twist. Proven title shapes: "How does X work?", "Why does X ...?", "What's inside X?", a money or fail twist. No kids content, medical, political or brand-specific topics.
 - Group topics by room or category (Kitchen, Bathroom, Bedroom, Street, Car, Office). Max 2 per category per week.

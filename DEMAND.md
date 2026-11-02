@@ -35,7 +35,7 @@ Google sometimes shows this cloud server a bot check on the chart endpoint. Then
 - **Lane A trend trades** come from the tape: a spiking term with a hidden everyday mechanism, scored with the TRENDS.md table (act on 7 or more). Deadline = when the spike fades.
 
 ## 4. Portfolio rules
-- Mix per month: about **60% evergreen** (long-tail search, compounds), **30% seasonal swing** (calendar run-ups), **10% trend day-trades** (fast, risky, cheap).
+- **Trend-led (owner rule 2026-11-03):** every new episode needs a live trend signal: a Trending-now term, rising chart or YouTube momentum, or a seasonal search that is already rising. Evergreen topics with no signal are not produced. Mix target: about 60% trend day-trades (tape), 40% seasonal swings with rising charts.
 - Position size: a BUY with spread 35 or more can get a series (2 or 3 related Shorts in a row in the same room or category).
 - Never more than 2 topics from the same category in one week.
 - Stop-loss: a series is dropped when its first Short lands under 0.5x the trailing median at 7 days, or under 60% viewed vs swiped.
@@ -55,3 +55,4 @@ Google sometimes shows this cloud server a bot check on the chart endpoint. Then
 | Date | Change | Why |
 |---|---|---|
 | 2026-11-02 | Desk created: tape, charts, anchor, spread, portfolio rules | Owner asked for topic choice to always follow Google Trends demand, like trading |
+| 2026-11-03 | Trend-led: backlog cleared, every episode needs a live trend signal, scout runs 4 times a day | Owner decision after 7 episodes |

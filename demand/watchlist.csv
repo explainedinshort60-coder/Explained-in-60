@@ -1,5 +1,5 @@
 keyword,topic,lane,mechanism_fit,safety,supply,supply_note,status
-phone battery cold,Why your phone battery dies faster in the cold,seasonal,2,2,55,estimate; many generic battery-tip Shorts,backlog
+phone battery cold,Why your phone battery dies faster in the cold,seasonal,2,2,55,estimate; many generic battery-tip Shorts,retired 2026-11-03 (no trend signal)
 turkey timer,How the pop-up turkey timer knows the turkey is done,seasonal,2,2,35,estimate,calendar Nov 19-24
 can opener,How a can opener works,seasonal,2,2,45,estimate,calendar Nov 24-27
 christmas lights,Why one dead bulb kills an old string of lights,seasonal,2,2,40,estimate,calendar Dec 3-10
@@ -12,8 +12,8 @@ mood ring,How a mood ring changes color,seasonal,2,2,35,estimate,calendar Feb 8-
 toilet running,Why your toilet keeps running,evergreen,2,2,60,estimate; many DIY plumber videos,live 2026-11-03 (001 podcast draft)
 clicky pen,Why a clicky pen stays out,evergreen,2,2,45,estimate,remake 002
 zipper,How a zipper works,evergreen,2,2,55,estimate,remake 003
-fridge light,How the fridge knows to turn its light off,evergreen,2,2,40,estimate,backlog
-escalator handrail,Why an escalator handrail never runs out,evergreen,2,2,35,estimate,backlog
-toaster,How a toaster knows when to pop,evergreen,2,2,45,estimate,backlog
-tape measure,How a tape measure snaps back,evergreen,2,2,40,estimate,backlog
-door latch,How a door latch clicks shut,evergreen,2,2,35,estimate,backlog
+fridge light,How the fridge knows to turn its light off,evergreen,2,2,40,estimate,retired 2026-11-03 (no trend signal)
+escalator handrail,Why an escalator handrail never runs out,evergreen,2,2,35,estimate,retired 2026-11-03 (no trend signal)
+toaster,How a toaster knows when to pop,evergreen,2,2,45,estimate,retired 2026-11-03 (no trend signal)
+tape measure,How a tape measure snaps back,evergreen,2,2,40,estimate,retired 2026-11-03 (no trend signal)
+door latch,How a door latch clicks shut,evergreen,2,2,35,estimate,retired 2026-11-03 (no trend signal)
