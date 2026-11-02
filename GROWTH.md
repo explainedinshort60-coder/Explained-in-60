@@ -78,7 +78,7 @@ Source: research report "Explained in 60 growth plan" (Nov 2026). All targets ar
 | 2026-11-02 | 001 toilet podcast remake | 0 new ElevenLabs credits this run | Remake: reused the 2 eleven_v4 takes and 2 Scribe transcriptions already made earlier (logged with the format change). Rendered with ffmpeg and Chromium. No Higgsfield. |
 | 2026-11-02 | Episode 005 escalator handrail (explainer) | $0 | Kokoro voice, ffmpeg, Chromium, 6 sounds converted from the already-paid ElevenLabs library (no new generation). No Higgsfield, no paid calls. |
 | 2026-11-02 | Episode 006 toaster (explainer) | $0 | Kokoro voice, ffmpeg, Chromium, 4 sounds converted from the already-paid ElevenLabs library (no new generation). No Higgsfield, no paid calls. |
-| 2026-11-02 | Episode 007 flashlight (podcast) | about 1,371 ElevenLabs credits (about $0.23 at the listed rate) | 2 eleven_v4 speech takes (Blue 523 credits, Orange 848 credits) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. Audio not downloadable this run (egress block), takes kept for the resume. No Higgsfield. |
+| 2026-11-02 | Episode 007 flashlight (podcast) | about 1,371 ElevenLabs credits (about $0.23 at the listed rate) | 2 eleven_v4 speech takes (Blue 523 credits, Orange 848 credits) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. Takes downloaded and used after the owner allowed elevenlabsusercontent.com (no regeneration). No Higgsfield. |
 
 ## Weekly reviews (newest first)
 ### 2026-11-02 (Mon) | Week 1, day 1 (launch-day baseline)

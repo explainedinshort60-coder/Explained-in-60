@@ -7,15 +7,15 @@ Scripts and ElevenLabs takes are ready in `episodes/<id>/podcast/` (script.py, r
 - [x] 001-toilet podcast: Metricool draft Tue Nov 3 12:00 ET (the old 001 explainer stays on Thu Nov 5 19:00 ET as its matched A/B pair)
 - [x] 003-zipper podcast: Metricool draft Mon Nov 2 17:00 ET (the old zipper explainer stays on Fri Nov 6 as its matched A/B pair)
 - [x] 002-clicky-pen podcast: Metricool draft Mon Nov 2 12:00 ET (new upload; the old explainer stays live as its A/B pair)
-- [ ] 007-flashlight podcast (new topic, no explainer version): script.py, words/B.json, words/O.json, props.js and episode.py (cutaways) are done; ElevenLabs takes exist in flow TIc1FIYtDtoK5jmZDgvF (generations 1j7dAtbYP55v47N0ANoj Blue, RGTMi88h8QOEWlgDb3A3 Orange) but raw/B.mp3 and raw/O.mp3 could not be downloaded (elevenlabsusercontent.com blocked by the session egress). Resume at RUNBOOK step 5.5 (split) once both MP3s are in episodes/007-flashlight/podcast/raw/. Do not generate new takes.
+- [x] 007-flashlight podcast: Metricool draft Tue Nov 3 20:00 ET (new topic, resumed after the owner allowed elevenlabsusercontent.com)
 
 ## Backlog (top = next; re-rank with demand/board.md before each pick)
 - [ ] Why your phone battery dies faster in the cold (lithium-ion ions slow down; Lane B calendar moment "first cold snaps", fills Sat Nov 7 or the first Nov 9 to 14 slot; counts as the week's growth-hack episode; title shape "Why does X ...?") [added by weekly review 2026-11-02]
-- [ ] Why a flashlight turns on when you click it (spring contact and circuit loop)
 - [ ] How a door latch clicks shut by itself (angled bolt and spring)
 - [ ] How a tape measure snaps back (coiled spring and curved blade)
 
 ## Done
+- [x] 007 Why a flashlight turns on when you click it (full loop, cells nose to tail, tail spring, metal strip, switch gap, clicky-pen latch, rust and eraser fix) | format: podcast
 - [x] 006 How a toaster knows when to pop (lever, spring, electromagnet hold, timer chip, darkness knob) | format: explainer
 - [x] 005 Where does the escalator handrail go (one rubber loop, end rollers, hidden return run, friction drive wheel) | format: explainer
 - [x] 004 Does your fridge light really turn off (door switch: plunger, spring, contacts) | format: explainer
@@ -24,7 +24,7 @@ Scripts and ElevenLabs takes are ready in `episodes/<id>/podcast/` (script.py, r
 - [x] 001 Why your toilet always stops at the same line (ballcock fill valve)
 
 ## Log
-- 2026-11-02 | 007-flashlight podcast | Why Does a Flashlight Turn On When You Click It? #Shorts | target Tue 2026-11-03 20:00 ET / Wed 2026-11-04 08:00 WIB (podcast slot, odd ET date), NOT scheduled | BLOCKED at RUNBOOK step 5.4: voice takes and Scribe words done, MP3 download refused by the egress proxy (elevenlabsusercontent.com not allowed; earlier runs got storage.googleapis.com URLs). Script, research, cutaway animation pushed. | format: podcast | demand: flashlight NO DATA, backlog pick (battery-in-the-cold kept for its window) | related: 002-clicky-pen
+- 2026-11-02 | 007-flashlight podcast | Why Does a Flashlight Turn On When You Click It? #Shorts | Tue 2026-11-03 20:00 ET / Wed 2026-11-04 08:00 WIB | Metricool draft | https://app.metricool.com/planner/calendar?blogId=7810819&openWithPostUuid=-8142109038877716722 | QC pass round 1 (seam 2.96, -14.1 LUFS, peak -1.5, 56.5 s; fixes: tighter cutaway cams, CLICK/LIGHT pops off the tube, ON/OFF pop off the switch label). First attempt blocked at the MP3 download (egress), resumed same day after the owner allowed elevenlabsusercontent.com | format: podcast | demand: flashlight NO DATA, backlog pick (battery-in-the-cold kept for its window) | related: 002-clicky-pen
 - 2026-11-02 | 002-clicky-pen podcast | Why Does a Clicky Pen Stay Out? #Shorts | Mon 2026-11-02 12:00 ET / Tue 2026-11-03 00:00 WIB | Metricool draft | https://app.metricool.com/planner/calendar?blogId=7810819&openWithPostUuid=-8558645665994881887 | QC pass (seam 1.66, -14.1 LUFS, 57.2 s) | format: podcast | demand: clicky pen remake
 - 2026-11-02 | 001-toilet podcast | Why Does Your Toilet Keep Running? #Shorts | Tue 2026-11-03 12:00 ET / Wed 2026-11-04 00:00 WIB | Metricool draft | https://app.metricool.com/planner/calendar?blogId=7810819&openWithPostUuid=3038735978219785850 | QC pass round 1 (seam 4.83, -14.1 LUFS, peak -1.5, 55.3 s; edit: cut Orange's negation-triplet line) | format: podcast | demand: toilet running NO DATA (supply 60), remake
 - 2026-11-02 | 003-zipper podcast | Why Can't You Rip a Zipper Apart? #Shorts | Mon 2026-11-02 17:00 ET / Tue 2026-11-03 05:00 WIB | Metricool draft | https://app.metricool.com/planner/calendar?blogId=7810819&openWithPostUuid=-1287317238583374323 | QC pass (seam 1.66, -14.1 LUFS, 53.3 s; fix: cutaways clipped to the safe area) | format: podcast | demand: zipper PASS (spread -9), remake
