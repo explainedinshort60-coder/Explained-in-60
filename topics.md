@@ -6,7 +6,7 @@
 Scripts and ElevenLabs takes are ready in `episodes/<id>/podcast/` (script.py, raw/, words/). Still to do: cues.py, render, QC, owner approval.
 - [x] 001-toilet podcast: Metricool draft Tue Nov 3 12:00 ET (the old 001 explainer stays on Thu Nov 5 19:00 ET as its matched A/B pair)
 - [x] 003-zipper podcast: Metricool draft Mon Nov 2 17:00 ET (the old zipper explainer stays on Fri Nov 6 as its matched A/B pair)
-- [ ] 002-clicky-pen podcast: takes a free PODCAST sprint slot as a new upload (the old explainer stays live as its A/B pair)
+- [ ] 002-clicky-pen podcast: IN PROGRESS in the owner session, slot Mon Nov 2 12:00 ET (new upload; the old explainer stays live as its A/B pair)
 
 ## Backlog (top = next; re-rank with demand/board.md before each pick)
 - [ ] Why your phone battery dies faster in the cold (lithium-ion ions slow down; Lane B calendar moment "first cold snaps", fills Sat Nov 7 or the first Nov 9 to 14 slot; counts as the week's growth-hack episode; title shape "Why does X ...?") [added by weekly review 2026-11-02]
