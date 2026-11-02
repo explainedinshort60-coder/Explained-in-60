@@ -3,6 +3,7 @@
 ## RUSH (trend and calendar episodes, produced first)
 
 ## Backlog (top = next)
+- [ ] Why your phone battery dies faster in the cold (lithium-ion ions slow down; Lane B calendar moment "first cold snaps", fills Sat Nov 7 or the first Nov 9 to 14 slot; counts as the week's growth-hack episode; title shape "Why does X ...?") [added by weekly review 2026-11-02]
 - [ ] How the fridge knows to turn its light off (door plunger switch)
 - [ ] Why an escalator handrail never runs out (hidden loop)
 - [ ] How a toaster knows when to pop (bimetal strip or timer and latch)

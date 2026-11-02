@@ -69,6 +69,42 @@ Source: research report "Explained in 60 growth plan" (Nov 2026). All targets ar
 |---|---|---|---|
 | 2026-11-02 | Episodes 001 and 002 | $0 | Kokoro voice, ffmpeg, Chromium, GitHub, Metricool free. Claude usage is inside the subscription. |
 | 2026-11-02 | Episode 003 (zipper) | $0 | Kokoro voice, ffmpeg, Chromium, procedural SFX (engine/sfx_synth.py) plus 3 sounds from the already-paid ElevenLabs library (no new generation). No Higgsfield, no paid calls. |
+| 2026-11-02 | Flush podcast v3 (side project, not a Short) | $0 new spend | ElevenLabs eleven_v4 VO and Scribe alignment used credits from the existing Creator plan. The Creator plan itself is a recurring subscription that is not yet in this ledger; owner to confirm the monthly amount so it can be logged. Shorts stay on Kokoro (free). |
+| 2026-11-02 | Weekly review, week 1 | $0 | Metricool free analytics, GitHub, Claude inside the subscription. |
 
 ## Weekly reviews (newest first)
-- (none yet; first review Mon 2026-11-09 WIB)
+### 2026-11-02 (Mon) | Week 1, day 1 (launch-day baseline)
+Data source: Metricool (blogId 7810819), pulled 2026-11-02. Only one Short is live (002 clicky pen, published Sun Nov 1 22:30 ET, about 17 hours before this pull). Metricool returned 0 for every YouTube metric and no per-video rows yet, which is normal sync lag for a channel this new, so this entry is a baseline, not a verdict.
+
+| Metric | Actual (week 1 to date) | Cons | Base | Opt |
+|---|---|---|---|---|
+| Shorts live | 1 (001 scheduled Thu Nov 5, 003 draft for Fri Nov 6, Sat Nov 7 slot open) | 3 | 3 | 3 |
+| Views this week | 0 (not synced) | 3,000 | 4,200 | 9,000 |
+| Subscribers (cumulative) | 0 (not synced) | 3 | 5 | 15 |
+| Views per Short | n/a | about 1,000 | 1,400 | 3,000 |
+| Likes / comments / shares | 0 / 0 / 0 (not synced) | | | |
+| Avg view duration | not exposed yet (needs per-video rows) | | | |
+| Viewed vs swiped away | not in Metricool, owner to read in YouTube Studio | 70% or higher | | |
+| Avg percentage viewed | not in Metricool, owner to read in YouTube Studio | above 100% | | |
+| Engaged views | not in Metricool, owner to read in YouTube Studio | | | |
+
+Scenario tracking: not determinable (day 1, no synced data).
+
+Decision rules applied:
+- Above optimistic / below conservative streaks: no data, no trigger. Cadence unchanged (config.json slots_from untouched: 3 per week to Nov 29, 5 per week from Nov 30).
+- 5x trailing median follow-ups: no median yet.
+- Under 60% viewed hook rewrite: no data, no hook template rewritten.
+- Growth hack quota (1 trend or calendar episode per week): week 1 had none queued. Added "Why your phone battery dies faster in the cold" (TRENDS.md Lane B, first cold snaps) to the top of the backlog so it fills the open Sat Nov 7 slot or the first Nov 9 to 14 slot.
+
+Other changes and why:
+- RUNBOOK.md craft rule: retire the "No X. No Y. No Z." negation line. All three episodes use it (001 description, 002 VO at 3 s, 003 takeaway), which is becoming a template tell (inauthentic-content risk) and spends hook seconds on what the object is not. From 004: a shown positive stakes line instead, first moving part on screen by 6 s.
+
+Next week (week 2, Nov 9 to 15) targets: 3 Shorts (Thu, Fri, Sat 19:00 ET), at least 1 calendar or trend episode. Views 3,000 cons / 4,200 base / 9,000 opt. Subscribers cumulative 6 / 11 / 31. Viewed vs swiped 70% or higher on every Short.
+
+Money status:
+- Lower tier (500 subs, 3 uploads, 3M Shorts views in 90 days): 0 / 500 subs, 1 / 3 public uploads, 0 / 3M views.
+- Full YPP (1,000 subs, 20M Shorts views in 90 days): 0 / 1,000 subs, 0 / 20M views.
+- Sponsor readiness: not ready (rule starts outreach only after 2 weeks above the optimistic row).
+- Dollars: target $0 (all scenarios, week 1), actual $0. Production cost $0 per episode.
+
+Owner asks: approve the 003 zipper draft in Metricool before Fri Nov 6; send week 1 YouTube Studio numbers (viewed vs swiped, avg percentage viewed, engaged views per Short) for the Nov 9 review; confirm the ElevenLabs Creator plan monthly cost for the ledger.

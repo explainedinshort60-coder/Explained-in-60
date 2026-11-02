@@ -58,6 +58,7 @@ Use the script-writing approach: question-driven, reference-anchored. Write `epi
 - Body: 4 to 6 reveals, a new beat every 5 to 7 s, and something visibly changes every 1 to 3 s (camera move, pose swap, prop motion, callout, pop word).
 - Midpoint (25 to 35 s): one visual gag or punchline as the peak. Put jokes in the animation and timing, because AI voices land humor worse than humans.
 - No spoken call to action. The ending line "And now you know..." flows into the hook line; last frame equals frame 1.
+- Craft rule from weekly review 2026-11-02 (retire the negation triplet): episodes 001, 002 and 003 all lean on the same "No X. No Y. No Z." line (001 description "No sensor. No chip. No timer.", 002 VO "No magnet. No motor. No glue.", 003 takeaway "No glue. No magnets."). Three in a row is now a template tell, and it spends 2 to 3 s on what the object is NOT. From episode 004 on: do not use a negation list in the VO, captions or description. Replace it with a POSITIVE stakes line that is shown, not listed (for example a number, a fail state, or a "you've done this a thousand times" moment), and get the first moving part on screen by 6 s at the latest. Log the replacement line under the variation notes in script.md.
 - Variation rule (inauthentic-content policy): every episode must differ visibly from the last 3 in at least 3 of: camera path, host blocking, prop staging, gag type, color accent of the object, hook shape. Log which ones in script.md.
 
 ### 4. Build the episode files
