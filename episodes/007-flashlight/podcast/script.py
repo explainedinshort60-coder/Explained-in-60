@@ -1,0 +1,23 @@
+"""Podcast script, episode 007 (Blue asks and roasts, Orange explains deadpan). ElevenLabs v4 audio tags inline."""
+LINES = [
+ ('B', '[curious] What actually happens when I click a flashlight?'),
+ ('O', '[deadpan] Light happens.'),
+ ('B', "[offended] I could've said that."),
+ ('O', '[sighs] Fine. Electricity only flows in a full loop. Out of the battery, and back in.'),
+ ('O', 'Batteries sit nose to tail. Plus end on minus end.'),
+ ('B', '[giggles] Like a tiny conga line.'),
+ ('O', '[flatly] Sure. A spring at the tail keeps them pressed tight together.'),
+ ('O', 'And a metal strip runs the length of the tube, back to the switch.'),
+ ('B', '[curious] So what does my click do?'),
+ ('O', "When it's off, there's a tiny gap. The loop is broken."),
+ ('O', 'Click, and a metal piece bridges the gap. Loop closed. Light.'),
+ ('B', '[gasps] And why does it stay on?'),
+ ('O', 'A clicky tail has the same guts as a clicky pen. Click on. Click off.'),
+ ('B', '[laughs] So my flashlight is a pen with a sun in it.'),
+ ('O', '[deadpan] Please never teach anyone anything.'),
+ ('B', '[suspicious] Then why does mine flicker when I shake it?'),
+ ('O', 'Usually a little rust on the contacts. Rub them with a pencil eraser.'),
+ ('B', '[whispering] Or I just smack it.'),
+ ('O', '[sighs] Eraser. And now you know.'),
+ ('B', '[curious] Hold on. Real talk...'),
+]
