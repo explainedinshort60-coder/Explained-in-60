@@ -2,7 +2,6 @@
 
 ## RUSH (trend spikes with a deadline, produced first)
 Scout run 2026-11-02 18:50 UTC. Chart note: both charted keywords read 0 vs the microwave anchor all year (below the anchor's resolution), so demand.py shows PASS on flat zero data; the trend signal for these items is the tape and the news, not the chart.
-- [ ] IN PROGRESS (explainer run 2026-11-02 19:20 UTC, 008-cold-battery, slot Wed Nov 4 12:00 ET) Why your phone battery dies faster in the cold | trend: cold air invades the US to start November (Fox Weather, AccuWeather: Midwest and Great Lakes cold wave with snow, another blast next week) + tape "snowfall" 100+ (2026-11-02 09:02Z) + Lane B cold-snap window Nov 9 to 14 | seen 2026-11-02 | score 9 (mechanism 2, US scale 1, freshness 2, shelf life 2, safety 2) | deadline Sat Nov 14 | chart: phone battery cold 0 vs anchor, supply 55 | angle: lithium ions move slower in the cold, the phone reads the voltage drop as an empty battery, warm it up and the percent comes back | title: Why Does Your Phone Battery Die in the Cold? #Shorts
 - [ ] Why frost forms on your windshield overnight | trend: first freeze week, cold air across the northern and eastern US (Fox Weather "Cold air invades US to start November", AccuWeather cold wave) | seen 2026-11-02 | score 8 (mechanism 2, US scale 1, freshness 2, shelf life 1, safety 2) | deadline Mon Nov 9 | chart: frost on windshield 0 vs anchor, supply 40 | angle: the glass radiates its heat to the clear night sky and gets colder than the air, water vapor freezes straight onto it; why a carport or a cloudy night keeps it clear | title: Why Is There Frost on Your Windshield When It's Not Freezing? #Shorts
 - [ ] What RAM actually does in your computer | trend: tape "sam altman ram" 1000+ (2026-11-02 18:50Z; RAM shortage memes and price spike stories) | seen 2026-11-02 | score 7 (mechanism 2, US scale 1, freshness 2, shelf life 1, safety 1: real person in the story, never name or show him, describe it only as "the RAM shortage") | deadline Thu Nov 5 | chart: not pulled (RUSH deadline), supply 60 | angle: billions of tiny buckets of charge (capacitors) that leak and get refilled thousands of times a second, which is why RAM forgets everything when the power goes off | title: What Does RAM Actually Do? #Shorts
 
@@ -19,11 +18,12 @@ Each item: topic | trend source (Trending now term + traffic, or chart momentum 
 Producers take the top item for their format; if this queue is empty they scout one themselves (TRENDS.md "Producer self-scout").
 
 ## Retired backlog (cleared by the owner 2026-11-03, do not produce unless it starts trending)
-- Why your phone battery dies faster in the cold (trending again 2026-11-02: moved to RUSH)
+- Why your phone battery dies faster in the cold (trending again 2026-11-02: moved to RUSH, made as 008)
 - How a door latch clicks shut by itself
 - How a tape measure snaps back
 
 ## Done
+- [x] 008 Why your phone battery dies in the cold (electrolyte thickens like syrup, lithium ions crawl, early shutdown with charge left, inside pocket fix, no hair dryer) | format: explainer | trend: cold air invades the US, RUSH score 9
 - [x] 007 Why a flashlight turns on when you click it (full loop, cells nose to tail, tail spring, metal strip, switch gap, clicky-pen latch, rust and eraser fix) | format: podcast
 - [x] 006 How a toaster knows when to pop (lever, spring, electromagnet hold, timer chip, darkness knob) | format: explainer
 - [x] 005 Where does the escalator handrail go (one rubber loop, end rollers, hidden return run, friction drive wheel) | format: explainer
@@ -33,6 +33,7 @@ Producers take the top item for their format; if this queue is empty they scout 
 - [x] 001 Why your toilet always stops at the same line (ballcock fill valve)
 
 ## Log
+- 2026-11-02 | 008-cold-battery | Why Does Your Phone Battery Die in the Cold? #Shorts | Wed 2026-11-04 12:00 ET / Thu 2026-11-05 00:00 WIB | Metricool draft (approval mode) | https://app.metricool.com/planner/calendar?blogId=7810819&openWithPostUuid=-357128213447819101 | QC pass round 1 (loop_ok, seam 0.66, no VO over, 60.0 s, -16.5 LUFS; pre-build fixes: pop words on the head, 30% text overflow, host cropped in bubble and shutdown shots, BRRR ECU cut the bubble, duplicate 30% callout, bubble half in frame in the pocket shot; VO line 13 shortened from speed 1.24) | format: explainer | trend: RUSH, cold air invades the US to start November (Fox Weather, AccuWeather) + tape "snowfall" 100+, score 9 | related: 007-flashlight
 - 2026-11-02 | 007-flashlight podcast | Why Does a Flashlight Turn On When You Click It? #Shorts | Tue 2026-11-03 20:00 ET / Wed 2026-11-04 08:00 WIB | Metricool draft | https://app.metricool.com/planner/calendar?blogId=7810819&openWithPostUuid=-8142109038877716722 | QC pass round 1 (seam 2.96, -14.1 LUFS, peak -1.5, 56.5 s; fixes: tighter cutaway cams, CLICK/LIGHT pops off the tube, ON/OFF pop off the switch label). First attempt blocked at the MP3 download (egress), resumed same day after the owner allowed elevenlabsusercontent.com | format: podcast | demand: flashlight NO DATA, backlog pick (battery-in-the-cold kept for its window) | related: 002-clicky-pen
 - 2026-11-02 | 002-clicky-pen podcast | Why Does a Clicky Pen Stay Out? #Shorts | Mon 2026-11-02 12:00 ET / Tue 2026-11-03 00:00 WIB | Metricool draft | https://app.metricool.com/planner/calendar?blogId=7810819&openWithPostUuid=-8558645665994881887 | QC pass (seam 1.66, -14.1 LUFS, 57.2 s) | format: podcast | demand: clicky pen remake
 - 2026-11-02 | 001-toilet podcast | Why Does Your Toilet Keep Running? #Shorts | Tue 2026-11-03 12:00 ET / Wed 2026-11-04 00:00 WIB | Metricool draft | https://app.metricool.com/planner/calendar?blogId=7810819&openWithPostUuid=3038735978219785850 | QC pass round 1 (seam 4.83, -14.1 LUFS, peak -1.5, 55.3 s; edit: cut Orange's negation-triplet line) | format: podcast | demand: toilet running NO DATA (supply 60), remake
