@@ -37,20 +37,20 @@ def T(f):
             'rot': kv(ROT, f), 'rust': kv(RUSTK, f), 'eraser': kv(ERA, f),
             'ex': 26 * math.sin((f - 1012) / 4) if 1012 <= f < 1084 else 0,
             'shake': 3.5 * math.sin(f / 2.2) if 884 <= f < 990 else 0, 'pm': kv(PM, f)}
-WIDE = (600, 580, 1000); MED = (520, 600, 720); TAIL = (250, 590, 430); HEAD = (790, 600, 560)
-CAM = [(0, WIDE, 'io'), (100, WIDE, 'io'), (128, (560, 600, 900), 'io'), (220, (560, 600, 900), 'io'), (240, MED, 'io'),
-       (330, MED, 'io'), (350, TAIL, 'io'), (430, TAIL, 'io'), (440, (790, 600, 640), 'io'), (536, (300, 600, 640), 'lin'),
+WIDE = (570, 600, 900); MED = (520, 600, 640); TAIL = (250, 600, 400); HEAD = (790, 600, 520)
+CAM = [(0, WIDE, 'io'), (100, WIDE, 'io'), (128, (560, 600, 860), 'io'), (220, (560, 600, 860), 'io'), (240, MED, 'io'),
+       (330, MED, 'io'), (350, TAIL, 'io'), (430, TAIL, 'io'), (440, (790, 600, 600), 'io'), (536, (300, 600, 600), 'lin'),
        (548, TAIL, 'io'), (640, TAIL, 'io'), (690, TAIL, 'io'), (730, WIDE, 'out'), (759, WIDE, 'io'), (760, TAIL, 'cut'),
-       (879, TAIL, 'io'), (880, HEAD, 'cut'), (1000, HEAD, 'io'), (1100, (780, 600, 600), 'lin')]
+       (879, TAIL, 'io'), (880, HEAD, 'cut'), (1000, HEAD, 'io'), (1100, (780, 600, 560), 'lin')]
 HL = [(150, 220, 'loop', 'FULL LOOP', -150, 0), (240, 285, 'plus', 'PLUS', 60, 0), (285, 330, 'minus', 'MINUS', 40, 0),
       (355, 430, 'spring', 'SPRING', 40, 0), (446, 536, 'strip', 'METAL STRIP', -180, 0),
       (578, 640, 'gap', 'GAP', 60, 0), (668, 700, 'disc', 'CONTACT', 60, 0),
-      (765, 880, 'switch', 'CLICKY SWITCH', -40, 0), (900, 1000, 'contact', 'RUST', -60, 0), (1030, 1084, 'contact', 'CLEAN', -60, 0)]
+      (765, 880, 'switch', 'CLICKY SWITCH', -300, 0), (900, 1000, 'contact', 'RUST', -60, 0), (1030, 1084, 'contact', 'CLEAN', -60, 0)]
 def pop(f):
-    if 56 <= f < 84: return {'x': 120, 'y': 470, 's': min(1, (f - 56) / 4 + .3), 'text': 'CLICK!'}
-    if 664 <= f < 690: return {'x': 160, 'y': 470, 's': min(1, (f - 664) / 4 + .3), 'text': 'LIGHT!'}
-    if 796 <= f < 820: return {'x': 150, 'y': 480, 's': min(1, (f - 796) / 4 + .3), 'text': 'ON'}
-    if 846 <= f < 870: return {'x': 150, 'y': 480, 's': min(1, (f - 846) / 4 + .3), 'text': 'OFF'}
+    if 56 <= f < 84: return {'x': 120, 'y': 330, 's': min(1, (f - 56) / 4 + .3), 'text': 'CLICK!'}
+    if 664 <= f < 690: return {'x': 160, 'y': 330, 's': min(1, (f - 664) / 4 + .3), 'text': 'LIGHT!'}
+    if 796 <= f < 820: return {'x': 200, 'y': 400, 's': min(1, (f - 796) / 4 + .3), 'text': 'ON'}
+    if 846 <= f < 870: return {'x': 200, 'y': 400, 's': min(1, (f - 846) / 4 + .3), 'text': 'OFF'}
     return None
 def frame(f):
     return {'T': T(f), 'cam': dict(zip(('cx', 'cy', 'w'), kv(CAM, f))),
