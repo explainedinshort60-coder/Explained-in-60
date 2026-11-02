@@ -9,7 +9,7 @@ Scripts and ElevenLabs takes are ready in `episodes/<id>/podcast/` (script.py, r
 - [ ] 002-clicky-pen podcast: IN PROGRESS in the owner session, slot Mon Nov 2 12:00 ET (new upload; the old explainer stays live as its A/B pair)
 
 ## Backlog (top = next; re-rank with demand/board.md before each pick)
-- [ ] Why your phone battery dies faster in the cold (lithium-ion ions slow down; Lane B calendar moment "first cold snaps", fills Sat Nov 7 or the first Nov 9 to 14 slot; counts as the week's growth-hack episode; title shape "Why does X ...?") [added by weekly review 2026-11-02]
+- [ ] Why your phone battery dies faster in the cold (RESERVED 004 explainer, Mon Nov 2 20:00 ET, run in progress; lithium-ion ions slow down; Lane B calendar moment "first cold snaps", fills Sat Nov 7 or the first Nov 9 to 14 slot; counts as the week's growth-hack episode; title shape "Why does X ...?") [added by weekly review 2026-11-02]
 - [ ] How the fridge knows to turn its light off (door plunger switch)
 - [ ] Why an escalator handrail never runs out (hidden loop)
 - [ ] How a toaster knows when to pop (bimetal strip or timer and latch)
