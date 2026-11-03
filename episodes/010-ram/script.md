@@ -69,3 +69,4 @@ Words: 128 spoken. Slang: "here's the kicker", "no cap" (2).
 
 ## QC log
 - Pre-build round 1 (test frames): host cropped on the right in every desk shot (desk cameras widened and moved right), FULL = 1 and EMPTY = 0 labels collided (split left and right), gag bucket overlapped the monitor (monitor moved left), dashed stick pointer crossed the monitor (removed), read cell showed a red 0 while it was being read (kept as 1), SLURP! and BYE, ESSAY. pops over the cells and the header (moved), TOO SLOW! on the host's head (moved left).
+- Build round 2: VO line 8 ran over its slot at speed 1.25 (line shortened to "So RAM refills them all, about every 64 milliseconds.", slot widened to 612-708), takeaway was static for 7 s (RAM stick returns over the monitor with its label), stick cut at the left frame edge (moved right). Result: loop_ok, seam 1.61, no VO over, 60.0 s, -16.5 LUFS.
