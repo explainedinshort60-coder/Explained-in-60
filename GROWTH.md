@@ -35,6 +35,16 @@ Built from 2026 sources (Metricool 2026 YouTube Study, OverseerOS per-day study,
 - Inauthentic content policy: YouTube does not monetize mass-produced or template-identical content. Keep the variation rule, real research per episode, and distinct gags; never auto-generate near-duplicates.
 - Never: bought views or subs, sub-for-sub, engagement pods, watermarked re-uploads, misleading titles. They risk the channel and break the algorithm's audience model.
 
+## Early performance snapshots (owner screenshots, YouTube Studio)
+| Taken (WIB) | Short | Format | Live since (ET) | Age | Views | Views per hour |
+|---|---|---|---|---|---|---|
+| 2026-11-03 09:49 | Why Does a Clicky Pen Stay Out? | podcast | Nov 2 12:00 | ~10 h | 1,200 | ~120 |
+| 2026-11-03 09:49 | How Does a Clicky Pen Work? | explainer | Nov 1 22:30 | ~47 h | 1,100 | ~23 |
+| 2026-11-03 09:49 | How Does a Toilet Flush? (benchmark) | podcast | owner upload Nov 2 | ~1 day | 1,100 | n/a |
+| 2026-11-03 09:49 | Does Your Fridge Light Really Turn Off? | explainer | Nov 2 20:00 | ~2 h | 178 | ~90 |
+| 2026-11-03 09:49 | Why Can't You Rip a Zipper Apart? | podcast | Nov 2 17:00 | ~5 h | 5 | ~1 (stalled in the seed test) |
+Read: too early for a format verdict (3 podcasts, 2 explainers, different ages). Zipper podcast stalled at the first gate; check its viewed vs swiped away. Its first frame is Blue's face, not the zipper (see RUNBOOK growth rule: object on frame 1).
+
 ## Weekly targets (derived)
 | Wk | Week of | Shorts | Cons views/wk | Cons subs (cum) | Base views/wk | Base subs (cum) | Opt views/wk | Opt subs (cum) | $ target/wk (cons / base / opt) |
 |---|---|---|---|---|---|---|---|---|---|
