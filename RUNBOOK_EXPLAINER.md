@@ -29,7 +29,9 @@ Read this whole file before starting. Episode 001 (`episodes/001-toilet/`) is th
 - The last frame must match frame 0 (camera, pose, prop state, labels). The VO "And now you know..." flows into the hook line.
 
 ### Growth rules (GROWTH.md playbook, apply to every episode)
-- Frame 1 shows the object mid-action or the payoff preview with the hook subtitle on screen. First spoken line under 9 words.
+- **FIRST FRAME = HOOK (owner rule 2026-11-03, hard QC gate).** Frame 1 shows the object at its most striking moment (mid-action, the fail state, or the payoff preview) with the hook subtitle on screen. Never open on a host's face, a title card or an empty set. First spoken line under 9 words.
+  - Podcast: set `HOOK = (src_start, src_end, 1.2 to 1.6 s)` in cues.py; the engine builds the cold-open cutaway and matches the loop seam. `qc.json` must show `hook_first_frame_ok: true`.
+  - Explainer: frame 0 of episode.py is already the object; make it the most striking state (mid-action), with the hook caption visible.
 - Title 30 to 50 characters, the phrase Americans search first, then #Shorts. Description line 1 repeats the keyword.
 - `first_comment` in meta.json is ONE specific question about a moment in the video (example: "Be honest: did you think the ball was a sensor?"), not a generic call to action. The owner pins it.
 - End with a 0.5 s callback button so the loop feels intentional.

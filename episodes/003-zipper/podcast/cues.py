@@ -1,5 +1,6 @@
 # 003 zipper podcast: acting cue sheet (Expression & Comedy Acting Rules v1.1)
 SRC = '003-zipper'
+HOOK = (700, 770, 1.4)   # tug that fails, NOPE pop: matches "Why can't I rip a zipper apart"
 OUTRO = 18
 EMPH = {0: [3, 15], 1: [3], 2: [2], 8: [3], 10: [1], 12: [7], 15: [0], 16: [2], 19: [0]}
 def SFX():

@@ -10,6 +10,7 @@
 # Rules (Expression & Comedy Acting Rules v1.1): change expression on the trigger word, listeners react REG late,
 # one gesture per thought with anticipation and hold, big faces are rare, the last line restores the line-0 shot and pose.
 SRC = '001-toilet'          # episodes/<SRC>/episode.py + props.js supply the cutaways
+HOOK = (790, 860, 1.4)      # REQUIRED: cold-open cutaway (src frame start, src frame end, seconds): the object's most striking moment
 OUTRO = 18                  # line index of "And now you know" (outro button starts at its end)
 EMPH = {}                   # {line: [word indexes]} small head accents on stressed words
 def SFX():                  # [(time, library_name, gain)] names from engine/sfx/lib/index.json

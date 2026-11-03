@@ -36,6 +36,16 @@ def ins(t, *keys):
     '''cut to the explainer cutaway at t; keys = (time, source_frame) pairs, piecewise linear'''
     cut(t, 'ins'); INSCLIP[round(t, 4)] = sorted(keys)
 exec(open(f'{HERE}/cues.py').read())
+# FIRST FRAME = HOOK (owner rule 2026-11-03): every podcast opens on the object's most striking moment, not a host face.
+# cues.py sets HOOK = (src_frame_start, src_frame_end, seconds). The cold open plays that cutaway with the hook caption,
+# then cuts to the first planned shot; the last 0.42 s returns to src_frame_start so the loop seam matches frame 0.
+if 'HOOK' in dir() and HOOK:
+    _hf0, _hf1, _hd = HOOK
+    _first = next((s for t, s in sorted(SHOT) if t <= 0.01), 'cuB')
+    SHOT[:] = [(t, s) for t, s in SHOT if t >= _hd]
+    if not any(abs(t - _hd) < 1e-6 for t, s in SHOT): SHOT.append((_hd, _first))
+    ins(0.0, (0.0, _hf0), (_hd, _hf1))
+    ins(DUR - 0.42, (DUR - 0.42, _hf0), (DUR, _hf0))
 for h in EXPR: EXPR[h].sort()
 SHOT.sort()
 TILT = {'neutral': 0, 'wait-WHAT': -5, 'side-eye': 4, 'smug-expert': 3, 'confidently-wrong': -3, 'completely-done': 5,
@@ -132,6 +142,7 @@ for l in L:
         chunk.append({'txt': txt, 's': w['s'], 'e': w['e']})
         if txt[-1] in '.?!' and len(' '.join(c['txt'] for c in chunk)) > 8: flush_chunk(); chunk = []
     flush_chunk()
+if CAPS and CAPS[0][0] < 0.6: CAPS[0][0] = 0.0  # the hook subtitle is on screen from frame 1
 for k in range(len(CAPS)):
     nxt = CAPS[k + 1][0] if k + 1 < len(CAPS) else CAPS[k][1] + 0.12  # last caption clears before the loop restarts
     CAPS[k][1] = min(nxt, CAPS[k][1] + 0.35)
@@ -241,6 +252,6 @@ if __name__ == '__main__':
         seam = sum(ImageStat.Stat(ImageChops.difference(a, b)).mean) / 3
         x, sr = sf_.read(f'{HERE}/mix.wav'); lufs = pyln.Meter(sr).integrated_loudness(x); tp = 20 * np.log10(np.abs(x).max())
         q = {'frames': NF, 'dur': DUR, 'seam_mean_diff': round(float(seam), 2), 'seam_ok': bool(seam < 6), 'lufs': round(float(lufs), 1), 'peak_dbfs': round(float(tp), 2),
-             'audio_ok': bool(abs(lufs + 14) < 1 and tp <= -1.0), 'dur_ok': bool(DUR <= 60.5), 'missing_frames': [f for f in range(NF) if not os.path.exists(f'{fd}/f{f:04d}.png')][:10]}
+             'audio_ok': bool(abs(lufs + 14) < 1 and tp <= -1.0), 'dur_ok': bool(DUR <= 60.5), 'hook_first_frame_ok': bool(shot_at(0)[1] == 'ins'), 'missing_frames': [f for f in range(NF) if not os.path.exists(f'{fd}/f{f:04d}.png')][:10]}
         json.dump(q, open(f'{HERE}/qc.json', 'w'), indent=1); print(q)
     print('NF', NF, 'DUR', DUR)
