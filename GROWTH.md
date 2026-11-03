@@ -110,6 +110,7 @@ Read: too early for a format verdict (3 podcasts, 2 explainers, different ages).
 | 2026-11-02 | Episode 005 escalator handrail (explainer) | $0 | Kokoro voice, ffmpeg, Chromium, 6 sounds converted from the already-paid ElevenLabs library (no new generation). No Higgsfield, no paid calls. |
 | 2026-11-02 | Episode 006 toaster (explainer) | $0 | Kokoro voice, ffmpeg, Chromium, 4 sounds converted from the already-paid ElevenLabs library (no new generation). No Higgsfield, no paid calls. |
 | 2026-11-02 | Episode 007 flashlight (podcast) | about 1,371 ElevenLabs credits (about $0.23 at the listed rate) | 2 eleven_v4 speech takes (Blue 523 credits, Orange 848 credits) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. Takes downloaded and used after the owner allowed elevenlabsusercontent.com (no regeneration). No Higgsfield. |
+| 2026-11-03 | Episode 009 windshield frost (podcast) | about 1,345 ElevenLabs credits (about $0.22 at the listed rate) | 2 eleven_v4 speech takes, one take per host (Blue 539 credits, Orange 806 credits) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration. ffmpeg, Chromium, GitHub, Metricool free. No Higgsfield. |
 | 2026-11-02 | Episode 008 cold battery (explainer) | $0 | Kokoro voice, ffmpeg, Chromium, SFX from the existing library (no new generation), GitHub, Metricool free. No Higgsfield, no ElevenLabs calls, no paid service. |
 
 ## Weekly reviews (newest first)
