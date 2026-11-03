@@ -1,0 +1,21 @@
+"""Podcast script, episode 009 (Blue asks and roasts, Orange explains deadpan). ElevenLabs v4 audio tags inline."""
+LINES = [
+ ('B', "[offended] It's 37 out. Why is my windshield frozen?"),
+ ('O', "[deadpan] Because your windshield isn't 37."),
+ ('B', '[sarcastic] Wow. Thank you, professor.'),
+ ('O', '[sighs] That 37 is the air, measured about four feet up.'),
+ ('O', 'Your glass is lying back, staring straight up at the night sky.'),
+ ('B', "[curious] Stargazing? That's kind of romantic."),
+ ('O', "[deadpan] It's losing heat. Everything glows invisible heat, and a clear sky sends back barely any."),
+ ('O', 'So the glass drops below freezing while the air stays above it.'),
+ ('B', '[gasps] My car is colder than the weather?'),
+ ('O', 'Yep. Then water vapor touches the glass and turns straight into ice.'),
+ ('B', '[laughs] So my car stared at space all night and froze. Relatable.'),
+ ('O', '[deadpan] Your car has a better night routine than you.'),
+ ('B', "[suspicious] Then why is my neighbor's car totally clear?"),
+ ('O', 'Carport. That roof is warmer than the sky, so it sends heat back down.'),
+ ('O', 'Clouds do the same thing. A blanket for your car.'),
+ ('B', '[whispering] So I park under his carport. Got it.'),
+ ('O', '[sighs] Or a tree. And now you know.'),
+ ('B', '[offended] Still. Make it make sense...'),
+]

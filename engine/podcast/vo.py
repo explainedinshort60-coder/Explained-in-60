@@ -47,7 +47,7 @@ def words_by_line():
 V = {'ɑ':'AA','a':'AA','æ':'AE','ʌ':'AH','ə':'AH','ɐ':'AH','ɔ':'AO','ɛ':'EH','e':'EH','ɜ':'ER','ɚ':'ER','ɝ':'ER','ɪ':'IH','ᵻ':'IH','i':'IY','ʊ':'UH','u':'UW','o':'OW'}
 C = {'m':'MBP','b':'MBP','p':'MBP','f':'FV','v':'FV','θ':'TH','ð':'TH','l':'L','ɹ':'R','r':'R','w':'WQ','t':'TDNSZ','d':'TDNSZ','n':'TDNSZ','s':'TDNSZ','z':'TDNSZ','ɾ':'TDNSZ','ʃ':'CHSHJ','ʒ':'CHSHJ','k':'_ctx','ɡ':'_ctx','g':'_ctx','ŋ':'_ctx','h':'_ctx','j':'IY','ʔ':None}
 def phon(word):
-    ipa = subprocess.run(['espeak-ng', '-q', '-v', 'en-us', '--ipa', re.sub(r'[^A-Za-z\']', ' ', word)], capture_output=True, text=True).stdout
+    ipa = subprocess.run(['espeak-ng', '-q', '-v', 'en-us', '--ipa', re.sub(r'[^A-Za-z0-9\']', ' ', word)], capture_output=True, text=True).stdout
     ipa = re.sub(r'[ˈˌː\-\s]', '', ipa); seq = []
     for ch in ipa:
         if ch in V: seq.append([V[ch], 2.2])
