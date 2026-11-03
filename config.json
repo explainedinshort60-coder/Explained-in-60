@@ -46,7 +46,10 @@
     "19:00",
     "12:00"
   ],
-  "crosspost": [],
+  "crosspost": [
+    "tiktok",
+    "instagram"
+  ],
   "format": "podcast_v1",
   "benchmark": "episodes/flush-podcast-v3",
   "safe_zone": {

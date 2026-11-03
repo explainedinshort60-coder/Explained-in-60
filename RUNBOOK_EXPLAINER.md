@@ -28,6 +28,12 @@ Read this whole file before starting. Episode 001 (`episodes/001-toilet/`) is th
 
 - The last frame must match frame 0 (camera, pose, prop state, labels). The VO "And now you know..." flows into the hook line.
 
+### Growth rules (GROWTH.md playbook, apply to every episode)
+- Frame 1 shows the object mid-action or the payoff preview with the hook subtitle on screen. First spoken line under 9 words.
+- Title 30 to 50 characters, the phrase Americans search first, then #Shorts. Description line 1 repeats the keyword.
+- `first_comment` in meta.json is ONE specific question about a moment in the video (example: "Be honest: did you think the ball was a sensor?"), not a generic call to action. The owner pins it.
+- End with a 0.5 s callback button so the loop feels intentional.
+
 ## Run steps
 
 ### 0. Setup (every run, fresh container)
@@ -94,7 +100,12 @@ Outputs `episodes/<id>/out/final.mp4`, `qc_sheet.png`, `qc.json`.
 1. Copy the video to `published/<id>.mp4`, commit and push to `main`.
    Public URL: `https://raw.githubusercontent.com/explainedinshort60-coder/explained-in-60/main/published/<id>.mp4`
 2. Metricool (brand blogId `7810819`, timezone Asia/Jakarta, YouTube linked). Find the earliest free slot from `config.json` (use `slots_from` entries whose start date has passed; check `getScheduledPosts` for the next 14 days; one post per slot). Convert to Asia/Jakarta.
-3. `createScheduledPost` with providers youtube, `youtubeData`: type "short", privacy "public", category "EDUCATION", madeForKids false, isAiGeneratedContent false, title and tags from meta.json; text = description; firstCommentText from meta.json.
+3. `createScheduledPost` with providers youtube, tiktok and instagram (`config.json` crosspost; one post, same clean master, no watermark):
+   - `youtubeData`: type "short", privacy "public", category "EDUCATION", madeForKids false, isAiGeneratedContent false (stylized cartoon, not realistic), title and tags from meta.json.
+   - `tiktokData`: title = the hook question plus 3 to 5 hashtags, privacyOption "PUBLIC_TO_EVERYONE", isAigc true (synthetic voices).
+   - `instagramData`: type "REEL", showReelOnFeed true, isAiGenerated true.
+   - text = description (works as the caption on all three); firstCommentText = meta.json first_comment.
+   If Metricool rejects TikTok or Instagram, publish YouTube alone and report the error to the owner.
    **Approval mode** (current setting, see `config.json`): set `"draft": true` so the owner approves in Metricool before it goes live.
 4. When Metricool returns a `static.metricool.com` media URL, delete `published/<id>.mp4`, commit and push (keeps the repo small).
 

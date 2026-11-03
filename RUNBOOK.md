@@ -35,6 +35,12 @@ Read this whole file before starting. **The benchmark is the approved flush podc
 - Push-ins only on punchlines (0.04 to 0.06). Laugh mouths only on real laughter (detected events).
 - Expressions available: neutral, curious, confused, side-eye, smug, fake-innocent, holding-laugh, laugh, shock, mock-offended, done, wink.
 
+### Growth rules (GROWTH.md playbook, apply to every episode)
+- Frame 1 shows the object mid-action or the payoff preview with the hook subtitle on screen. First spoken line under 9 words.
+- Title 30 to 50 characters, the phrase Americans search first, then #Shorts. Description line 1 repeats the keyword.
+- `first_comment` in meta.json is ONE specific question about a moment in the video (example: "Be honest: did you think the ball was a sensor?"), not a generic call to action. The owner pins it.
+- End with a 0.5 s callback button so the loop feels intentional.
+
 ## Run steps
 
 ### 0. Setup (every run, fresh container)
@@ -103,7 +109,12 @@ python3 engine/podcast/pod.py qc
 1. Copy the video to `published/<id>.mp4`, commit and push to `main` (`git pull --rebase` first).
    Public URL: `https://raw.githubusercontent.com/explainedinshort60-coder/Explained-in-60/main/published/<id>.mp4`
 2. Metricool (brand blogId `7810819`, timezone Asia/Jakarta, YouTube linked). Earliest free slot from `config.json`; check `getScheduledPosts` for the next 14 days; one post per slot. Convert to Asia/Jakarta.
-3. `createScheduledPost` with providers youtube, `youtubeData`: type "short", privacy "public", category "EDUCATION", madeForKids false, isAiGeneratedContent false (stylized cartoon, not realistic), title and tags from meta.json; text = description; firstCommentText from meta.json.
+3. `createScheduledPost` with providers youtube, tiktok and instagram (`config.json` crosspost; one post, same clean master, no watermark):
+   - `youtubeData`: type "short", privacy "public", category "EDUCATION", madeForKids false, isAiGeneratedContent false (stylized cartoon, not realistic), title and tags from meta.json.
+   - `tiktokData`: title = the hook question plus 3 to 5 hashtags, privacyOption "PUBLIC_TO_EVERYONE", isAigc true (synthetic voices).
+   - `instagramData`: type "REEL", showReelOnFeed true, isAiGenerated true.
+   - text = description (works as the caption on all three); firstCommentText = meta.json first_comment.
+   If Metricool rejects TikTok or Instagram, publish YouTube alone and report the error to the owner.
    **Approval mode** (`config.json`): set `"draft": true` so the owner approves in Metricool before it goes live.
 4. When Metricool returns a `static.metricool.com` media URL, delete `published/<id>.mp4`, commit and push.
 
@@ -114,4 +125,4 @@ python3 engine/podcast/pod.py qc
 - Update the keyword's `status` in `demand/watchlist.csv` to `live <date>`.
 - Commit and push everything except `out/`, `engine/models/` and the podcast work folders (`vo_raw/`, `vo/`, `frames/`, `mix.wav`).
 - Add the production cost to the Cost ledger in `GROWTH.md` (ElevenLabs credits used for 2 speech takes + 2 transcriptions; no Higgsfield, ever).
-- Final message: one short summary for the owner (title, slot, planner link, demand signal, and the manual step: in YouTube Studio set the Short's Related video to `related_episode` and add it to its category playlist).
+- Final message: one short summary for the owner (title, slot, planner link, trend source, and the owner steps: pin the first comment, reply to comments in the first hour, Hype it, set the Related video to `related_episode` and add it to its category playlist in Studio).

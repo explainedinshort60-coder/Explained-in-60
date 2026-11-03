@@ -14,6 +14,27 @@ Source: research report "Explained in 60 growth plan" (Nov 2026). All targets ar
 - Weeks 1 to 4: 3 Shorts per week (Thu, Fri, Sat 7 PM ET). From week 5 (Nov 30): 5 per week (Tue to Sat 7 PM ET). 7 per week only when the rules below allow it.
 - Long-form test: one 5 to 8 minute original deep dive every two weeks from weeks 9 to 13 (owner approval needed; adds production work).
 
+## Growth playbook (researched 2026-11-03, ranked by impact for this channel)
+Built from 2026 sources (Metricool 2026 YouTube Study, OverseerOS per-day study, vidIQ, 1of10, YouTube policy pages). Creator-reported benchmarks are not official YouTube numbers; we judge by our own medians.
+
+| # | Lever | Why | What we do | Owner |
+|---|---|---|---|---|
+| 1 | **Cross-post every Short to TikTok and Instagram Reels** | Same clean 9:16 file runs 3 independent algorithms; Metricool measured far higher average views per short video on TikTok and Reels than on Shorts | Metricool post with providers youtube + tiktok + instagram (REEL), one clean master, no watermark, per-platform caption | Agent (automatic) |
+| 2 | **Win the first 1 to 2 seconds** (viewed vs swiped away 70%+) | Shorts are tested on a small seed audience first; swipe-away is the first gate | Frame 1 shows the object mid-action or the payoff preview plus the hook subtitle; no greeting, no slow pan, first line under 9 words | Agent |
+| 3 | **Loop and rewatch** | Rewatch pushes average percentage viewed past 100% | Keep the split-sentence loop (last line hands into the hook); a 0.5 s callback button at the end | Agent |
+| 4 | **First-hour engagement** | Comments and replies early are strong signals | First comment = one specific question tied to a moment in the video (not a generic CTA). Owner pins it and replies to comments in the first hour | Agent writes, owner pins and replies |
+| 5 | **Series and paths** | Recognizable series and playlists build returning viewers | Category playlists (Bathroom, Kitchen, Bedroom, Street, Gadgets) plus "Start Here: best 10"; Related video set on every Short | Owner in Studio (2 min per Short) |
+| 6 | **Search packaging** | Shorts now have a Search filter; titles matter | Title 30 to 50 characters, the searched phrase first ("Why does my toilet keep running?"), keyword in description line 1 | Agent |
+| 7 | **Hype from early fans** | Hype gives small channels (under 500K) a temporary boost in the first 7 days | Owner asks friends and family to Hype each new Short | Owner |
+| 8 | **Ride trends (freshness bias)** | Recent uploads get favored | Trend-led queue, scout 4x per day (DEMAND.md, TRENDS.md) | Agent |
+| 9 | **Double down on outliers** | One breakout Short can move the whole channel | Any Short at 5x the trailing median: 2 to 3 follow-ups within 7 days, same hook shape | Agent |
+| 10 | **Auto-dubbing** | YouTube auto-dubbing (27 languages) adds non-English recommendation pools | Turn it on in Studio settings once eligible; test on the top Shorts first | Owner, one-time |
+
+**Guardrails (do not trade these for speed):**
+- Volume vs quality: more Shorts per day raise total views, but per-Short views tend to drop. During the 4-per-day sprint, if viewed-vs-swiped or average percentage viewed falls more than 10% below the channel's prior median for 3 days, cut to 2 per day (weekly review applies this).
+- Inauthentic content policy: YouTube does not monetize mass-produced or template-identical content. Keep the variation rule, real research per episode, and distinct gags; never auto-generate near-duplicates.
+- Never: bought views or subs, sub-for-sub, engagement pods, watermarked re-uploads, misleading titles. They risk the channel and break the algorithm's audience model.
+
 ## Weekly targets (derived)
 | Wk | Week of | Shorts | Cons views/wk | Cons subs (cum) | Base views/wk | Base subs (cum) | Opt views/wk | Opt subs (cum) | $ target/wk (cons / base / opt) |
 |---|---|---|---|---|---|---|---|---|---|
