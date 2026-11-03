@@ -68,4 +68,4 @@ Publish before the moment so the Short is already ranking when search interest s
 | 2026-11-03 | A (tape: memphis grizzlies 5000+, NBA night) | Why a basketball bounces (Trend queue, deadline Nov 8) | 6 | | | |
 | 2026-11-02 | A (weather) + B | Why your phone battery dies in the cold (RUSH, deadline Nov 14) | 9 | 008 explainer, draft Wed Nov 4 12:00 ET | | |
 | 2026-11-02 | A (weather) | Why frost forms on your windshield overnight (RUSH, deadline Nov 9) | 8 | | | |
-| 2026-11-02 | A (tape: sam altman ram 1000+) | What RAM actually does (RUSH, deadline Nov 5) | 7 | | | |
+| 2026-11-02 | A (tape: sam altman ram 1000+) | What RAM actually does (RUSH, deadline Nov 5) | 7 | 010 explainer, draft Wed Nov 4 20:00 ET | | |
