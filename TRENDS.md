@@ -62,6 +62,9 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-03 | A (launch: Apple OLED iPad mini, Fri Nov 6) | How an OLED screen shows perfect black (RUSH, deadline Nov 8) | 10 | | | |
+| 2026-11-03 | A (tape: tua tagovailoa 1000+, NFL prime time) | How the quarterback hears the play call in his helmet (RUSH, deadline Nov 9) | 9 | | | |
+| 2026-11-03 | A (tape: memphis grizzlies 5000+, NBA night) | Why a basketball bounces (Trend queue, deadline Nov 8) | 6 | | | |
 | 2026-11-02 | A (weather) + B | Why your phone battery dies in the cold (RUSH, deadline Nov 14) | 9 | 008 explainer, draft Wed Nov 4 12:00 ET | | |
 | 2026-11-02 | A (weather) | Why frost forms on your windshield overnight (RUSH, deadline Nov 9) | 8 | | | |
 | 2026-11-02 | A (tape: sam altman ram 1000+) | What RAM actually does (RUSH, deadline Nov 5) | 7 | | | |
