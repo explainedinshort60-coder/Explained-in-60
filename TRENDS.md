@@ -62,6 +62,8 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-06 | A (launch: first touchscreen MacBook Pros, Fri Nov 6) + cold | Why your touchscreen ignores you when you wear gloves (RUSH, deadline Nov 13) | 9 | | | |
+| 2026-11-06 | A + B (sky: Northern Taurids fireball peak Nov 11 to 12, chart BUY spread 20.6) | Why a shooting star glows (RUSH, publish Nov 9 to 11, deadline Nov 13) | 9 | | | |
 | 2026-11-03 | A (launch: biggest game launch Thu Nov 19, countdown coverage rising) | How a game controller vibrates (RUSH, publish Nov 12 to 19, deadline Nov 22) | 9 | | | |
 | 2026-11-03 | A (launch: Apple OLED iPad mini, Fri Nov 6) | How an OLED screen shows perfect black (RUSH, deadline Nov 8) | 10 | | | |
 | 2026-11-03 | A (tape: tua tagovailoa 1000+, NFL prime time) | How the quarterback hears the play call in his helmet (RUSH, deadline Nov 9) | 9 | | | |
