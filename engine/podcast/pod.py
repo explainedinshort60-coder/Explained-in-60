@@ -32,6 +32,8 @@ def ge(h, name, acc, hold, peak=1.0): GEST[h].append((name, acc, hold, peak))
 def cut(t, shot): SHOT.append((t, shot))
 
 INSCLIP = {}
+STAMPS = []   # (t, text, color, hold_s): e.g. the red WRONG stamp on Blue's myth (week 2 plan)
+SERIES = ''   # series badge text, e.g. 'IS IT REALLY?'
 def ins(t, *keys):
     '''cut to the explainer cutaway at t; keys = (time, source_frame) pairs, piecewise linear'''
     cut(t, 'ins'); INSCLIP[round(t, 4)] = sorted(keys)
@@ -147,6 +149,20 @@ for k in range(len(CAPS)):
     nxt = CAPS[k + 1][0] if k + 1 < len(CAPS) else CAPS[k][1] + 0.12  # last caption clears before the loop restarts
     CAPS[k][1] = min(nxt, CAPS[k][1] + 0.35)
 def esc(t): return t.replace('&', '&amp;').replace('<', '&lt;')
+def overlay(t):
+    out = ''
+    if SERIES:
+        w = 26 * len(SERIES) + 48
+        out += (f'<g transform="translate(55 300)"><rect width="{w}" height="62" rx="31" fill="#071747"/>'
+                f'<text x="{w / 2}" y="42" font-size="34" font-weight="800" fill="#ffd43b" text-anchor="middle" font-family="DejaVu Sans, sans-serif">{esc(SERIES)}</text></g>')
+    for t0, txt, col, hold in STAMPS:
+        if t0 <= t < t0 + hold:
+            u = (t - t0) / 0.22; k = 1.0 if u >= 1 else 1.6 - 0.6 * u * u * (3 - 2 * u)
+            out += (f'<g transform="translate(540 560) rotate(-12) scale({k:.3f})" opacity="{min(1, u * 2):.2f}">'
+                    f'<rect x="-250" y="-82" width="500" height="164" rx="18" fill="none" stroke="{col}" stroke-width="16"/>'
+                    f'<text x="0" y="40" font-size="120" font-weight="900" fill="{col}" text-anchor="middle" font-family="DejaVu Sans, sans-serif" letter-spacing="6">{esc(txt)}</text></g>')
+    return out + caption(t)
+
 def caption(t):
     c = next((c for c in CAPS if c[0] - 0.04 <= t < c[1]), None)
     if not c: return ''
@@ -202,9 +218,9 @@ def frame_payload(f):
         l = line_of(t) or line_of(t0); sp = l['sp'] if l else 'O'
         po = host_opts(sp, t); po.update(gaze=0, tilt=po['tilt'] * 0.5, gw=0, dy=0)
         return 'ins', {'f': sf_, 'T': S['T'], 'cam': S['cam'], 'hl': S['hl'], 'cap': '', 'badge': None, 'pop': S.get('pop'),
-                       'slate': '', 'tc': '', 'extra': caption(t), 'pipo': po, 'pipc': A.B if sp == 'B' else A.O}
+                       'slate': '', 'tc': '', 'extra': overlay(t), 'pipo': po, 'pipc': A.B if sp == 'B' else A.O}
     bg, fg = ST[shot]
-    return 'pod', {'shot': shot, 'k': push_at(t), 'bg': bg, 'fg': fg, 'ov': caption(t), 'B': host_opts('B', t), 'O': host_opts('O', t)}
+    return 'pod', {'shot': shot, 'k': push_at(t), 'bg': bg, 'fg': fg, 'ov': overlay(t), 'B': host_opts('B', t), 'O': host_opts('O', t)}
 
 async def render(outdir, frames):
     from playwright.async_api import async_playwright
