@@ -12,18 +12,28 @@ def groups(words):
         cur.append(words[k]); k += 1
     out.append(cur); return out
 def split(epdir):
-    sys.path.insert(0, epdir); from script import LINES as lines
+    sys.path.insert(0, epdir); import script as SC
+    parts = SC.PARTS if hasattr(SC, 'PARTS') else [SC.LINES]   # long-form: one ElevenLabs take per host per part
+    lines = [l for p in parts for l in p]
     os.makedirs(f'{epdir}/vo_raw', exist_ok=True); res = [None] * len(lines)
+    off = 0
+    for pn, part in enumerate(parts):
+        pre = f'p{pn}' if hasattr(SC, 'PARTS') else ''
+        _split_part(epdir, part, off, pre, lines, res); off += len(part)
+    json.dump(res, open(f'{epdir}/lines.json', 'w'), indent=1)
+    return res
+def _split_part(epdir, part, off, pre, lines, res):
     for sp in 'BO':
-        idx = [i for i, (s, _) in enumerate(lines) if s == sp]
-        W = json.load(open(f'{epdir}/words/{sp}.json'))['words']
+        idx = [off + i for i, (s, _) in enumerate(part) if s == sp]
+        if not idx: continue
+        W = json.load(open(f'{epdir}/words/{pre}{sp}.json'))['words']
         G = [g for g in groups(W) if g]
-        assert len(G) == len(idx), (ep, sp, len(G), len(idx))
-        dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f'{epdir}/raw/{sp}.mp3'], capture_output=True, text=True).stdout)
+        assert len(G) == len(idx), (pre, sp, len(G), len(idx))
+        dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f'{epdir}/raw/{pre}{sp}.mp3'], capture_output=True, text=True).stdout)
         for n, (i, g) in enumerate(zip(idx, G)):
             a = 0.0 if n == 0 else (G[n - 1][-1]['end'] + g[0]['start']) / 2
             b = dur if n == len(G) - 1 else (g[-1]['end'] + G[n + 1][0]['start']) / 2
-            subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', f'{epdir}/raw/{sp}.mp3', '-ss', f'{a:.3f}', '-to', f'{b:.3f}', '-ac', '1', '-ar', str(SR), f'{epdir}/vo_raw/l{i:02d}.wav'], check=True)
+            subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', f'{epdir}/raw/{pre}{sp}.mp3', '-ss', f'{a:.3f}', '-to', f'{b:.3f}', '-ac', '1', '-ar', str(SR), f'{epdir}/vo_raw/l{i:02d}.wav'], check=True)
             ws, inb = [], False
             for w in g:
                 t = w['text']
@@ -32,7 +42,5 @@ def split(epdir):
                 if t.endswith(']'): inb = False
             tags = re.findall(r'\[([^\]]+)\]', lines[i][1])
             res[i] = {'i': i, 'sp': sp, 'text': re.sub(r'\[[^\]]+\]\s*', '', lines[i][1]).strip(), 'tags': tags, 'words': ws}
-    json.dump(res, open(f'{epdir}/lines.json', 'w'), indent=1)
-    return res
 if __name__ == '__main__':
     for l in split(os.path.abspath(sys.argv[1])): print(l['i'], l['sp'], l['tags'], ' '.join(w['w'] for w in l['words']))
