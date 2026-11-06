@@ -62,6 +62,9 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-06 | A (weather: first widespread freeze Nov 7 to 8, NWS freeze warnings; chart WATCH spread 12.3, momentum +12%) | Why your tire pressure light comes on when it gets cold (RUSH, publish Nov 9+, deadline Nov 14) | 10 | | | |
+| 2026-11-06 | A (weather: first widespread freeze Nov 7 to 8, arctic blast next week) | Why you can see your breath when it's cold (RUSH, publish Nov 9+, deadline Nov 15) | 10 | | | |
+| 2026-11-06 | A + B (tape: when is black friday 2026 200+; Black Friday Nov 27) | How a barcode scanner reads the price (RUSH, publish Nov 20 to 26, deadline Nov 30) | 9 | | | |
 | 2026-11-06 | A (launch: first touchscreen MacBook Pros, Fri Nov 6) + cold | Why your touchscreen ignores you when you wear gloves (RUSH, deadline Nov 13) | 9 | | | |
 | 2026-11-06 | A + B (sky: Northern Taurids fireball peak Nov 11 to 12, chart BUY spread 20.6) | Why a shooting star glows (RUSH, publish Nov 9 to 11, deadline Nov 13) | 9 | | | |
 | 2026-11-03 | A (launch: biggest game launch Thu Nov 19, countdown coverage rising) | How a game controller vibrates (RUSH, publish Nov 12 to 19, deadline Nov 22) | 9 | | | |
