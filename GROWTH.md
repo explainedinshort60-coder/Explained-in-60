@@ -14,6 +14,16 @@ Source: research report "Explained in 60 growth plan" (Nov 2026). All targets ar
 - Weeks 1 to 4: 3 Shorts per week (Thu, Fri, Sat 7 PM ET). From week 5 (Nov 30): 5 per week (Tue to Sat 7 PM ET). 7 per week only when the rules below allow it.
 - Long-form test: one 5 to 8 minute original deep dive every two weeks from weeks 9 to 13 (owner approval needed; adds production work).
 
+## Revenue plan (owner target set 2026-11-06: $6,000 per week)
+Honest math at 2026 rates (sources in the chat of 2026-11-06): YouTube Shorts ads about $0.33 per 1,000 US views (about 18M US views a week for $6K); long-form education median RPM about $10 (about 600K long-form views a week); TikTok Creator Rewards $0.40 to $1.00 per 1,000 qualified views but only for videos over 60 s and only after 10K followers; sponsors about $10 to $25 per 1,000 views once an audience exists. Channel today: about 2K views a day, not monetized. From ads alone $6K a week is a 12 to 24 month goal that needs a breakout.
+Revenue stack, in the order it can start paying:
+1. **Production service (fastest path, owner decision pending):** sell Blue and Orange style explainers or a sponsored "explain your product" series to brands; 3 to 4 a week at $1,500 to $2,000 reaches $6K. The channel is the portfolio.
+2. **Sponsors and affiliate:** start outreach once Shorts hold 100K+ views a week with US in the top 3 countries.
+3. **Long-form ads:** the weekly 12-minute episode is the main ad earner (about 30x Shorts per view); Shorts feed it via the Related video link.
+4. **Shorts ads:** after YPP (1K subs + 10M Shorts views in 90 days, stricter from Feb 1, 2027).
+5. **TikTok Creator Rewards:** add 61 s+ TikTok cuts once TikTok passes 5K followers (rewards need 10K followers and 60 s+ videos).
+Every weekly review reports dollars by source against the $6K target.
+
 ## Growth playbook (researched 2026-11-03, ranked by impact for this channel)
 Built from 2026 sources (Metricool 2026 YouTube Study, OverseerOS per-day study, vidIQ, 1of10, YouTube policy pages). Creator-reported benchmarks are not official YouTube numbers; we judge by our own medians.
 

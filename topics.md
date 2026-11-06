@@ -16,6 +16,24 @@ Scripts and ElevenLabs takes are ready in `episodes/<id>/podcast/` (script.py, r
 - [x] 002-clicky-pen podcast: Metricool draft Mon Nov 2 12:00 ET (new upload; the old explainer stays live as its A/B pair)
 - [x] 007-flashlight podcast: Metricool draft Tue Nov 3 20:00 ET (new topic, resumed after the owner allowed elevenlabsusercontent.com)
 
+## Week 2 series queue (Nov 9 to 15 ET, approved plan; take these before the Trend queue)
+Full beats (hook frame, Blue's myth, Orange's payoff, why it matters) are in `plans/week2.md`. Verify every fact while scripting.
+- [ ] Mon Nov 9 A | Is It Really? | Is Turkey Really Why You're Sleepy? 😴
+- [ ] Mon Nov 9 B | You've Been Doing It Wrong | Why You Shouldn't Wash Your Turkey 🦃
+- [ ] Tue Nov 10 A | You've Been Doing It Wrong | How To Open Any Stuck Jar Lid 🫙
+- [ ] Tue Nov 10 B | Is It Really? | Is Dust Really Just Dead Skin? 🤧
+- [ ] Wed Nov 11 A | You've Been Doing It Wrong | Never Plug a Space Heater Into a Power Strip 🔥
+- [ ] Wed Nov 11 B | Inside Your Body | Why Onions Make You Cry (And How To Stop It) 🧅
+- [ ] Thu Nov 12 A | Where Your Money Goes | How Stores Trick You On Black Friday 🛒
+- [ ] Thu Nov 12 B | You've Been Doing It Wrong | Don't Ever Pour Water On A Grease Fire 🔥
+- [ ] Fri Nov 13 A (16:00) | Is It Really? | Is Your Turkey Timer Lying To You? 🦃
+- [ ] Fri Nov 13 B | Inside Your Body | Why Everything Shocks You In Winter ⚡
+- [ ] Sat Nov 14 A | Control (trivia) | Why Does Popcorn Pop but Regular Corn Doesn't? 🍿
+- [ ] Sat Nov 14 B | You've Been Doing It Wrong | Why Is the Bottom of Your Pie Always Soggy? 🥧
+- [ ] Sun Nov 15 A | Is It Really? | Do Squirrels Really Forget Where They Bury Nuts? 🐿️
+- [ ] Sun Nov 15 B | Control (trivia) | Why Does Your Microwave Spin Your Food?
+- [ ] LONG-FORM Sat Nov 14 20:00 ET | We Fixed Thanksgiving Dinner With Science (16:9, 12 min, YouTube only)
+
 ## Trend queue (top = next; every item must carry its trend evidence)
 Owner rule from 2026-11-03: every new episode comes from a live trend signal. No evergreen backlog topics.
 Each item: topic | trend source (Trending now term + traffic, or chart momentum / YouTube momentum, or a rising seasonal search) | date seen | score (TRENDS.md table) | deadline | US-search title.

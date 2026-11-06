@@ -94,5 +94,28 @@
     "assignment": "Days with an even ET date: podcast at 08:00 and 17:00, explainer at 12:00 and 20:00. Odd ET date: swapped. Posts already scheduled count toward their format quota of 2 per day (001 Thu Nov 5 19:00 and 003 Fri Nov 6 19:00 are explainers).",
     "today_2026_11_02": "podcast 17:00 ET (003 zipper podcast remake), explainer 20:00 ET (new topic)",
     "after": "weekly review on Mon Nov 9 compares formats and sets the cadence and mix from then on; until then slots_from applies after Nov 9"
+  },
+  "from_2026_11_09": {
+    "plan": "plans/week2.md (FLSR rebuild, approved 2026-11-06): 4-week test Nov 9 to Dec 6, keep or kill review Dec 7",
+    "format": "podcast only (Blue and Orange), 40 s default; week 2 also tests a 15 to 20 s cut on 4 matched topics",
+    "per_day": 2,
+    "slots_et": {
+      "A": "12:00 (Fri 16:00; week 2 tests 18:00)",
+      "B": "20:00"
+    },
+    "long_form": "one 12-minute 16:9 episode per week, Saturday slot B (20:00 ET), YouTube only; first: We Fixed Thanksgiving Dinner With Science, Sat Nov 14",
+    "series": [
+      "Is It Really?",
+      "You've Been Doing It Wrong",
+      "Inside Your Body",
+      "Where Your Money Goes"
+    ],
+    "topic_mix": "about 70% stake topics, at most 30% trivia controls; stakes = your body, your money, a danger in a normal day, a myth Americans hold; every topic checked in US Google Trends",
+    "explainer_format": "retired after the Nov 9 review unless the A/B data clearly favors it"
+  },
+  "revenue_target": {
+    "weekly_usd": 6000,
+    "set": "2026-11-06 by the owner",
+    "note": "see GROWTH.md Revenue plan"
   }
 }

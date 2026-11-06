@@ -6,6 +6,26 @@ Read this whole file before starting. **The benchmark is the approved flush podc
 **Launch sprint (Nov 2 to 9, 2026):** 4 Shorts per day, 2 in this podcast format and 2 in the explainer format (`RUNBOOK_EXPLAINER.md`). Use the sprint slots and assignment in `config.json` (`sprint`) instead of `slots`. Log every episode in topics.md with `format: podcast` or `format: explainer`; the Nov 9 weekly review compares them.
 
 ## The show
+
+**From Nov 9, 2026 (approved week 2 plan, `plans/week2.md`): this section overrides the older structure table below.**
+- **40-second structure:**
+
+| Time | Beat |
+|---|---|
+| 0:00 to 0:02 | Hook: the stake on screen (danger, mistake, price tag, body moment) plus the claim or question as big text and the series badge. Never the desk. |
+| 0:02 to 0:04 | Blue states the myth Americans really hold, with total confidence. Red **WRONG** stamp lands as he says it (`STAMPS.append((W(i,k), 'WRONG', '#e8273a', 1.6))`). |
+| 0:04 to 0:05 | Orange: "Nope." Cut straight to the cutaway. |
+| 0:05 to 0:20 | Payoff: the real mechanism in the cutaway, the "OH!" lands by 0:20. |
+| 0:20 to 0:34 | Why it matters to you: the fix, counter-move or risk; one thing the viewer can use today. Blue tries it. |
+| 0:34 to 0:40 | Loop line back to the opening frame plus a one-line tease. |
+
+- **Series:** every episode belongs to one series, shown as a badge (`SERIES = 'IS IT REALLY?'` in cues.py): Is It Really?, You've Been Doing It Wrong, Inside Your Body, Where Your Money Goes. Reserve: What If Blue...?
+- **Titles:** one of five frames, ending with one reaction emoji: "Why [weird everyday thing]", "How To [fix your annoyance]", "Is [claim] Really True?", "What If You [extreme change]?", "How [store or system] Uses Your [money or body]".
+- **US settings:** $, °F, Thanksgiving, the backyard, US brands of habit. Facts on food, fire or health are checked against USDA, CDC, NFPA, CPSC or FTC; gross content stays mild and never graphic; dangers are shown as flat diagrams, never as a how-to.
+- **Topic mix:** about 70% stake topics, at most 30% trivia controls. Never repeat a topic. Every topic checked in US Google Trends.
+- **Related video:** every Short links to the current week's long-form episode.
+- **Cadence:** 2 Shorts a day (slot A 12:00 ET, Fridays 16:00; slot B 20:00 ET) plus the Saturday long-form.
+
 - 55 to 60 second vertical (1080x1920, 24 fps) **two-host podcast** loop. Audience: United States, general (not made for kids).
 - Each episode answers ONE everyday question about an object people use daily, by showing its hidden mechanism.
 - **Hosts** (vector characters from the production pack's latest design sheets, `engine/podcast/faces4.js` + `anim4.js`). Cute first, funny through acting.
