@@ -126,6 +126,7 @@ Read: too early for a format verdict (3 podcasts, 2 explainers, different ages).
 | 2026-11-06 | LF01 Thanksgiving long-form (16:9, 9:19) | about 11,768 ElevenLabs credits (about $1.93 at the listed rate) | 12 eleven_v4 speech takes, one take per host per chapter (owner chose option 2), 12 Scribe transcriptions (about 550 credits). No regeneration. ffmpeg, Chromium, GitHub, Metricool free. No Higgsfield. |
 | 2026-11-06 | Episode 011 OLED black (podcast) | about 1,374 ElevenLabs credits (about $0.23 at the listed rate) | 2 eleven_v4 speech takes, one take per host (Blue 515 credits, Orange 859 credits) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration. ffmpeg, Chromium, GitHub, Metricool free. No Higgsfield. |
 | 2026-11-06 | Episode 012 QB helmet (explainer) | $0 | Kokoro voice, ffmpeg, Chromium, SFX from the existing library (4 already-paid library MP3s converted to WAV, no new generation), GitHub, Metricool free. No Higgsfield, no ElevenLabs calls, no paid service. |
+| 2026-11-06 | Episode 013 gift card draining (podcast) | about 1,416 ElevenLabs credits (about $0.23 at the listed rate) | 2 eleven_v4 speech takes, one take per host (Blue 468 credits, Orange 948 credits) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration. ffmpeg, Chromium, GitHub, Metricool free. No Higgsfield. |
 
 ## Weekly reviews (newest first)
 ### 2026-11-02 (Mon) | Week 1, day 1 (launch-day baseline)
