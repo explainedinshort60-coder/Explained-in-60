@@ -114,6 +114,7 @@ Read: too early for a format verdict (3 podcasts, 2 explainers, different ages).
 | 2026-11-02 | Episode 008 cold battery (explainer) | $0 | Kokoro voice, ffmpeg, Chromium, SFX from the existing library (no new generation), GitHub, Metricool free. No Higgsfield, no ElevenLabs calls, no paid service. |
 | 2026-11-03 | Episode 010 RAM (explainer) | $0 | Kokoro voice, ffmpeg, Chromium, SFX from the existing library (no new generation), GitHub, Metricool free. No Higgsfield, no ElevenLabs calls, no paid service. |
 | 2026-11-06 | Episode 011 OLED black (podcast) | about 1,374 ElevenLabs credits (about $0.23 at the listed rate) | 2 eleven_v4 speech takes, one take per host (Blue 515 credits, Orange 859 credits) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration. ffmpeg, Chromium, GitHub, Metricool free. No Higgsfield. |
+| 2026-11-06 | Episode 012 QB helmet (explainer) | $0 | Kokoro voice, ffmpeg, Chromium, SFX from the existing library (4 already-paid library MP3s converted to WAV, no new generation), GitHub, Metricool free. No Higgsfield, no ElevenLabs calls, no paid service. |
 
 ## Weekly reviews (newest first)
 ### 2026-11-02 (Mon) | Week 1, day 1 (launch-day baseline)
