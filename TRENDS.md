@@ -62,6 +62,9 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-06 | B (stake pipeline: arctic blast next week, Jan peak 5.46; chart BLOCKED twice) | Is It Really? Do Frozen Pipes Really Burst Because the Ice Cracks Them? (Stake pipeline, Jan 2 to 20 or first Southern hard freeze) | 9 | | | |
+| 2026-11-06 | B (stake pipeline: Thanksgiving Nov 26 season peak; chart BLOCKED twice) | Is It Really? Is It Really Safe to Cook the Stuffing Inside the Turkey? (Stake pipeline, publish Nov 23 to 25) | 8 | | | |
+| 2026-11-06 | B (stake pipeline: arctic blast + holiday party season) | Inside Your Body: Does a Drink Really Warm You Up? (Stake pipeline, publish Dec 1 to 31) | 7 | | | |
 | 2026-11-06 | A (weather: arctic blast, multiple waves of dangerous cold next week; first freeze weekend) | Is It Really? Do You Really Lose Most of Your Heat Through Your Head? (RUSH, publish Nov 9+, deadline Nov 15) | 10 | | | |
 | 2026-11-06 | A (news: state AGs holiday gift-card scam warning blitz; tape when is black friday 2026 200+) | Where Your Money Goes: How Scammers Drain a Gift Card Before You Buy It (Trend queue, deadline Dec 24) | 8 | | | |
 | 2026-11-06 | A (chart: carbon monoxide detector momentum +9%, season lift 1.09; freeze weekend) | Inside Your Body: Why You Can't Smell Carbon Monoxide (Trend queue, publish Nov 9+, deadline Nov 22) | 8 | | | |
