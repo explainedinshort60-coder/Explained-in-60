@@ -24,8 +24,8 @@ for i, l in enumerate(LJ):
 GAP[0] = 0.16
 for k, v in CFG.get('gap', {}).items(): GAP[int(k)] = v
 MAX_PAUSE, KEEP_PAUSE = 0.24, 0.16
-TEMPO = 1.10
-TEMPO_LINE = {l['i']: 1.16 for l in LJ if l['sp'] == 'O' and len(l['words']) >= 9}
+TEMPO = CFG.get('base', 1.10)  # long-form: vocfg {"base": 1.0, "long": 1.04}
+TEMPO_LINE = {l['i']: CFG.get('long', 1.16) for l in LJ if l['sp'] == 'O' and len(l['words']) >= 9}
 for k, v in CFG.get('tempo', {}).items(): TEMPO_LINE[int(k)] = v
 
 def load(i):

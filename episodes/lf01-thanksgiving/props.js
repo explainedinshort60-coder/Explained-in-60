@@ -232,30 +232,31 @@ function sCR(T,f,A){
   for(let i=1;i<5;i++)s+=`<line x1="-128" y1="${-300+i*60}" x2="128" y2="${-300+i*60}" stroke="#8f0a2a" stroke-width="6"/>`;
   s+=`<rect x="-96" y="-280" width="30" height="220" rx="15" fill="#ffffff" opacity=".35"/></g>`;
   const p=T.pectin||0;
-  if(p>0.01){const ix=X+330,iy=230;s+=`<g opacity="${p}"><circle cx="${ix}" cy="${iy}" r="150" fill="${NAVY}"/><circle cx="${ix}" cy="${iy}" r="140" fill="#ffe6ec"/>`;
+  if(p>0.01){const ix=X+250,iy=230;s+=`<g opacity="${p}"><circle cx="${ix}" cy="${iy}" r="150" fill="${NAVY}"/><circle cx="${ix}" cy="${iy}" r="140" fill="#ffe6ec"/>`;
     for(let i=0;i<7;i++){let d=`M${ix-140} ${iy-120+i*40}`;for(let j=1;j<=7;j++)d+=` Q${ix-140+j*40-20} ${iy-120+i*40+(j%2?24:-24)} ${ix-140+j*40} ${iy-120+i*40}`;s+=`<path d="${d}" fill="none" stroke="${CRAN}" stroke-width="8"/>`;}
     s+=txt(ix,iy+200,'PECTIN',44)+`</g>`;}
-  A.jelly={x:X,y:440};A.pectin={x:X+330,y:230};
+  A.jelly={x:X,y:440};A.pectin={x:X+250,y:230};
   return s;
 }
 // ---------------- the crash ----------------
 function sCX(T,f,A){
   const X=17000;let s=`<rect x="16300" y="-1400" width="1400" height="2800" fill="#efe8ff"/>`;
-  const pl=T.pile||0;
-  s+=plate(X-150,610,300);
+  const pl=T.pile||0, dim=1-0.75*(T.gate||0);
+  s+=`<g opacity="${dim}">`+plate(X-150,610,300);
   const items=[[POT,0],[GRAVY,1],[GOLD,2],[CRAN,3],[CRUST,4],['#7cb342',5],[PUMP,6],[POT,7]];
   for(const [c,i] of items){const v=cl(pl*8-i,0,1);if(v<0.01)continue;const y=570-i*48*v;s+=`<ellipse cx="${X-150+((i*29)%40-20)}" cy="${y}" rx="${190-i*16}" ry="38" fill="${c}" stroke="${NAVY}" stroke-width="6"/>`;}
+  s+=`</g>`;
   const cal=Math.round(T.cal||0);
-  if((T.calo||0)>0.01)s+=`<g opacity="${T.calo}"><rect x="${X+150}" y="120" width="330" height="130" rx="24" fill="${NAVY}"/><text x="${X+315}" y="214" font-size="72" font-weight="900" fill="${WARM2}" text-anchor="middle" ${F2}>${cal.toLocaleString('en-US')}</text>${txt(X+315,300,'CALORIES',40)}</g>`;
+  if((T.calo||0)>0.01)s+=`<g opacity="${T.calo}"><rect x="${X+110}" y="120" width="320" height="130" rx="24" fill="${NAVY}"/><text x="${X+270}" y="214" font-size="72" font-weight="900" fill="${WARM2}" text-anchor="middle" ${F2}>${cal.toLocaleString('en-US')}</text>${txt(X+270,300,'CALORIES',40)}</g>`;
   s+=zz(X-60,200,f,T.zzz||0);
   const inn=T.innocent||0;
   if(inn>0.01){s+=`<g opacity="${inn}" transform="translate(${X+300} 520) scale(.42)">`+bird(0,0,T,f,{})+`</g>`+
     `<g opacity="${inn}"><rect x="${X+160}" y="320" width="290" height="80" rx="14" fill="${IVORY}" stroke="${NAVY}" stroke-width="6"/><text x="${X+305}" y="374" font-size="40" font-weight="900" fill="#2aa84a" text-anchor="middle" ${F2}>INNOCENT</text></g>`;}
   const ga=T.gate||0;
-  if(ga>0.01){const gx=X+240,gy=560;s+=`<g opacity="${ga}"><rect x="${gx+130}" y="${gy-150}" width="40" height="190" fill="${NAVY}"/>${txt(gx+150,gy-170,'BRAIN',40)}`;
+  if(ga>0.01){const gx=X+150,gy=560;s+=`<g opacity="${ga}"><rect x="${gx+130}" y="${gy-150}" width="40" height="190" fill="${NAVY}"/>${txt(gx+150,gy-170,'BRAIN',40)}`;
     for(let i=0;i<9;i++){const x=gx-180+i*36+Math.sin(f/6+i)*4, tr=i==1;s+=`<circle cx="${x}" cy="${gy-30-(i%2)*44}" r="${tr?24:20}" fill="${tr?PUMP:'#9aa3bd'}" stroke="${NAVY}" stroke-width="4"/>`;}
     s+=txt(gx-140,gy+60,'TRYPTOPHAN',30,PUMP)+`</g>`;}
-  A.plate={x:X-150,y:500};A.counter={x:X+315,y:180};A.gate={x:X+380,y:470};
+  A.plate={x:X-150,y:500};A.counter={x:X+270,y:180};A.gate={x:X+290,y:470};
   return s;
 }
 window.PROPS={

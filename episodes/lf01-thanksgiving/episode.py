@@ -69,8 +69,10 @@ def T(f):
     return t
 def cam(f):
     s = scene(f); a = dict(SCENES)
-    base = {'TK': (600, 600, 1150), 'TM': (3000, 580, 1080), 'TH': (5000, 560, 1080), 'ST': (7000, 580, 1080),
-            'PI': (9000, 520, 1000), 'GR': (11000, 520, 1000), 'PO': (13000, 560, 1080), 'CR': (15000, 560, 1080), 'CX': (17000, 560, 1080)}[s]
+    ctr = {'TK': (600, 410), 'TM': (3000, 420), 'TH': (5000, 430), 'ST': (7000, 440), 'PI': (9000, 380),
+           'GR': (11000, 380), 'PO': (13000, 390), 'CR': (15000, 420), 'CX': (17000, 400)}[s]
+    w0 = 920
+    base = (ctr[0], ctr[1] + 0.167 * w0, w0)  # vertical frame: visible center sits 0.167 w above cy
     start = max(k for k, v in SCENES if v == s and k <= f)
     nxt = min([k for k, _ in SCENES if k > f] + [N])
     u = (f - start) / max(1, nxt - start)

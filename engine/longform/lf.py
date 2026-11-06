@@ -220,7 +220,7 @@ JS_INS = '''(S)=>{window.PROPS=window.PR[S.src]; drawFrame(S);
  const st=document.querySelector('#stage'); const inner=st.innerHTML;
  st.innerHTML=`<div style="position:absolute;left:0;top:0;width:1920px;height:1080px;background:#fffdf4"></div>
   <div style="position:absolute;left:150px;top:24px;width:1040px;height:930px;border-radius:36px;overflow:hidden;border:7px solid #071747;background:#fffdf4">
-   <div style="position:absolute;left:0;top:0;width:1080px;height:1920px;transform-origin:0 0;transform:translate(520px,470px) scale(0.72) translate(-540px,-780px)">${inner}</div></div>`;
+   <div style="position:absolute;left:0;top:0;width:1080px;height:1920px;transform-origin:0 0;transform:translate(520px,465px) scale(0.963) translate(-540px,-780px)">${inner}</div></div>`;
  const host=`<g transform="translate(1530 640) scale(1.25)">${Act4.frame(RIG,S.pipo)}</g>`;
  st.insertAdjacentHTML('beforeend',`<svg width="1920" height="1080" style="position:absolute;left:0;top:0"><path d="M 1240 1080 L 1240 905 Q 1240 885 1260 885 L 1900 885 Q 1920 885 1920 905 L 1920 1080 Z" fill="#e8c9a4" stroke="#071747" stroke-width="6"/>${host}${S.extra}</svg>`)}'''
 DESK = ('<defs><linearGradient id="dk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9b386"/><stop offset="1" stop-color="#c99d6e"/></linearGradient>'
