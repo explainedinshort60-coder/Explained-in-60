@@ -62,6 +62,11 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-06 | A (weather: arctic blast, multiple waves of dangerous cold next week; first freeze weekend) | Is It Really? Do You Really Lose Most of Your Heat Through Your Head? (RUSH, publish Nov 9+, deadline Nov 15) | 10 | | | |
+| 2026-11-06 | A (news: state AGs holiday gift-card scam warning blitz; tape when is black friday 2026 200+) | Where Your Money Goes: How Scammers Drain a Gift Card Before You Buy It (Trend queue, deadline Dec 24) | 8 | | | |
+| 2026-11-06 | A (chart: carbon monoxide detector momentum +9%, season lift 1.09; freeze weekend) | Inside Your Body: Why You Can't Smell Carbon Monoxide (Trend queue, publish Nov 9+, deadline Nov 22) | 8 | | | |
+| 2026-11-06 | A (weather: first freeze weekend + arctic blast) | Inside Your Body: Why Your Nose Runs When It's Cold (Trend queue, publish Nov 9+, deadline Nov 22) | 9 | | | |
+| 2026-11-06 | B (stake pipeline started: 12 candidates across 4 series; chart how to thaw a turkey season lift 3.19) | Stake pipeline in topics.md for weeks 3 and 4 | | | | |
 | 2026-11-06 | A (weather: first widespread freeze Nov 7 to 8, NWS freeze warnings; chart WATCH spread 12.3, momentum +12%) | Why your tire pressure light comes on when it gets cold (RUSH, publish Nov 9+, deadline Nov 14) | 10 | | | |
 | 2026-11-06 | A (weather: first widespread freeze Nov 7 to 8, arctic blast next week) | Why you can see your breath when it's cold (RUSH, publish Nov 9+, deadline Nov 15) | 10 | | | |
 | 2026-11-06 | A + B (tape: when is black friday 2026 200+; Black Friday Nov 27) | How a barcode scanner reads the price (RUSH, publish Nov 20 to 26, deadline Nov 30) | 9 | | | |
