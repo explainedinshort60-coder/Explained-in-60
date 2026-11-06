@@ -1,0 +1,23 @@
+# 011 OLED perfect black: research
+
+Question: why does an OLED screen show perfect black when a regular LCD TV shows dark gray?
+
+Demand: RUSH from the trend scout 2026-11-03 (score 10: mechanism 2, US scale 2, freshness 2, shelf life 2, safety 2). Trend: Apple's OLED iPad mini launches Fri Nov 6 with four more products (MacRumors 2026-11-02 "Apple Launching Five New Products This Friday"; MacRumors 2026-11-05 "Apple Launching Five New Products Tomorrow"; Mobile Masr "Apple announces OLED iPad mini, pre-orders start October 28"). Chart: oled demand 68.7, momentum +3%, season lift 1.69, season peak Nov 23 (Black Friday TV shopping), supply 65, spread 3.7 PASS, so the narrow "perfect black" angle is used. Category: Gadgets. Never named or shown: the brand, its logo or its product names; the script says only "the new tablet". Related episode: 010-ram.
+
+## Claims and sources
+| Claim in the script | Source |
+|---|---|
+| Every OLED pixel makes its own light (a tiny lamp); there is no backlight | BenQ, "OLED monitor" (2023-03-10): "each pixel is self-lit, and therefore there's no central light source needed, as is the case with LCDs of all types". https://www.benq.eu/en-uk/knowledge-center/knowledge/oled-monitor.html ; Engadget, "Should you still worry about OLED burn-in in 2026?": "OLED screens also don't use an extra light source, such as a backlight, for illumination. Instead, each pixel self illuminates". https://www.engadget.com/2203219/oled-burn-in-risks-explained/ ; Avantama: OLEDs "are self-emissive, using no back- nor edge-lighting". https://avantama.com/oled-devices-contrast-ratios |
+| The O is organic: a layer that glows when powered | BenQ: "OLEDs use an organic compound to create the electroluminescent layer which emits light"; "The term stands for 'organic light emitting diode'". Ossila: pixels are "made of organic compounds that emit light when electricity passes through them". https://www.ossila.com/pages/oled-burn-in |
+| For black, the pixel simply switches off | Avantama: "the light output of each individual pixel can be switched off, which leads to true black representation on-screen"; BenQ: "pixels can turn off completely, resulting in perfect blacks"; Engadget: each pixel "shuts down when not displaying color". |
+| An LCD has one light behind the whole screen that is always on | BenQ: "The light source is always on, affecting the entire panel with light bleed." |
+| Liquid crystals twist between filters to block or pass that light | Brock University Physics, "LCDs and polarized light": "its polarization is twisted by the liquid crystal so that when it reaches the second polarized glass plate, it is blocked (dark)"; "A voltage applied ... untwists the stack ... and so the light gets through". https://www.physics.brocku.ca/Courses/1P22_Kaur/LightOptics/lcd.php |
+| The block leaks, so LCD black is really dark gray | Avantama: "light ... can still bleed over, causing blacks to look grey"; BenQ: "No more murky dark grey instead of black, as happens with LCD." |
+| Leave the same image up for ages and those lamps wear unevenly: burn-in, a faint ghost | Engadget: static content for long periods "causes the pixels to wear down unevenly. Image retention is the ghostly remnant of this uneven degradation"; "burn-in won't likely occur after just a few hours." BenQ: "the individual pixel control of OLEDs leaves them more vulnerable to image retention." |
+
+Simplifications: "tiny blinds" is our analogy for the twist-and-filter block (Brock describes the mechanism, not the word). "Lamps" for self-emitting pixels. No RGB subpixel claim and no battery-saving claim (not found in the sources read). "For ages" keeps Engadget's point that a few hours is not enough. "Regular LCD TV" (not every TV) is the comparison.
+
+## References for the drawing (ATM)
+Amati: macro photos of display pixel grids (stripes of colored dots under a loupe), exploded-layer diagrams of an LCD (backlight, polarizer, liquid crystal, color filter, polarizer) and of an OLED (single emissive layer), side-by-side "black level in a dark room" product photos (OLED black merges with the room, LCD black glows gray), burn-in photos (a faint ghost of a static bar).
+Tiru: LCD stack order back to front: backlight panel, filter, twisting crystal rods, filter. OLED: a grid of self-lit cells, each on or off.
+Modifikasi: show palette (navy lines, ivory, cobalt), a dark-room scene with two screens, a magnifier zoom into a pixel grid, lamps drawn as small round bulbs with glow, crystal rods as small ivory pills that rotate like blinds, leaked light as a soft gray-blue haze, a faint ghost bar for burn-in.

@@ -1,0 +1,23 @@
+"""Podcast script, episode 011 (Blue asks and roasts, Orange explains deadpan). ElevenLabs v4 audio tags inline."""
+LINES = [
+ ('B', "[curious] Why is this black blacker than my TV?"),
+ ('O', "[deadpan] Because it's not showing black. It's showing nothing."),
+ ('B', '[sarcastic] Deep. Put that on a mug.'),
+ ('O', '[sighs] Every dot on that new tablet is its own tiny lamp.'),
+ ('O', "The O is for organic. A thin layer that glows when powered."),
+ ('B', '[curious] So my screen is a stadium full of phone flashlights?'),
+ ('O', '[deadpan] Sure. And for black, those lamps just switch off.'),
+ ('B', '[gasps] Hold up. Black is just the lights being off?'),
+ ('O', "Yep. A regular LCD TV can't do that."),
+ ('O', 'One big light sits behind the whole screen, always on.'),
+ ('O', 'Liquid crystals twist like tiny blinds to block it.'),
+ ('O', 'But blinds leak. So your black is really dark gray.'),
+ ('B', "[laughs] So my TV's been gaslighting me in gray."),
+ ('O', '[deadpan] Your TV is a night light with ambition.'),
+ ('B', "[suspicious] So what's the catch with the lamp one?"),
+ ('O', 'Leave one image up for ages and those lamps wear unevenly.'),
+ ('O', "That's burn-in. A faint ghost that sticks around."),
+ ('B', '[gasps] A haunted screen? Sick.'),
+ ('O', '[sighs] Not sick. And now you know.'),
+ ('B', '[curious] Wait. Then explain this one...'),
+]
