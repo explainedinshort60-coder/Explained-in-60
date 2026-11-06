@@ -153,7 +153,7 @@ def overlay(t):
     out = ''
     if SERIES:
         w = 26 * len(SERIES) + 48
-        out += (f'<g transform="translate(55 300)"><rect width="{w}" height="62" rx="31" fill="#071747"/>'
+        out += (f'<g transform="translate(55 344)"><rect width="{w}" height="62" rx="31" fill="#071747"/>'
                 f'<text x="{w / 2}" y="42" font-size="34" font-weight="800" fill="#ffd43b" text-anchor="middle" font-family="DejaVu Sans, sans-serif">{esc(SERIES)}</text></g>')
     for t0, txt, col, hold in STAMPS:
         if t0 <= t < t0 + hold:
