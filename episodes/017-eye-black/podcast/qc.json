@@ -1,0 +1,12 @@
+{
+ "frames": 1395,
+ "dur": 58.125,
+ "seam_mean_diff": 1.69,
+ "seam_ok": true,
+ "lufs": -14.0,
+ "peak_dbfs": -1.5,
+ "audio_ok": true,
+ "dur_ok": true,
+ "hook_first_frame_ok": true,
+ "missing_frames": []
+}
