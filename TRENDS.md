@@ -62,6 +62,7 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-07 | A + B (chart frostbite BUY spread 39.4, momentum +75%; arctic blast record cold for 100M+ next week) | Inside Your Body: Why Your Fingers and Toes Freeze First (RUSH, publish Nov 9 to 13, deadline Nov 15) | 9 | | | |
 | 2026-11-06 | B (stake pipeline: arctic blast next week, Jan peak 5.46; chart BLOCKED twice) | Is It Really? Do Frozen Pipes Really Burst Because the Ice Cracks Them? (Stake pipeline, Jan 2 to 20 or first Southern hard freeze) | 9 | | | |
 | 2026-11-06 | B (stake pipeline: Thanksgiving Nov 26 season peak; chart BLOCKED twice) | Is It Really? Is It Really Safe to Cook the Stuffing Inside the Turkey? (Stake pipeline, publish Nov 23 to 25) | 8 | | | |
 | 2026-11-06 | B (stake pipeline: arctic blast + holiday party season) | Inside Your Body: Does a Drink Really Warm You Up? (Stake pipeline, publish Dec 1 to 31) | 7 | | | |
