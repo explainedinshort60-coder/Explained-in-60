@@ -62,6 +62,7 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-07 | A (producer self-scout: college football Saturday tape, clemson vs syracuse 1000+, florida state vs boston college 500+) | Is It Really? Does Eye Black Actually Work? (017 podcast, Sat Nov 7 20:00 ET) | 9 | Nov 7 | | |
 | 2026-11-07 | B (stake pipeline: chart space heater BUY spread 56.5, momentum +150%, peak Dec 1; arctic blast) | You've Been Doing It Wrong: Never Heat Your House With the Oven (Stake pipeline, Nov 16 to Dec 1) | 9 | | | |
 | 2026-11-07 | B (stake pipeline: chart black friday deals BUY spread 23.9, momentum +225%, peak Nov 25) | Where Your Money Goes: That Black Friday Deal Site Might Be Fake (Stake pipeline, Nov 18 to 27) | 8 | | | |
 | 2026-11-07 | B (stake pipeline: CPSC male-to-male cord warning, outage season; chart BLOCKED twice) | You've Been Doing It Wrong: Never Plug a Generator Into Your Wall Outlet (Stake pipeline, first big winter storm outage) | 8 | | | |
