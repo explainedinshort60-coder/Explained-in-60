@@ -62,6 +62,8 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-07 | B (stake pipeline: chart space heater BUY spread 56.5, momentum +150%, peak Dec 1; arctic blast) | You've Been Doing It Wrong: Never Heat Your House With the Oven (Stake pipeline, Nov 16 to Dec 1) | 9 | | | |
+| 2026-11-07 | B (stake pipeline: chart black friday deals BUY spread 23.9, momentum +225%, peak Nov 25) | Where Your Money Goes: That Black Friday Deal Site Might Be Fake (Stake pipeline, Nov 18 to 27) | 8 | | | |
 | 2026-11-07 | B (stake pipeline: CPSC male-to-male cord warning, outage season; chart BLOCKED twice) | You've Been Doing It Wrong: Never Plug a Generator Into Your Wall Outlet (Stake pipeline, first big winter storm outage) | 8 | | | |
 | 2026-11-07 | A + B (stake pipeline: tape freeze warning 5000+, arctic blast; chart BLOCKED twice) | You've Been Doing It Wrong: Never Pour Hot Water on a Frozen Windshield (Stake pipeline, Nov 16 to Jan 31) | 8 | | | |
 | 2026-11-07 | A + B (chart frostbite BUY spread 39.4, momentum +75%; arctic blast record cold for 100M+ next week) | Inside Your Body: Why Your Fingers and Toes Freeze First (RUSH, publish Nov 9 to 13, deadline Nov 15) | 9 | | | |
