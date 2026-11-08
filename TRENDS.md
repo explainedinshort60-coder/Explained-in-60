@@ -62,6 +62,7 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-08 | A (weather: AccuWeather nearly 150 million below freezing this week; chart warm up car PASS spread -17.2, season lift 1.50, peak Dec 1) | Is It Really? Do You Really Need to Warm Up Your Car? (Trend queue, Nov 9 to Dec 1) | 9 | | | |
 | 2026-11-07 | B (stake pipeline: chart thermostat BUY spread 24.7, momentum +12%, peak Dec 1; arctic blast) | Where Your Money Goes: Does Cranking the Thermostat Heat Your House Faster? (Stake pipeline, Nov 16 to Dec 1) | 8 | | | |
 | 2026-11-07 | B (stake pipeline: chart ice melt WATCH spread 17.7, momentum +14%, peak Dec 1; first snows Great Lakes and Northeast) | Is It Really? Does Rock Salt Really Melt Ice When It's Super Cold? (Stake pipeline, Nov 23 to Dec 10) | 8 | | | |
 | 2026-11-07 | A + B (producer self-scout: chart thermostat BUY spread 24.7, momentum +12%, peak Dec 1; first furnace weekend, arctic blast; tape thin) | How Does a Thermostat Know When to Turn On? (018 explainer, Sun Nov 8 12:00 ET) | 9 | Nov 8 | | |
