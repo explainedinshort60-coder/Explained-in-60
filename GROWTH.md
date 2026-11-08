@@ -132,6 +132,7 @@ Read: too early for a format verdict (3 podcasts, 2 explainers, different ages).
 | 2026-11-07 | Episode 016 shooting star (explainer) | $0 | Kokoro voice, ffmpeg, Chromium, SFX from the existing library (no new generation), GitHub, Metricool free. No Higgsfield, no ElevenLabs calls, no paid service. |
 | 2026-11-07 | Episode 017 eye black (podcast) | about 1,412 ElevenLabs credits (about $0.23 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 442 credits, Orange 970 credits) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration, no Higgsfield, no other paid service. |
 | 2026-11-07 | Episode 018 thermostat (explainer) | $0 | Kokoro voice, ffmpeg, Chromium, SFX from the existing library (2 already-paid library MP3s converted to WAV, no new generation), GitHub, Metricool free. No Higgsfield, no ElevenLabs calls, no paid service. |
+| 2026-11-08 | Episode 019 breath (podcast) | about 1,445 ElevenLabs credits (about $0.24 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 542 credits, Orange 903 credits) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration, no Higgsfield, no other paid service. |
 
 ## Weekly reviews (newest first)
 ### 2026-11-02 (Mon) | Week 1, day 1 (launch-day baseline)
