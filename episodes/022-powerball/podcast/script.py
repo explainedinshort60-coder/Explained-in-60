@@ -1,0 +1,21 @@
+"""Podcast script, episode 022 powerball. Series: Where Your Money Goes. ElevenLabs v4 tags inline."""
+LINES = [
+ ('B', "[excited] The Powerball winner gets eight hundred forty-seven million dollars!"),
+ ('O', "[deadpan] Nope. Not even close."),
+ ('B', "[offended] It's literally on the giant check."),
+ ('O', "That number is the annuity. Thirty payments over twenty-nine years."),
+ ('O', "One now, then one every year. Each one about five percent bigger than the last."),
+ ('B', "[gasps] So they get paid until they're ancient?"),
+ ('O', "[dry] Or they take the cash. Today. Three hundred sixty-three million."),
+ ('B', "[shocked] Wait. Where did the other half go?"),
+ ('O', "It was never there. Three sixty-three is the money actually in the pot right now."),
+ ('O', "Invest that for twenty-nine years, and it grows into the eight forty-seven. That's the ad number."),
+ ('B', "[sarcastic] So the giant check is just a vibe."),
+ ('O', "[deadpan] Then the IRS takes twenty-four percent off the top, before the winner sees a dime."),
+ ('B', "[whispering] The IRS won the lottery too."),
+ ('O', "And more at tax time. The top federal rate is thirty-seven percent."),
+ ('O', "And the odds of hitting that jackpot? One in two hundred ninety-two million."),
+ ('B', "[laughs] Cool, so it's basically mine."),
+ ('O', "[sighs] Sure it is. And now you know."),
+ ('B', "[confident] Still. Eight forty-seven million, baby."),
+]
