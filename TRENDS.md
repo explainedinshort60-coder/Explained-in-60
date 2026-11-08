@@ -62,6 +62,7 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-08 | A (producer self-scout: arctic blast, AccuWeather nearly 150 million below freezing this week; tape thin; chart hand warmers BLOCKED) | How Do Hand Warmers Get Hot? (020 explainer, Sun Nov 8 20:00 ET) | 9 | Nov 8 | | |
 | 2026-11-08 | B (stake pipeline: chart pumpkin pie BUY spread 60.1, momentum +74%, season lift 3.08, peak Nov 25; Thanksgiving Nov 26) | Is It Really? Is It Safe to Leave Pumpkin Pie Out Overnight? (Stake pipeline, Nov 20 to 25) | 8 | | | |
 | 2026-11-08 | A (weather: AccuWeather nearly 150 million below freezing this week; chart warm up car PASS spread -17.2, season lift 1.50, peak Dec 1) | Is It Really? Do You Really Need to Warm Up Your Car? (Trend queue, Nov 9 to Dec 1) | 9 | | | |
 | 2026-11-07 | B (stake pipeline: chart thermostat BUY spread 24.7, momentum +12%, peak Dec 1; arctic blast) | Where Your Money Goes: Does Cranking the Thermostat Heat Your House Faster? (Stake pipeline, Nov 16 to Dec 1) | 8 | | | |
