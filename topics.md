@@ -28,7 +28,7 @@ Scripts and ElevenLabs takes are ready in `episodes/<id>/podcast/` (script.py, r
 ## Week 2 series queue (Nov 9 to 15 ET, approved plan; take these before the Trend queue)
 Full beats (hook frame, Blue's myth, Orange's payoff, why it matters) are in `plans/week2.md`. Verify every fact while scripting.
 - [ ] Mon Nov 9 A | Is It Really? | Is Turkey Really Why You're Sleepy? 😴
-- [ ] Mon Nov 9 B | You've Been Doing It Wrong | Why You Shouldn't Wash Your Turkey 🦃
+- [ ] Mon Nov 9 B | You've Been Doing It Wrong | Why You Shouldn't Wash Your Turkey 🦃 | IN PROGRESS 023-wash-turkey (run 2026-11-09 04:15 UTC, slot Mon Nov 9 20:00 ET)
 - [ ] Tue Nov 10 A | You've Been Doing It Wrong | How To Open Any Stuck Jar Lid 🫙
 - [ ] Tue Nov 10 B | Is It Really? | Is Dust Really Just Dead Skin? 🤧
 - [ ] Wed Nov 11 A | You've Been Doing It Wrong | Never Plug a Space Heater Into a Power Strip 🔥
