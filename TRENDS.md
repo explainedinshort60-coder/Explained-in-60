@@ -62,6 +62,7 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-09 | B (chart car battery PASS spread -5.9, season lift 1.11, peak Dec 1; AccuWeather multiple waves of dangerous cold this week) | Is It Really? Does the Cold Really Kill Your Car Battery? (Stake pipeline, Dec 1 to Jan 31) | 8 | | | |
 | 2026-11-09 | B (chart electric blanket BUY spread 45.6, momentum +100%, season lift 2.53, peak Nov 30; AccuWeather multiple waves of dangerous cold, Daily Voice coldest air with snow this week) | Is It Really? Is Your Electric Blanket Really a Fire Risk? (Stake pipeline, Nov 16 to 25) | 9 | | | |
 | 2026-11-08 | A + B (chart polar vortex BUY spread 20.9, momentum +144%, peak Nov 30; CBS polar vortex maps, AccuWeather 150M below freezing) | Is It Really? Is the Polar Vortex Really a Giant Storm? (RUSH, deadline Sat Nov 14) | 9 | | | |
 | 2026-11-08 | A (tape: grand theft auto 6 1000+, pre-load Nov 10, launch Nov 19; chart gta 6 scam PASS spread -20) | Where Your Money Goes: That Free Early Download of the Biggest Game of the Year Is a Trap (Stake pipeline, Nov 16 to 19) | 7 | | | |
