@@ -3,7 +3,7 @@
 This is the brief for the scheduled agent. Each run makes ONE new episode, end to end, and queues it in Metricool.
 Read this whole file before starting. **The benchmark is the approved flush podcast** (`episodes/flush-podcast-v3/`, final cut approved 2026-11-02). Copy its timing, acting density, layout and mix.
 
-**Launch sprint (Nov 2 to 9, 2026):** 4 Shorts per day, 2 in this podcast format and 2 in the explainer format (`RUNBOOK_EXPLAINER.md`). Use the sprint slots and assignment in `config.json` (`sprint`) instead of `slots`. Log every episode in topics.md with `format: podcast` or `format: explainer`; the Nov 9 weekly review compares them.
+**Launch sprint (Nov 2 to 9, 2026):** 4 Shorts per day, 2 in this podcast format and 2 in the explainer format (`RUNBOOK_EXPLAINER.md`). Use the sprint slots and assignment in `config.json` (`sprint`) instead of `slots`. Log every episode in topics.md with `format: podcast` or `format: explainer`; the Nov 9 weekly review compares them. **Closed Nov 9: podcast only from now on (explainer retired, see config.json sprint.result).**
 
 ## The show
 
@@ -62,6 +62,7 @@ Read this whole file before starting. **The benchmark is the approved flush podc
 - Title 30 to 50 characters, the phrase Americans search first, then #Shorts. Description line 1 repeats the keyword.
 - `first_comment` in meta.json is ONE specific question about a moment in the video (example: "Be honest: did you think the ball was a sensor?"), not a generic call to action. The owner pins it.
 - End with a 0.5 s callback button so the loop feels intentional.
+- **Craft rule from the Nov 9 review: the hold lives in the first 20 seconds.** Launch-sprint Instagram data (Metricool) shows average watch time of 13 to 27 s on 58 to 60 s Shorts, and the weakest reel-view rates (RAM 38%, shooting star 59%) opened on an abstract diagram while the strongest (OLED 77%, QB helmet 75%) opened on a real object the viewer owns or watches. So from week 3: the hook frame shows a physical object from a US home, car or store (never a diagram, chart or space shot), and the payoff word ("OH!") is spoken by 0:18 at the latest, checked in `timeline.json` at QC. The 0:34 to 0:40 tease names the current long-form in Orange's line ("Full Thanksgiving episode, Saturday") so Shorts feed the long-form watch hours.
 
 ## Run steps
 
@@ -128,6 +129,7 @@ python3 engine/podcast/pod.py qc
 - If any check still fails after 3 rounds: do NOT publish. Write the failure in `topics.md` under Log and stop.
 
 ### 8. Publish
+0. **Metricool limit check (added Nov 9).** Before scheduling, read `getScheduledPosts` for the last 3 days. If any post shows `detailedStatus` "You have reached your Metricool account limit", do NOT create another Metricool post (it will fail at publish time). Keep `published/<id>.mp4` in the repo, write "MANUAL UPLOAD" with the slot and the raw.githubusercontent URL in the topics.md Log, and tell the owner to upload it by hand in YouTube Studio, TikTok and Instagram. Never buy or upgrade a plan yourself.
 1. Copy the video to `published/<id>.mp4`, commit and push to `main` (`git pull --rebase` first).
    Public URL: `https://raw.githubusercontent.com/explainedinshort60-coder/Explained-in-60/main/published/<id>.mp4`
 2. Metricool (brand blogId `7810819`, timezone Asia/Jakarta, YouTube linked). Earliest free slot from `config.json`; check `getScheduledPosts` for the next 14 days; one post per slot. Convert to Asia/Jakarta.

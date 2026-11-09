@@ -137,8 +137,54 @@ Read: too early for a format verdict (3 podcasts, 2 explainers, different ages).
 | 2026-11-08 | Episode 019 breath (podcast) | about 1,445 ElevenLabs credits (about $0.24 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 542 credits, Orange 903 credits) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration, no Higgsfield, no other paid service. |
 | 2026-11-08 | Episode 022 powerball (podcast) | about 1,451 ElevenLabs credits (about $0.24 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 540 credits, Orange 911 credits) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. Metricool free, GitHub, ffmpeg, Chromium. No Higgsfield. |
 | 2026-11-09 | Episode 023 wash turkey (podcast) | about 1,009 ElevenLabs credits (about $0.17 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 368, Orange 641) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration. Metricool free, GitHub, ffmpeg, Chromium. No Higgsfield. |
+| 2026-11-09 | Weekly review, week 1 close | $0 | Metricool free analytics, Google Trends charts (free), GitHub, Claude inside the subscription. No Higgsfield, no ElevenLabs calls. Note: the Metricool free plan hit its account limit on Nov 8; any upgrade is a new paid tool and needs the owner. |
 
 ## Weekly reviews (newest first)
+### 2026-11-09 (Mon) | Week 1 close (Nov 2 to 8) and launch sprint verdict
+Data: Metricool (blogId 7810819), pulled 2026-11-09 08:45 UTC. YouTube daily views are synced only through Nov 5; per-video YouTube rows (views, watch time, likes) came back empty, so YouTube per-Short numbers wait for the owner's Studio numbers. Instagram and TikTok per-post rows are complete.
+
+**Phase 1 Qualify. Next gate (by Jan 25, 2027): 1,000 subs + 4,000 long-form watch hours (365 days), YPP application before Feb 1.**
+
+Scorecard (`engine/scorecard.py`; metrics/targets.csv starts at the Nov 9 row, so week 1 is compared with it):
+| Week | Shorts views (YT) | Long-form views | Subs total | Watch hours (365 d, long-form) | Ad revenue |
+|---|---|---|---|---|---|
+| 2026-11-02 | 10,395 / 50,000 RED (Nov 2 to 5 only, Nov 6 to 8 not synced) | 0 / 0 (none live) | 21 / 150 RED | 0 / 0 (LF01 airs Nov 14) | $0 / $0 |
+
+Alarms:
+- **Posting blocked (new, most urgent).** Metricool returned "You have reached your Metricool account limit" on 019 breath, 018 thermostat, 020 hand warmer and 017 eye black (Nov 8): none went live anywhere. 014 basketball and 022 Powerball drafts were never approved and their slots passed. 021 bread (Mon 12:00 ET), 023 wash turkey (Mon 20:00 ET) and LF01 (Sat Nov 14) are at risk. RUNBOOK step 8.0 now switches production to manual upload while the limit holds. Upgrading is a paid tool, so it is the owner's decision.
+- Shorts views and subscribers: RED in week 1. If RED again on Nov 16, MILESTONES.md rules apply (Shorts: GROWTH playbook diagnostics, viewed vs swiped first; subs: subscribe beat in the long-form, series-first titles, "full episode" tease on every Short).
+- No metric is RED two weeks running yet, so no correction rule fires this week.
+
+Projections (honest, linear):
+- Subscribers: 4 on Nov 2 to 21 on Nov 8, about 2.8 a day. At that rate 1,000 lands around **Oct 2027, about 9 months after the Jan 25 gate**. The rate has to rise about 4.5x (to about 13 a day from now) to make Jan 25. The plan counts on the long-form to do this; the Nov 16 review is the first real test.
+- Watch hours: 0 counted (Shorts watch time does not count toward the 4,000). To reach 4,000 by Jan 25 from LF01 on Nov 14, the channel needs about 400 long-form hours a week, about 4,800 long-form views a week at a 5 minute average. No projection until LF01 has a week of data.
+- Ad revenue: $0 this week; Phase 1 target $0; the $6K path (Phase 2 $400 a week by Apr 30, 2027) starts only after monetization.
+
+Other platforms (week 1, not counted for YouTube ads): Instagram 10 Reels, 7,956 views, best OLED 1,617, QB helmet 1,471, windshield 1,405; TikTok 10 videos, 2,025 views, best touchscreen gloves 817, shooting star 676, 1 follower.
+
+**Launch sprint verdict (podcast vs explainer).** 18 sprint Shorts went live on YouTube (8 podcast, 10 explainer) instead of 28; the 4-per-day pace was not reached and 6 more were lost to approvals and the Metricool limit.
+| Measure (equal age, posts 2+ days old unless noted) | Podcast | Explainer | Source |
+|---|---|---|---|
+| Median views per Reel | 1,269 (n=5) | 135 (n=3) | Instagram |
+| Same-day pairs | OLED 1,617 vs QB 1,471; clicky pen 293 vs 135; windshield 1,405 vs RAM 124; touchscreen 143 vs shooting star 259 (1 day old) | | Instagram |
+| Median average watch time | 19.8 s (about 33% of 60 s) | 9.8 s (about 16%) | Instagram |
+| Reel view rate (watched past 3 s) | 71% median | 64% median | Instagram |
+| Median views per TikTok | 88 (n=6) | 84 (n=4) | TikTok |
+| Views per hour, first day | clicky pen 120/h | clicky pen 23/h | owner's Studio screenshot Nov 3 |
+| Subs per 1,000 views | not available per video in Metricool; owner to send | | YouTube Studio |
+Verdict: the podcast wins on watch time (about 2x) and on hook hold, ties on TikTok views. Confidence: **moderate** (small samples, topics not matched, YouTube per-Short data missing). The data does not favor the explainer, so the approved plan stands: podcast only from Nov 9. Owner: pause the "produce explainer (Kokoro)" scheduled task.
+
+Series test (Nov 9 to Dec 6): week 1 of 4 starts today, nothing live yet. Week 2 plan is behind: only 023 (Mon B) is made, Mon A went to 021 bread (viewer request, off-plan). Per series to report from Nov 16: median views, percent viewed, US share, subs per 1,000 views, long-form clicks. This week's planned test: stakes vs trivia (12 stake, 2 controls) and the related-video link to LF01. Series counts so far: You've Been Doing It Wrong 5 planned, Is It Really? 4, Inside Your Body 2, Where Your Money Goes 1.
+
+Changes made:
+- topics.md: Week 3 series queue (Nov 16 to 22), 14 Shorts, 12 stake (86%), 3 per series so every series reaches 6 by Dec 6, 2 trivia controls; 10 items moved out of the Stake pipeline; Trends re-checked Nov 9 (pumpkin pie, black friday deals, electric blanket, space heater, car battery, chapped lips, frozen pipes; extended warranty and turkey fryer BLOCKED, re-chart before scripting).
+- plans/week3.md: queue, title-frame test, LF02 "How Stores Trick You On Black Friday (And How To Win)" outline for Sat Nov 21.
+- RUNBOOK.md: sprint closed (podcast only); step 8.0 Metricool limit check and manual-upload fallback; craft rule (hook frame on a real object, "OH!" by 0:18, tease names the long-form).
+- config.json: sprint result, week 3 pointer, Metricool limit note.
+- metrics/weekly.csv and metrics/scorecard.md: week of Nov 2 added.
+
+Owner asks (YouTube Studio): see the review message of Nov 9.
+
 ### 2026-11-02 (Mon) | Week 1, day 1 (launch-day baseline)
 Data source: Metricool (blogId 7810819), pulled 2026-11-02. Only one Short is live (002 clicky pen, published Sun Nov 1 22:30 ET, about 17 hours before this pull). Metricool returned 0 for every YouTube metric and no per-video rows yet, which is normal sync lag for a channel this new, so this entry is a baseline, not a verdict.
 

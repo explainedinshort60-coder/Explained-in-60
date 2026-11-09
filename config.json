@@ -93,7 +93,8 @@
     },
     "assignment": "Days with an even ET date: podcast at 08:00 and 17:00, explainer at 12:00 and 20:00. Odd ET date: swapped. Posts already scheduled count toward their format quota of 2 per day (001 Thu Nov 5 19:00 and 003 Fri Nov 6 19:00 are explainers).",
     "today_2026_11_02": "podcast 17:00 ET (003 zipper podcast remake), explainer 20:00 ET (new topic)",
-    "after": "weekly review on Mon Nov 9 compares formats and sets the cadence and mix from then on; until then slots_from applies after Nov 9"
+    "after": "weekly review on Mon Nov 9 compares formats and sets the cadence and mix from then on; until then slots_from applies after Nov 9",
+    "result": "closed 2026-11-09 by the weekly review: podcast favored on Instagram (median avg watch 19.8 s vs 9.8 s, reel view rate 71% vs 64%) and owner's early YouTube screenshots; TikTok a tie; YouTube per-video data not in Metricool. Moderate confidence. Approved plan stands: podcast only from Nov 9; explainer retired."
   },
   "from_2026_11_09": {
     "plan": "plans/week2.md (FLSR rebuild, approved 2026-11-06): 4-week test Nov 9 to Dec 6, keep or kill review Dec 7",
@@ -111,11 +112,13 @@
       "Where Your Money Goes"
     ],
     "topic_mix": "about 70% stake topics, at most 30% trivia controls; stakes = your body, your money, a danger in a normal day, a myth Americans hold; every topic checked in US Google Trends",
-    "explainer_format": "retired after the Nov 9 review unless the A/B data clearly favors it"
+    "explainer_format": "retired after the Nov 9 review unless the A/B data clearly favors it",
+    "week3": "plans/week3.md (series balance 3 per series + 2 controls, title-frame test; LF02 Black Friday long-form Sat Nov 21)"
   },
   "revenue_target": {
     "weekly_usd": 6000,
     "set": "2026-11-06 by the owner",
     "note": "see GROWTH.md Revenue plan"
-  }
+  },
+  "metricool_limit": "2026-11-08: Metricool returned 'account limit reached' on 4 posts; RUNBOOK step 8.0 switches to manual upload until the owner resolves it"
 }
