@@ -136,6 +136,7 @@ Read: too early for a format verdict (3 podcasts, 2 explainers, different ages).
 | 2026-11-07 | Episode 018 thermostat (explainer) | $0 | Kokoro voice, ffmpeg, Chromium, SFX from the existing library (2 already-paid library MP3s converted to WAV, no new generation), GitHub, Metricool free. No Higgsfield, no ElevenLabs calls, no paid service. |
 | 2026-11-08 | Episode 019 breath (podcast) | about 1,445 ElevenLabs credits (about $0.24 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 542 credits, Orange 903 credits) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration, no Higgsfield, no other paid service. |
 | 2026-11-08 | Episode 022 powerball (podcast) | about 1,451 ElevenLabs credits (about $0.24 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 540 credits, Orange 911 credits) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. Metricool free, GitHub, ffmpeg, Chromium. No Higgsfield. |
+| 2026-11-09 | Episode 023 wash turkey (podcast) | about 1,009 ElevenLabs credits (about $0.17 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 368, Orange 641) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration. Metricool free, GitHub, ffmpeg, Chromium. No Higgsfield. |
 
 ## Weekly reviews (newest first)
 ### 2026-11-02 (Mon) | Week 1, day 1 (launch-day baseline)
