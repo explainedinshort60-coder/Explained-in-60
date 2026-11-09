@@ -152,9 +152,10 @@ def esc(t): return t.replace('&', '&amp;').replace('<', '&lt;')
 def overlay(t):
     out = ''
     if SERIES:
-        w = 26 * len(SERIES) + 48
+        fs = 34 if len(SERIES) <= 22 else 29   # long series names shrink so the pill clears the speaker bubble
+        w = round(26 * fs / 34 * len(SERIES)) + 48
         out += (f'<g transform="translate(55 344)"><rect width="{w}" height="62" rx="31" fill="#071747"/>'
-                f'<text x="{w / 2}" y="42" font-size="34" font-weight="800" fill="#ffd43b" text-anchor="middle" font-family="DejaVu Sans, sans-serif">{esc(SERIES)}</text></g>')
+                f'<text x="{w / 2}" y="{40 + (34 - fs) // 3}" font-size="{fs}" font-weight="800" fill="#ffd43b" text-anchor="middle" font-family="DejaVu Sans, sans-serif">{esc(SERIES)}</text></g>')
     for t0, txt, col, hold in STAMPS:
         if t0 <= t < t0 + hold:
             u = (t - t0) / 0.22; k = 1.0 if u >= 1 else 1.6 - 0.6 * u * u * (3 - 2 * u)
