@@ -31,7 +31,7 @@ Scripts and ElevenLabs takes are ready in `episodes/<id>/podcast/` (script.py, r
 Full beats (hook frame, Blue's myth, Orange's payoff, why it matters) are in `plans/week2.md`. Verify every fact while scripting.
 - [ ] Mon Nov 9 A | Is It Really? | Is Turkey Really Why You're Sleepy? 😴
 - [x] Mon Nov 9 B | You've Been Doing It Wrong | Why You Shouldn't Wash Your Turkey 🦃 | made as 023-wash-turkey (Metricool draft Mon Nov 9 20:00 ET)
-- [ ] Tue Nov 10 A | You've Been Doing It Wrong | How To Open Any Stuck Jar Lid 🫙
+- [ ] Tue Nov 10 A | You've Been Doing It Wrong | How To Open Any Stuck Jar Lid 🫙 | IN PROGRESS as 024-jar-lid (run 2026-11-09 16:16 UTC, slot Tue Nov 10 12:00 ET)
 - [ ] Tue Nov 10 B | Is It Really? | Is Dust Really Just Dead Skin? 🤧
 - [ ] Wed Nov 11 A | You've Been Doing It Wrong | Never Plug a Space Heater Into a Power Strip 🔥
 - [ ] Wed Nov 11 B | Inside Your Body | Why Onions Make You Cry (And How To Stop It) 🧅
