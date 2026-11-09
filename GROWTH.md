@@ -138,6 +138,7 @@ Read: too early for a format verdict (3 podcasts, 2 explainers, different ages).
 | 2026-11-08 | Episode 022 powerball (podcast) | about 1,451 ElevenLabs credits (about $0.24 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 540 credits, Orange 911 credits) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. Metricool free, GitHub, ffmpeg, Chromium. No Higgsfield. |
 | 2026-11-09 | Episode 023 wash turkey (podcast) | about 1,009 ElevenLabs credits (about $0.17 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 368, Orange 641) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration. Metricool free, GitHub, ffmpeg, Chromium. No Higgsfield. |
 | 2026-11-09 | Weekly review, week 1 close | $0 | Metricool free analytics, Google Trends charts (free), GitHub, Claude inside the subscription. No Higgsfield, no ElevenLabs calls. Note: the Metricool free plan hit its account limit on Nov 8; any upgrade is a new paid tool and needs the owner. |
+| 2026-11-09 | Episode 024 jar lid (podcast) | about 1,013 ElevenLabs credits (about $0.17 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 314, Orange 699) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration. GitHub, ffmpeg, Chromium; no Metricool post (account limit, manual upload). No Higgsfield. |
 
 ## Weekly reviews (newest first)
 ### 2026-11-09 (Mon) | Week 1 close (Nov 2 to 8) and launch sprint verdict
