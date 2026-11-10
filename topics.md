@@ -34,7 +34,7 @@ Full beats (hook frame, Blue's myth, Orange's payoff, why it matters) are in `pl
 - [ ] Mon Nov 9 A | Is It Really? | Is Turkey Really Why You're Sleepy? 😴
 - [x] Mon Nov 9 B | You've Been Doing It Wrong | Why You Shouldn't Wash Your Turkey 🦃 | made as 023-wash-turkey (Metricool draft Mon Nov 9 20:00 ET)
 - [x] Tue Nov 10 A | You've Been Doing It Wrong | How To Open Any Stuck Jar Lid 🫙 | made as 024-jar-lid (MANUAL UPLOAD, Tue Nov 10 12:00 ET; Metricool account limit)
-- [ ] Tue Nov 10 B | Is It Really? | Is Dust Really Just Dead Skin? 🤧
+- [ ] Tue Nov 10 B | Is It Really? | Is Dust Really Just Dead Skin? 🤧 | IN PROGRESS as 025-dust (run 2026-11-10 04:15 UTC)
 - [ ] Wed Nov 11 A | You've Been Doing It Wrong | Never Plug a Space Heater Into a Power Strip 🔥
 - [ ] Wed Nov 11 B | Inside Your Body | Why Onions Make You Cry (And How To Stop It) 🧅
 - [ ] Thu Nov 12 A | Where Your Money Goes | How Stores Trick You On Black Friday 🛒
