@@ -221,3 +221,4 @@ Money status:
 - Dollars: target $0 (all scenarios, week 1), actual $0. Production cost $0 per episode.
 
 Owner asks: approve the 003 zipper draft in Metricool before Fri Nov 6; send week 1 YouTube Studio numbers (viewed vs swiped, avg percentage viewed, engaged views per Short) for the Nov 9 review; confirm the ElevenLabs Creator plan monthly cost for the ledger.
+| 2026-11-10 | Episode 025 dust (podcast) | about 1,029 ElevenLabs credits (about $0.17 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 340, Orange 689) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration. Metricool not used (account limit, manual upload), GitHub, ffmpeg, Chromium. No Higgsfield. |
