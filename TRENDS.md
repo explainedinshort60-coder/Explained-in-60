@@ -62,6 +62,7 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-10 | B (stake pipeline: CPSC 2026 holiday unsafe presents release; chart phone charger PASS spread -11.4, season peak Dec 9) | You've Been Doing It Wrong: Never Buy a No-Name Phone Charger (Stake pipeline, Nov 23 to Dec 20, re-chart first) | 7 | | | |
 | 2026-11-10 | B (chart wind chill PASS spread -9.7, season lift 2.99, peak Dec 14; AccuWeather dangerously cold air for dozens of states this week) | Is It Really? Does Wind Chill Really Freeze Your Pipes and Car? (Stake pipeline, Dec 1 to Jan 31, re-chart first) | 7 | | | |
 | 2026-11-09 | A (tape oil price today 500+; chart premium gas PASS spread -29, momentum -11%) | Where Your Money Goes: Is Premium Gas Really Better for Your Car? (Stake pipeline, Nov 20 to 25, re-chart first) | 6 | | | |
 | 2026-11-09 | B (chart car battery PASS spread -5.9, season lift 1.11, peak Dec 1; AccuWeather multiple waves of dangerous cold this week) | Is It Really? Does the Cold Really Kill Your Car Battery? (Stake pipeline, Dec 1 to Jan 31) | 8 | | | |
