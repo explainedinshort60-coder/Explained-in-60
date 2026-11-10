@@ -120,5 +120,10 @@
     "set": "2026-11-06 by the owner",
     "note": "see GROWTH.md Revenue plan"
   },
-  "metricool_limit": "2026-11-08: Metricool returned 'account limit reached' on 4 posts; RUNBOOK step 8.0 switches to manual upload until the owner resolves it"
+  "metricool_limit": "2026-11-08: Metricool returned 'account limit reached' on 4 posts; RUNBOOK step 8.0 switches to manual upload until the owner resolves it",
+  "paused": {
+    "since": "2026-11-10",
+    "by": "owner",
+    "note": "Owner paused content creation. Do not produce, schedule or queue new content until the owner un-pauses."
+  }
 }
