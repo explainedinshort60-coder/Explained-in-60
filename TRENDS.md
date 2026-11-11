@@ -62,6 +62,7 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-11 | B (chart christmas lights BUY spread 57.8, momentum +343%, season lift 6.64, peak Dec 3; CPSC holiday safety, decorating season) | You've Been Doing It Wrong: Stop Plugging Light Strings End to End (Stake pipeline, Nov 27 to Dec 6; owner pause in effect) | 8 | | | |
 | 2026-11-11 | A (tape el nino 200+; Live Science, Fox Weather super El Nino winter coverage; chart el nino PASS spread -20.9, momentum -55%, season peak Dec 9) | Is It Really? Does a Super El Nino Really Mean an Easy Winter? (Stake pipeline, Nov 23 to Dec 15, re-chart first; owner pause in effect) | 7 | | | |
 | 2026-11-10 | B (stake pipeline: CPSC 2026 holiday unsafe presents release; chart phone charger PASS spread -11.4, season peak Dec 9) | You've Been Doing It Wrong: Never Buy a No-Name Phone Charger (Stake pipeline, Nov 23 to Dec 20, re-chart first) | 7 | | | |
 | 2026-11-10 | B (chart wind chill PASS spread -9.7, season lift 2.99, peak Dec 14; AccuWeather dangerously cold air for dozens of states this week) | Is It Really? Does Wind Chill Really Freeze Your Pipes and Car? (Stake pipeline, Dec 1 to Jan 31, re-chart first) | 7 | | | |
