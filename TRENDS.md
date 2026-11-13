@@ -62,6 +62,7 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-13 | B (chart humidifier BUY spread 49.6, momentum +39%, season lift 1.85, peak Dec 16; heating season, AccuWeather warmth fades) | You've Been Doing It Wrong: Never Leave Old Water in Your Humidifier (Stake pipeline, Dec 1 to 12; owner pause in effect) | 8 | | | |
 | 2026-11-13 | A (tape duran duran drummer roger taylor 200+, tinnitus; chart tinnitus PASS spread -6.8, momentum +6%) | Inside Your Body: Why Your Ears Ring After a Loud Concert (Stake pipeline, Dec 1 to 20; owner pause in effect) | 7 | | | |
 | 2026-11-13 | B (chart tryptophan PASS spread -34.4, about 5x jump every Thanksgiving week; Thanksgiving Thu Nov 26, ABC stations Thanksgiving cook coverage) | Is It Really? Does Turkey Really Make You Sleepy? (Stake pipeline, Nov 22 to 26; owner pause in effect) | 7 | | | |
 | 2026-11-12 | A (tape petroleum 2000+, "Why is gasoline suddenly under $4 a gallon?"; Scripps gas below $4 for the first time since July; chart gas prices PASS spread -5.3, peak Dec 7) | Where Your Money Goes: Does Filling Up in the Cold Morning Get You More Gas? (Stake pipeline, Nov 19 to 25; owner pause in effect) | 8 | | | |
