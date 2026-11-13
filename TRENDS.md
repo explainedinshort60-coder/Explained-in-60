@@ -62,6 +62,7 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-13 | B (chart tryptophan PASS spread -34.4, about 5x jump every Thanksgiving week; Thanksgiving Thu Nov 26, ABC stations Thanksgiving cook coverage) | Is It Really? Does Turkey Really Make You Sleepy? (Stake pipeline, Nov 22 to 26; owner pause in effect) | 7 | | | |
 | 2026-11-12 | A (tape petroleum 2000+, "Why is gasoline suddenly under $4 a gallon?"; Scripps gas below $4 for the first time since July; chart gas prices PASS spread -5.3, peak Dec 7) | Where Your Money Goes: Does Filling Up in the Cold Morning Get You More Gas? (Stake pipeline, Nov 19 to 25; owner pause in effect) | 8 | | | |
 | 2026-11-12 | A (tape winter storm watch 200+, Bay Area storm and Sierra snow; AccuWeather damp, blustery Great Lakes and Northeast week; chart winter storm watch PASS spread -15, peak Dec 1) | Is It Really? Does a Winter Storm Watch Mean the Storm Is Coming? (Stake pipeline, Nov 23 to Jan 31; owner pause in effect) | 8 | | | |
 | 2026-11-12 | B (chart power bank PASS spread -0.2, season lift 1.09, peak Dec 2; CPSC HAIARA power bank warning, Thanksgiving travel) | You've Been Doing It Wrong: Never Pack a Power Bank in Your Checked Bag (Stake pipeline, Nov 18 to 24; owner pause in effect) | 7 | | | |
