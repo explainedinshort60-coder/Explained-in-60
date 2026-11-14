@@ -62,6 +62,8 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-14 | B (chart snow blower BUY spread 56.8, momentum +69%, season lift 2.18, peak Dec 2; AccuWeather Northeast snow and strong winds) | You've Been Doing It Wrong: Never Clear a Jammed Snow Blower With Your Hand (Stake pipeline, Nov 18 to 27; owner pause in effect) | 8 | | | |
+| 2026-11-14 | B (chart snow shovel BUY spread 45.6, momentum +75%, season lift 2.57, peak Dec 2; AccuWeather Northeast snow) | You've Been Doing It Wrong: You're Shoveling Snow Wrong (Stake pipeline, Nov 18 to 27; owner pause in effect) | 7 | | | |
 | 2026-11-14 | B (chart fireplace BUY spread 60, momentum +45%, season lift 1.75, peak Dec 2; heating season as warmth fades, AccuWeather) | You've Been Doing It Wrong: Never Burn Wrapping Paper in the Fireplace (Stake pipeline, Nov 18 to 27; owner pause in effect) | 8 | | | |
 | 2026-11-14 | B (chart cyber monday deals PASS spread 1.1, momentum +11%, season lift 4.41, peak Dec 2; Cyber Monday Mon Nov 30; ConsumerAffairs Thanksgiving costs down 17%) | Where Your Money Goes: Are Cyber Monday Deals Really Better Than Black Friday? (Stake pipeline, Nov 25 to 29; owner pause in effect; tryptophan pipeline item removed as a repeat of Week 2 Mon Nov 9 A) | 7 | | | |
 | 2026-11-13 | A (tape pentagon 90 day grid warning 500+, hook on winter outages only; chart power outage WATCH spread 7.5, season lift 1.09, peak Dec 16; AccuWeather November storms) | Is It Really? Is the Food in Your Fridge Really Fine After the Power Goes Out? (Stake pipeline, first big winter storm outage or Dec 1 to 20; owner pause in effect) | 7 | | | |
