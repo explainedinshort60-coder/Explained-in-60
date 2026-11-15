@@ -62,6 +62,7 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-15 | B (chart frostbite BUY spread 39.4, momentum +75%, season lift 1.69, peak Dec 14; RUSH deadline Nov 15 reached unmade) | Inside Your Body: Why Your Fingers and Toes Freeze First (moved RUSH to Stake pipeline, Dec 1 to 14 or next arctic blast; owner pause in effect; heat through your head RUSH removed at deadline) | 9 | | | |
 | 2026-11-15 | B (chart candle BUY spread 53.7, momentum +28%, season lift 1.76, peak Dec 2; holiday decorating and heating season) | You've Been Doing It Wrong: Never Leave a Candle Burning When You Leave the Room (Stake pipeline, Dec 1 to 20; owner pause in effect) | 8 | | | |
 | 2026-11-14 | B (chart snow blower BUY spread 56.8, momentum +69%, season lift 2.18, peak Dec 2; AccuWeather Northeast snow and strong winds) | You've Been Doing It Wrong: Never Clear a Jammed Snow Blower With Your Hand (Stake pipeline, Nov 18 to 27; owner pause in effect) | 8 | | | |
 | 2026-11-14 | B (chart snow shovel BUY spread 45.6, momentum +75%, season lift 2.57, peak Dec 2; AccuWeather Northeast snow) | You've Been Doing It Wrong: You're Shoveling Snow Wrong (Stake pipeline, Nov 18 to 27; owner pause in effect) | 7 | | | |
