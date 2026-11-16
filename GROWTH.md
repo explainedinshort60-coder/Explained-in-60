@@ -139,8 +139,52 @@ Read: too early for a format verdict (3 podcasts, 2 explainers, different ages).
 | 2026-11-09 | Episode 023 wash turkey (podcast) | about 1,009 ElevenLabs credits (about $0.17 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 368, Orange 641) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration. Metricool free, GitHub, ffmpeg, Chromium. No Higgsfield. |
 | 2026-11-09 | Weekly review, week 1 close | $0 | Metricool free analytics, Google Trends charts (free), GitHub, Claude inside the subscription. No Higgsfield, no ElevenLabs calls. Note: the Metricool free plan hit its account limit on Nov 8; any upgrade is a new paid tool and needs the owner. |
 | 2026-11-09 | Episode 024 jar lid (podcast) | about 1,013 ElevenLabs credits (about $0.17 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 314, Orange 699) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration. GitHub, ffmpeg, Chromium; no Metricool post (account limit, manual upload). No Higgsfield. |
+| 2026-11-10 | Episode 025 dust (podcast) | about 1,029 ElevenLabs credits (about $0.17 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 340, Orange 689) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration. Metricool not used (account limit, manual upload), GitHub, ffmpeg, Chromium. No Higgsfield. |
+| 2026-11-16 | Weekly review, week 2 close | $0 | Metricool free analytics, GitHub, Claude inside the subscription. No Higgsfield, no ElevenLabs calls, no new content (owner pause since Nov 10). Open item: the ElevenLabs Creator plan monthly cost is still not logged; owner to confirm.
 
 ## Weekly reviews (newest first)
+### 2026-11-16 (Mon) | Week 2 close (Nov 9 to 15)
+Data: Metricool (blogId 7810819), pulled 2026-11-16. Week 1 YouTube days are now fully synced (Nov 2 to 8: 15,706 Shorts views, up from the 10,395 partial). Week 2 YouTube is only synced Nov 9 to 11 (23, 7, 4 views); Nov 12 to 15 are empty and subscribers have sat at 21 since Nov 8, so the YouTube sync may be stale. YouTube per-video rows are still empty. Instagram and TikTok are complete: no new posts on either since Nov 8.
+
+**Phase 1 Qualify. Next gate (by Jan 25, 2027): 1,000 subs + 4,000 long-form watch hours (365 days), YPP application before Feb 1. Gate not met; focus stays on Phase 1.**
+
+Scorecard (`engine/scorecard.py`):
+| Week | Shorts views (YT) | Long-form views | Subs total | Watch hours (365 d, long-form) | Ad revenue |
+|---|---|---|---|---|---|
+| 2026-11-02 | 15,706 / 50,000 RED | 0 / 0 | 21 / 150 RED | 0 / 0 | $0 / $0 |
+| 2026-11-09 | 34 / 50,000 RED (Nov 9 to 11 only) | 0 / 0 | 21 / 150 RED | 0 / 0 | $0 / $0 |
+Next week's checkpoints (Nov 16): Shorts 100,000, long-form 2,500, subs 250, watch hours 200.
+
+Why the week was near zero (what actually happened):
+- **Owner paused content creation on Nov 10** (config.json `paused`). Nothing new was produced, scheduled or queued after 025 dust.
+- **The Metricool account limit blocked publishing.** Every post scheduled after Nov 8 failed: 017 eye black, 018 thermostat, 019 breath, 020 hand warmer, 021 bread and **LF01, the Thanksgiving long-form (Sat Nov 14 20:00 ET, status ERROR "You have reached your Metricool account limit")**. 022 Powerball and 023 wash turkey still sit as unapproved drafts. 024 jar lid and 025 dust were marked MANUAL UPLOAD; whether the owner uploaded them is not visible in Metricool.
+- Result: zero long-form on the channel, so zero watch hours toward the 4,000, and almost no new Shorts in week 2.
+- Finished, unaired inventory (no new cost to publish): 7 Shorts (017 to 023) plus LF01. LF01 is time-boxed: Thanksgiving is Thu Nov 26.
+
+Alarms (MILESTONES.md rules, applied exactly):
+- **Shorts views RED two weeks running.** Rule: GROWTH.md playbook diagnostics, viewed vs swiped first, then percent viewed. YouTube viewed vs swiped and percent viewed are not in Metricool (owner Studio numbers requested). The proxy on Instagram does not point at the hook: podcast reel view rate (past 3 s) median 71% (OLED 77%, gift card 72%, windshield 71%), inside the 70 to 90% "performs well" band. Diagnosis: a supply failure (posting blocked, then paused), not a hook or retention failure. The fix is to restore publishing; no hook template is rewritten this week. If Studio shows viewed vs swiped under 60% on the live Shorts, the hook rule applies on un-pause.
+- **Subscribers RED two weeks running.** Rule applied in RUNBOOK.md (takes effect on un-pause): a subscribe beat in every long-form (a series promise at the cold open and again at the payoff), a series-first title test on half of each series' Shorts, and every Short ending on a "full episode" tease that names the newest long-form.
+- Watch hours: target 0 until Nov 16, so not RED yet; it will be RED next week unless LF01 goes live.
+- No metric GREEN three weeks running.
+
+Projections (honest, linear):
+- Subscribers: 21, flat since Nov 8 (scorecard: not growing). At week 1's pace (about 2.8 a day) 1,000 lands around **Oct 2027, about 9 months after the Jan 25 gate**. To make Jan 25 the channel now needs about 14 a day, 5x week 1.
+- Watch hours: 0, and LF01 never aired, so no projection is possible (scorecard: not growing). If LF01 goes live this week and production resumes by Nov 23, Jan 25 needs about 440 long-form hours a week (about 5,300 long-form views a week at 5 minutes) for 9 straight weeks. Each further week of pause raises that by about 55 to 70 hours a week; resuming Dec 7 needs about 570 a week. The plan's own checkpoints already had the channel at 200 hours by Nov 16; it is at 0. **At today's trajectory both Phase 1 gates miss Jan 25 and Feb 1, 2027; if Feb 1 is missed the bar becomes 8,000 hours and every later milestone moves about 4 months (Phase 2 to about Aug 2027, the $6K target to about late 2028).**
+- Ad revenue: $0 this week; Phase 1 target $0. The $6K-a-week path starts only after monetization (Phase 2: $400 a week by Apr 30, 2027, now at risk with Phase 1).
+
+Series test (plans/week2.md, Nov 9 to Dec 6): week 1 of 4 did not run. At most 2 series Shorts went live (024 You've Been Doing It Wrong, 025 Is It Really?, both manual and unconfirmed), so per-series median views, percent viewed, US share, subs per 1,000 views and long-form clicks cannot be measured (n is 0 or 1 per series, and the long-form link target never aired). This week's planned test (series balance 3 per series + 2 controls, title frames, LF02 Black Friday) is on hold with the pause. Recommendation (not applied, owner decision): when production resumes, shift the 4-week window so the keep, kill and expand rules run on the date each series has 6 live episodes, not on Dec 7; on Dec 7 as scheduled there will be no data to judge.
+
+Other platforms (since launch, not counted for YouTube ads): Instagram 10 Reels, 7,968 views; TikTok 10 videos, 2,049 views, 1 follower. Nothing new on either since Nov 8.
+
+Changes made:
+- metrics/weekly.csv and metrics/scorecard.md: week 1 corrected to 15,706 (full sync), week 2 added (partial, flagged).
+- RUNBOOK.md: subscriber correction rule (subscribe beat, series-first title test, full-episode tease) and the craft rule for next week (name the stake in the first spoken line), both effective on un-pause; step 8.0 now covers long-form.
+- topics.md: Week 3 queue marked HELD by the owner pause; no new queue and no new long-form outline written, because the pause says not to queue new content. LF02 Black Friday outline already exists in plans/week3.md.
+- GROWTH.md: this entry; cost ledger (025 row moved into the table, review row added).
+- Scheduled tasks: none changed. Recommended to the owner in the review message.
+
+Owner asks (YouTube Studio): see the review message of Nov 16.
+
 ### 2026-11-09 (Mon) | Week 1 close (Nov 2 to 8) and launch sprint verdict
 Data: Metricool (blogId 7810819), pulled 2026-11-09 08:45 UTC. YouTube daily views are synced only through Nov 5; per-video YouTube rows (views, watch time, likes) came back empty, so YouTube per-Short numbers wait for the owner's Studio numbers. Instagram and TikTok per-post rows are complete.
 
@@ -221,4 +265,3 @@ Money status:
 - Dollars: target $0 (all scenarios, week 1), actual $0. Production cost $0 per episode.
 
 Owner asks: approve the 003 zipper draft in Metricool before Fri Nov 6; send week 1 YouTube Studio numbers (viewed vs swiped, avg percentage viewed, engaged views per Short) for the Nov 9 review; confirm the ElevenLabs Creator plan monthly cost for the ledger.
-| 2026-11-10 | Episode 025 dust (podcast) | about 1,029 ElevenLabs credits (about $0.17 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 340, Orange 689) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration. Metricool not used (account limit, manual upload), GitHub, ffmpeg, Chromium. No Higgsfield. |

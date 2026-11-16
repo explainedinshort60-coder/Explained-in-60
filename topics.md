@@ -66,6 +66,7 @@ Full beats (hook frame, Blue's myth, Orange's payoff, why it matters) are in `pl
 - [ ] LONG-FORM Sat Nov 14 20:00 ET | We Fixed Thanksgiving Dinner With Science (16:9, 12 min, YouTube only)
 
 ## Week 3 series queue (Nov 16 to 22 ET, set by the weekly review 2026-11-09; take these after the Week 2 series queue, before the Stake pipeline)
+**HELD (weekly review 2026-11-16): the owner paused content creation on Nov 10 (config.json `paused`). Do not produce from this queue until the owner un-pauses. On un-pause, re-date the queue from the first free day, keep the series balance (3 per series + 2 controls), drop any item whose publish window has passed, and re-check US Google Trends before scripting. The Nov 16 review wrote no Week 4 queue and no new long-form outline because of the pause.**
 Test week 2 of 4 (plans/week2.md): balances the four series at 3 each so every series reaches 6 episodes before the Dec 7 keep or kill review; 12 stake topics and 2 trivia controls. Full beats, Trends evidence and the long-form outline are in `plans/week3.md`. Never repeat a Done topic. Verify every fact while scripting (USDA, CDC, NFPA, CPSC, FTC).
 - [ ] Mon Nov 16 A | Is It Really? | Is It Safe to Leave Pumpkin Pie Out Overnight? 🥧 | chart pumpkin pie BUY 95.1, November interest 6x the yearly average, peak Nov 25
 - [ ] Mon Nov 16 B | You've Been Doing It Wrong | Never Thaw Your Turkey on the Counter 🦃 | chart how to thaw a turkey season lift 3.01, November about 10x its yearly average
