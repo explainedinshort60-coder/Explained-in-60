@@ -62,6 +62,7 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-16 | A (tape fema nationwide emergency test date 1000+, EAS test Tue Nov 17; chart emergency alert WATCH spread 14.4, momentum +150%) | Is It Really? Does an Emergency Alert Really Need Your Phone Number? (Stake pipeline, next storm alert wave or next national test; owner pause in effect) | 9 | | | |
 | 2026-11-16 | A (tape grand theft auto vi 5000+, launch Thu Nov 19, PTO for launch; chart eye strain PASS spread 0.6, flat, peak Dec 2) | Is It Really? Does Sitting Close to the Screen Really Ruin Your Eyes? (Stake pipeline, Nov 18 to 22 or Dec 20 to 31; owner pause in effect) | 7 | | | |
 | 2026-11-15 | B (chart frostbite BUY spread 39.4, momentum +75%, season lift 1.69, peak Dec 14; RUSH deadline Nov 15 reached unmade) | Inside Your Body: Why Your Fingers and Toes Freeze First (moved RUSH to Stake pipeline, Dec 1 to 14 or next arctic blast; owner pause in effect; heat through your head RUSH removed at deadline) | 9 | | | |
 | 2026-11-15 | B (chart candle BUY spread 53.7, momentum +28%, season lift 1.76, peak Dec 2; holiday decorating and heating season) | You've Been Doing It Wrong: Never Leave a Candle Burning When You Leave the Room (Stake pipeline, Dec 1 to 20; owner pause in effect) | 8 | | | |
