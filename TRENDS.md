@@ -62,6 +62,7 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-17 | A (tape jetblue turbulence fort lauderdale airport 2000+, NTSB investigating, hook on Thanksgiving flights only; chart turbulence WATCH spread 7.3, momentum +14%, peak Dec 14) | Is It Really? Do You Really Need Your Seatbelt On When the Sign Is Off? (Stake pipeline, Nov 20 to 25 or Dec 18 to 23; owner pause in effect) | 9 | | | |
 | 2026-11-17 | B (chart hand warmers BUY spread 50.6, momentum +125%, season lift 3.15, peak Dec 7; Thanksgiving week snowstorms) | You've Been Doing It Wrong: Never Put a Hand Warmer Straight on Your Skin (Stake pipeline, Nov 27 to Dec 7 or next arctic blast; owner pause in effect) | | | | |
 | 2026-11-16 | A (tape fema nationwide emergency test date 1000+, EAS test Tue Nov 17; chart emergency alert WATCH spread 14.4, momentum +150%) | Is It Really? Does an Emergency Alert Really Need Your Phone Number? (Stake pipeline, next storm alert wave or next national test; owner pause in effect) | 9 | | | |
 | 2026-11-16 | A (tape grand theft auto vi 5000+, launch Thu Nov 19, PTO for launch; chart eye strain PASS spread 0.6, flat, peak Dec 2) | Is It Really? Does Sitting Close to the Screen Really Ruin Your Eyes? (Stake pipeline, Nov 18 to 22 or Dec 20 to 31; owner pause in effect) | 7 | | | |
