@@ -62,6 +62,7 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-18 | A (tape spectrum outage 20000+, blitz of tech outages; Notebookcheck, IBTimes, Yahoo Dallas; chart spectrum outage PASS spread -20.4, flat, peak Dec 16) | Is It Really? Will 911 Still Work When Your Internet Goes Down? (Stake pipeline, next big outage spike or Dec 1 to Jan 31; owner pause in effect) | 9 | | | |
 | 2026-11-18 | B (CPSC portable fire pit recall, burn risk; chart fire pit PASS but close, spread -1.3, momentum +13%, peak Dec 17; AccuWeather Thanksgiving storms, blizzard and fog) | You've Been Doing It Wrong: Never Leave a Fire Pit Smoldering Overnight (Stake pipeline, Nov 24 to Dec 17; owner pause in effect) | | | | |
 | 2026-11-17 | A (tape apple outage 50000+, MacRumors iCloud outage Nov 10; chart icloud backup PASS but close, spread 1.8, flat, peak Dec 23) | Is It Really? Is the Cloud Really a Backup of Your Photos? (Stake pipeline, Dec 1 to 31 new-phone season; owner pause in effect) | | | | |
 | 2026-11-17 | A (tape jetblue turbulence fort lauderdale airport 2000+, NTSB investigating, hook on Thanksgiving flights only; chart turbulence WATCH spread 7.3, momentum +14%, peak Dec 14) | Is It Really? Do You Really Need Your Seatbelt On When the Sign Is Off? (Stake pipeline, Nov 20 to 25 or Dec 18 to 23; owner pause in effect) | 9 | | | |
