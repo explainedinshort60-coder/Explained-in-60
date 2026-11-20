@@ -62,6 +62,7 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-21 | A (tape medicare part b premium hike 2027 500+; Kiplinger, Gray TV stations, ThinkAdvisor 3.2% rise; chart medicare part b WATCH spread 8.0, momentum +40%) | Where Your Money Goes: Where Your Social Security Raise Really Goes (Stake pipeline, CMS and SSA; not RUSH, owner pause in effect) | 7 | | | |
 | 2026-11-20 | B (tape early black friday 2026-11-19; chart black friday tv deals WATCH spread 5.3, momentum +175%, Black Friday Nov 27) | Where Your Money Goes: Is That Black Friday TV Really a Deal? (Stake pipeline, FTC; not RUSH, owner pause in effect) | 7 | | | |
 | 2026-11-20 | A (tape florida flash flooding 20000+; GMA 2 dead hundreds rescued, PBS flash flood emergency; chart flash flood PASS spread -11.2, momentum +14%) | You've Been Doing It Wrong: Never Drive Into a Flooded Road (Stake pipeline, CDC; not RUSH, owner pause in effect) | 7 | | | |
 | 2026-11-18 | A (tape spectrum outage 20000+, blitz of tech outages; Notebookcheck, IBTimes, Yahoo Dallas; chart spectrum outage PASS spread -20.4, flat, peak Dec 16) | Is It Really? Will 911 Still Work When Your Internet Goes Down? (Stake pipeline, next big outage spike or Dec 1 to Jan 31; owner pause in effect) | 9 | | | |
