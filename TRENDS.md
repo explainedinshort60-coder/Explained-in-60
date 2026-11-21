@@ -62,6 +62,7 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-21 | B (chart flight refund WATCH spread 6.1, momentum +25%, season lift 1.20, peak Dec 9; two storms over Thanksgiving week, AccuWeather, Fox stations) | Where Your Money Goes: If Your Flight Is Canceled, the Airline Owes You Cash (Stake pipeline, US DOT refund rule; not RUSH, owner pause in effect) | 7 | | | |
 | 2026-11-21 | A (tape medicare part b premium hike 2027 500+; Kiplinger, Gray TV stations, ThinkAdvisor 3.2% rise; chart medicare part b WATCH spread 8.0, momentum +40%) | Where Your Money Goes: Where Your Social Security Raise Really Goes (Stake pipeline, CMS and SSA; not RUSH, owner pause in effect) | 7 | | | |
 | 2026-11-20 | B (tape early black friday 2026-11-19; chart black friday tv deals WATCH spread 5.3, momentum +175%, Black Friday Nov 27) | Where Your Money Goes: Is That Black Friday TV Really a Deal? (Stake pipeline, FTC; not RUSH, owner pause in effect) | 7 | | | |
 | 2026-11-20 | A (tape florida flash flooding 20000+; GMA 2 dead hundreds rescued, PBS flash flood emergency; chart flash flood PASS spread -11.2, momentum +14%) | You've Been Doing It Wrong: Never Drive Into a Flooded Road (Stake pipeline, CDC; not RUSH, owner pause in effect) | 7 | | | |
