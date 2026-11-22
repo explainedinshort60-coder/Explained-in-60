@@ -62,6 +62,7 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-22 | B (chart snow tires BUY spread 36.6, momentum +75%, season lift 1.82, peak Dec 9; Thanksgiving week snowstorms, Freightwaves, KTVU) | Is It Really? Do All-Season Tires Really Work in Snow? (Stake pipeline, publish Nov 28 to Dec 4, peer-reviewed; not RUSH, owner pause in effect) | 7 | | | |
 | 2026-11-22 | B (chart return policy WATCH spread 8.0, momentum +13%, season lift 1.26, peak Dec 23; Black Friday Nov 27 and holiday returns) | Where Your Money Goes: No, the Store Doesn't Have to Take It Back (Stake pipeline, FTC; not RUSH, owner pause in effect) | 6 | | | |
 | 2026-11-22 | A (tape appletv 5000+ Black Friday streaming deals guide; chart free trial PASS but close spread 4.5, streaming deals momentum +125%) | Where Your Money Goes: That Free Trial Is Not Free If You Forget (Stake pipeline, FTC; not RUSH, owner pause in effect) | 7 | | | |
 | 2026-11-21 | B (chart flight refund WATCH spread 6.1, momentum +25%, season lift 1.20, peak Dec 9; two storms over Thanksgiving week, AccuWeather, Fox stations) | Where Your Money Goes: If Your Flight Is Canceled, the Airline Owes You Cash (Stake pipeline, US DOT refund rule; not RUSH, owner pause in effect) | 7 | | | |
