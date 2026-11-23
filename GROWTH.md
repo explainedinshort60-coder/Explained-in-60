@@ -141,8 +141,45 @@ Read: too early for a format verdict (3 podcasts, 2 explainers, different ages).
 | 2026-11-09 | Episode 024 jar lid (podcast) | about 1,013 ElevenLabs credits (about $0.17 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 314, Orange 699) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration. GitHub, ffmpeg, Chromium; no Metricool post (account limit, manual upload). No Higgsfield. |
 | 2026-11-10 | Episode 025 dust (podcast) | about 1,029 ElevenLabs credits (about $0.17 at the listed rate) | 2 eleven_v4 speech takes, one per host (Blue 340, Orange 689) and 2 Scribe transcriptions (0 credits) on the existing Creator plan. No regeneration. Metricool not used (account limit, manual upload), GitHub, ffmpeg, Chromium. No Higgsfield. |
 | 2026-11-16 | Weekly review, week 2 close | $0 | Metricool free analytics, GitHub, Claude inside the subscription. No Higgsfield, no ElevenLabs calls, no new content (owner pause since Nov 10). Open item: the ElevenLabs Creator plan monthly cost is still not logged; owner to confirm.
+| 2026-11-23 | Weekly review, week 3 close | $0 | Metricool free analytics, GitHub, Claude inside the subscription. No Higgsfield, no ElevenLabs calls, no new content (owner pause). Open item: ElevenLabs Creator plan monthly cost still not logged; owner to confirm. |
 
 ## Weekly reviews (newest first)
+### 2026-11-23 (Mon) | Week 3 close (Nov 16 to 22)
+Data: Metricool (blogId 7810819), pulled 2026-11-23. YouTube daily views are synced through Nov 19 only (Nov 20 to 22 empty); week 2 is now fully synced (79 views, up from the 34 partial). Subscribers 21, flat since Nov 8. YouTube per-video rows still come back empty and the video list stops at Nov 4, so Metricool's YouTube sync looks stale beyond the daily totals. No country or traffic-source rows. Instagram (10 Reels, 7,977 views) and TikTok (10 videos, 2,060 views, 1 follower) are complete: nothing new on either since Nov 8. Owner YouTube Studio numbers: none received since the Nov 3 screenshots.
+
+**Phase 1 Qualify. Next gate (by Jan 25, 2027): 1,000 subs + 4,000 long-form watch hours (365 days), YPP application before Feb 1. Gate not met; focus stays on Phase 1.**
+
+Scorecard (`engine/scorecard.py`):
+| Week | Shorts views (YT) | Long-form views | Subs total | Watch hours (365 d, long-form) | Ad revenue |
+|---|---|---|---|---|---|
+| 2026-11-02 | 15,706 / 50,000 RED | 0 / 0 | 21 / 150 RED | 0 / 0 | $0 / $0 |
+| 2026-11-09 | 79 / 50,000 RED | 0 / 0 | 21 / 150 RED | 0 / 0 | $0 / $0 |
+| 2026-11-16 | 19 / 100,000 RED (Nov 16 to 19 only) | 0 / 2,500 RED | 21 / 250 RED | 0 / 200 RED | $0 / $0 |
+US share: unknown (no country data in Metricool). This week's checkpoints (Nov 23): Shorts 150,000, long-form 4,000, subs 400, watch hours 550.
+
+What happened: the owner pause (since Nov 10) is still on, so nothing new was made or posted anywhere. LF01 ("Your Turkey Timer Is Lying: We Fixed Thanksgiving Dinner With Science") still sits in Metricool with status ERROR (account limit). Its window closes with Thanksgiving on Thu Nov 26; a manual upload by Wed Nov 25 is the single biggest lever available this week (the only long-form that exists, and the only source of watch hours).
+
+Alarms (MILESTONES.md rules, applied exactly):
+- **Shorts views RED three weeks running** and **subscribers RED three weeks running.** Both correction rules were applied in RUNBOOK.md on Nov 16 (playbook diagnostics; subscribe beat, series-first titles, full-episode tease) and take effect on un-pause. No new rule fires; the diagnosis is unchanged: a supply failure (pause plus Metricool limit), not a hook or retention failure. Viewed vs swiped and percent viewed are still needed from Studio to confirm.
+- **Long-form views RED (first week)** and **watch hours RED (first week).** If either is RED again on Nov 30, the rules fire: watch hours, move one Short slot a day into long-form work and re-cut the best Shorts into a long-form compilation that week; long-form views, change packaging first (Test & Compare), then topic.
+- No metric GREEN three weeks running. The Jan 11 check is not due yet, but the projection already lands after Jan 25 (below).
+
+Projections (honest, linear):
+- Subscribers: 21, growth 0 a day for 15 days (scorecard: not growing). Jan 25 now needs about 15.5 a day for 63 days. At week 1's pace (about 2.8 a day) 1,000 lands around **Nov 2027, about 9.5 months after the gate.**
+- Watch hours: 0 (scorecard: not growing). Jan 25 needs about 445 long-form hours a week for 9 weeks starting today (about 5,300 long-form views a week at 5 minutes). Starting Nov 30: about 500 a week; Dec 7: about 570 a week; each week of pause adds roughly 55 to 70 hours a week to the requirement. **At today's trajectory Phase 1 misses Jan 25 and Feb 1, 2027. If Feb 1 is missed the bar becomes 8,000 hours (or 20M Shorts views in 90 days) and every later milestone moves about 4 months: Phase 2 to about Aug 2027, the $6K target to about late 2028.**
+- Ad revenue: $0 this week, target $0 (Phase 1). The $6K path starts at Phase 2 ($400 a week by Apr 30, 2027), which is now at risk with Phase 1.
+
+Series test (plans/week2.md, Nov 9 to Dec 6): week 2 of 4 did not run. Per series median views, percent viewed, US share, subs per 1,000 views and long-form clicks: not measurable (n is 0 or 1 per series; no long-form live to click to). This week's planned test (Thanksgiving week, series balance) is on hold. Dec 7 will have no data to judge; recommendation repeated (not applied, owner decision): run keep, kill and expand on the date each series has 6 live episodes.
+
+Changes made:
+- metrics/weekly.csv and metrics/scorecard.md: week 2 corrected to 79 (full sync), week 3 added (partial, flagged).
+- plans/week5.md and topics.md: Week 5 queue (Nov 30 to Dec 6) written and marked HELD by the pause: 14 Shorts, 10 stake (71%) with US Trends evidence, 4 controls, no repeats; 10 items moved out of the Stake pipeline (42 left). LF03 outline "Winter Is Trying to Wreck Your House: 8 Myths That Cost You Money" for Sat Dec 5. Second weekly long-form stays closed until LF01 airs and LF03 renders clean.
+- RUNBOOK.md: craft rule, write seasonal episodes so they survive a missed date (no dates in VO, `window_end` and `evergreen_title` in meta.json).
+- config.json: week 5 pointer and the series-review note. Pause untouched, approval_mode untouched.
+- Scheduled tasks: none changed.
+
+Owner asks (YouTube Studio): see the review message of Nov 23.
+
 ### 2026-11-16 (Mon) | Week 2 close (Nov 9 to 15)
 Data: Metricool (blogId 7810819), pulled 2026-11-16. Week 1 YouTube days are now fully synced (Nov 2 to 8: 15,706 Shorts views, up from the 10,395 partial). Week 2 YouTube is only synced Nov 9 to 11 (23, 7, 4 views); Nov 12 to 15 are empty and subscribers have sat at 21 since Nov 8, so the YouTube sync may be stale. YouTube per-video rows are still empty. Instagram and TikTok are complete: no new posts on either since Nov 8.
 

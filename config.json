@@ -113,7 +113,9 @@
     ],
     "topic_mix": "about 70% stake topics, at most 30% trivia controls; stakes = your body, your money, a danger in a normal day, a myth Americans hold; every topic checked in US Google Trends",
     "explainer_format": "retired after the Nov 9 review unless the A/B data clearly favors it",
-    "week3": "plans/week3.md (series balance 3 per series + 2 controls, title-frame test; LF02 Black Friday long-form Sat Nov 21)"
+    "week3": "plans/week3.md (series balance 3 per series + 2 controls, title-frame test; LF02 Black Friday long-form Sat Nov 21)",
+    "week5": "plans/week5.md (HELD by the owner pause; 14 Shorts, 10 stake and 4 controls; LF03 winter home myths Sat Dec 5)",
+    "series_review_note": "2026-11-23 review: the Dec 7 keep, kill and expand review has no data (series n is 0 or 1); recommended to run it on the date each series has 6 live episodes. Not applied; owner decision."
   },
   "revenue_target": {
     "weekly_usd": 6000,
