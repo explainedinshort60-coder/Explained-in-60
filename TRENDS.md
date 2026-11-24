@@ -62,6 +62,7 @@ Publish before the moment so the Short is already ranking when search interest s
 ## Log (newest first)
 | Date | Lane | Topic | Score | Live after | 7-day views | vs median |
 |---|---|---|---|---|---|---|
+| 2026-11-24 | A + B (chart polar vortex BUY spread 34.1, momentum +27%, season lift 2.65, peak Dec 29; Fox Weather "Polar Vortex looms" over Thanksgiving week) | Is It Really? Is the Polar Vortex Really a Giant Storm Coming for You? (Stake pipeline, RUSH-grade but held by the owner pause; publish Nov 26 to Dec 5) | 10 | | | |
 | 2026-11-23 | B (Thanksgiving Thu Nov 26 season peak; chart tryptophan about 5x Thanksgiving week, pumpkin pie BUY spread 60.1; chart food coma BLOCKED twice) | Inside Your Body: Why There's Always Room for Dessert (Stake pipeline, publish Nov 24 to 26 or Dec 20 to 25, peer-reviewed; not RUSH, owner pause in effect) | 7 | | | |
 | 2026-11-23 | A (tape king tides flooding 20000+, California coast flood threat on Thanksgiving; chart king tides BUY spread 25.6, momentum +200%, peak Dec 17; Fox Weather, KQED) | Is It Really? Can the Moon Really Flood Your Street? (Stake pipeline, publish Nov 24 to 27 or Dec 10 to 16, NOAA and CDC; not RUSH, owner pause in effect) | 8 | | | |
 | 2026-11-23 | A (tape weather los angeles 1000+, quake off San Pedro; chart earthquake BUY spread 32.0, momentum +64%) | Is It Really? Should You Really Stand in a Doorway in an Earthquake? (Stake pipeline, next felt US quake, CDC and Ready.gov; not RUSH, owner pause in effect) | 7 | | | |
